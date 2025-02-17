@@ -1,0 +1,1531 @@
+{
+  "maps": {
+    "title": "خرائط",
+    "orderCode": "كود الطلب",
+    "city": "المدينة",
+    "district": "الحي",
+    "agentName": "اسم العميل",
+    "mobile": "رقم الموبايل",
+    "servicesName": "اسم الخدمة",
+    "openInGoogleMaps": "فتح في جوجل ماب",
+    "moreDetails": "المزيد من التفاصيل",
+    "title2": "خرائط"
+  },
+
+  "HEADER": {
+    "MORE": {
+      "TEXT": "أكثر"
+    }
+  },
+  "MENUITEMS": {
+    "MENU": {
+      "TEXT": "قائمة"
+    },
+    "DASHBOARD": {
+      "TEXT": "لوحات القيادة",
+      "BADGE": "جديد",
+      "LIST": {
+        "ANALYTICS": "تحليلات",
+        "CRM": "CRM",
+        "ECOMMERCE": "التجارة الإلكترونية",
+        "CRYPTO": "تشفير",
+        "PROJECTS": "المشاريع",
+        "NFT": "NFT",
+        "JOB": "مهنة"
+      }
+    },
+    "APPS": {
+      "TEXT": "تطبيقات",
+      "LIST": {
+        "CALENDAR": "تقويم",
+        "MAINCALENDAR": "التقويم الرئيسي",
+        "MONTHGRID": "شبكة الشهر",
+        "CHAT": "دردشة",
+        "EMAIL": "البريد الإلكتروني",
+        "MAILBOX": "صندوق بريد",
+        "MAILTEMPLATES": "قوالب البريد الإلكتروني",
+        "BASICACTION": "الإجراء الأساسي",
+        "ECOMMERCEACTION": "إجراء التجارة الإلكترونية",
+        "ECOMMERCE": "التجارة الإلكترونية",
+        "PRODUCTS": "منتجات",
+        "PRODUCTDETAILS": "تفاصيل المنتج",
+        "CREATEPRODUCT": "إنشاء منتج",
+        "ORDERS": "الطلب #٪ s",
+        "ORDERDETAILS": "تفاصيل الطلب",
+        "CUSTOMERS": "عملاء",
+        "SHOPPINGCART": "عربة التسوق",
+        "CHECKOUT": "الدفع",
+        "SELLERS": "الباعة",
+        "SELLERDETAILS": "تفاصيل البائع",
+        "PROJECTS": "المشاريع",
+        "LIST": "قائمة",
+        "OVERVIEW": "ملخص",
+        "CREATEPROJECT": "أنشئ مشروعًا",
+        "TASK": "مهام",
+        "KANBANBOARD": "مجلس كانبان",
+        "LISTVIEW": "عرض القائمة",
+        "TASKDETAILS": "تفاصيل المهمة",
+        "CRM": "CRM",
+        "CONTACTS": "جهات الاتصال",
+        "COMPANIES": "شركات",
+        "DEALS": "صفقات",
+        "LEADS": "يؤدي",
+        "CRYPTO": "تشفير",
+        "TRANSACTIONS": "المعاملات",
+        "BUY&SELL": "شراء بيع",
+        "MYWALLET": "محفظتى",
+        "ICOLIST": "قائمة ICO",
+        "KYCAPPLICATION": "تطبيق KYC",
+        "INVOICES": "الفواتير",
+        "DETAILS": "تفاصيل",
+        "CREATEINVOICE": "إنشاء فاتورة",
+        "SUPPORTTICKETS": "تذاكر الدعم الفني",
+        "TICKETDETAILS": "تفاصيل التذكرة",
+        "NFTMARKETPLACE": "سوق NFT",
+        "MARKETPLACE": "المتجر",
+        "EXPLORENOW": "استكشف الآن",
+        "LIVEAUCTION": "المزاد الحي",
+        "ITEMDETAILS": "تفاصيل العنصر",
+        "COLLECTIONS": "المجموعات",
+        "CREATORS": "المبدعين",
+        "RANKING": "تصنيف",
+        "WALLETCONNECT": "Wallet Connect",
+        "CREATENFT": "إنشاء NFT",
+        "FILEMANAGER": "مدير الملفات",
+        "TODO": "لكى يفعل",
+        "JOBS": "وظائف",
+        "STATISTICS": "إحصائيات",
+        "JOBLISTS": "قوائم الوظائف",
+        "GRID": "جريد",
+        "CANDIDATELISTS": "قائمة المرشحين",
+        "GRIDVIEW": "عرض شبكي",
+        "APPLICATION": "طلب",
+        "NEWJOB": "وظيفة جديدة",
+        "COMPANIESLIST": "قائمة الشركات",
+        "JOBCATEGORIES": "فئات الوظائف",
+        "APIKEY": "مفتاح API"
+      }
+    },
+    "LAYOUTS": {
+      "TEXT": "التخطيطات",
+      "LIST": {
+        "HORIZONTAL": "أفقي",
+        "DETACHED": "منفصل",
+        "TWOCOLUMN": "عمودان",
+        "HOVERED": "حلق"
+      }
+    },
+    "PAGES": {
+      "TEXT": "الصفحات"
+    },
+    "AUTHENTICATION": {
+      "TEXT": "المصادقة",
+      "LIST": {
+        "BASIC": "أساسي",
+        "COVER": "التغطية",
+        "SIGNIN": "تسجيل الدخول",
+        "SIGNUP": "اشتراك",
+        "PASSWORDRESET": "إعادة تعيين كلمة المرور",
+        "PASSWORDCREATE": "إنشاء كلمة المرور",
+        "LOCKSCREEN": "اقفل الشاشة",
+        "LOGOUT": "تسجيل خروج",
+        "SUCCESSMESSAGE": "نجاح رسالة",
+        "TWOSTEPVERIFICATION": "التحقق بخطوتين",
+        "ERRORS": "أخطاء",
+        "404BASIC": "404 أساسي",
+        "404COVER": "404 غلاف",
+        "404ALT": "404 بديل",
+        "500": "500",
+        "OFFLINE": "الصفحة غير المتصلة"
+      }
+    },
+    "PAGES": {
+      "TEXT": "الصفحات",
+      "LIST": {
+        "STARTER": "بداية",
+        "PROFILE": "الملف الشخصي",
+        "SIMPLEPAGE": "صفحة بسيطة",
+        "SETTINGS": "إعدادات",
+        "TEAM": "فريق",
+        "TIMELINE": "الجدول الزمني",
+        "FAQS": "أسئلة وأجوبة",
+        "PRICING": "التسعير",
+        "GALLERY": "صالة عرض",
+        "MAINTENANCE": "اعمال صيانة",
+        "COMINGSOON": "قريبا",
+        "SITEMAP": "خريطة الموقع",
+        "SEARCHRESULTS": "نتائج البحث",
+        "PRIVACYPOLICY": "سياسة الخصوصية",
+        "TERMS&CONDITIONS": "الشروط والأحكام",
+        "BLOG": "مدونة",
+        "BLOGLIST": "عرض القائمة",
+        "BLOGOVERVIEW": "نظرة عامة",
+        "BLOGGRID": "عرض الشبكة"
+      }
+    },
+    "LANDING": {
+      "TEXT": "الهبوط",
+      "LIST": {
+        "ONEPAGE": "صفحة واحدة",
+        "NFTLANDING": "NFT الهبوط",
+        "JOB": "مهنة"
+      }
+    },
+    "COMPONENTS": {
+      "TEXT": "عناصر"
+    },
+    "BASEUI": {
+      "TEXT": "واجهة المستخدم الأساسية",
+      "LIST": {
+        "ALERTS": "تنبيهات",
+        "BADGES": "شارات",
+        "BUTTONS": "أزرار",
+        "COLORS": "الألوان",
+        "CARDS": "البطاقات",
+        "CAROUSEL": "دائري",
+        "DROPDOWNS": "هبوط قطرة",
+        "GRID": "جريد",
+        "IMAGES": "الصور",
+        "TABS": "نوافذ التبويب",
+        "ACCORDION&COLLAPSE": "الأكورديون والانهيار",
+        "MODALS": "الوسائط",
+        "OFFCANVAS": "فكان",
+        "PLACEHOLDERS": "العناصر النائبة",
+        "PROGRESS": "تقدم",
+        "NOTIFICATIONS": "إشعارات",
+        "MEDIAOBJECT": "كائن الوسائط",
+        "EMBEDVIDEO": "تضمين الفيديو",
+        "TYPOGRAPHY": "الطباعة",
+        "LISTS": "القوائم",
+        "LINKS": "الروابط",
+        "GENERAL": "عام",
+        "RIBBONS": "شرائط",
+        "UTILITIES": "خدمات"
+      }
+    },
+    "ADVANCEUI": {
+      "TEXT": "واجهة المستخدم المتقدمة",
+      "LIST": {
+        "SWEETALERTS": "تنبيهات حلوة",
+        "NESTABLELIST": "قائمة عش",
+        "SCROLLBAR": "شريط التمرير",
+        "ANIMATION": "الرسوم المتحركة",
+        "TOUR": "رحلة",
+        "SWIPERSLIDER": "سويبر سلايدر",
+        "RATTINGS": "التقييمات",
+        "HIGHLIGHT": "تسليط الضوء",
+        "SCROLLSPY": "ScrollSpy"
+      }
+    },
+    "WIDGETS": {
+      "TEXT": "الحاجيات"
+    },
+    "FORMS": {
+      "TEXT": "نماذج",
+      "LIST": {
+        "BASICELEMENTS": "العناصر الأساسية",
+        "FORMSELECT": "حدد النموذج",
+        "CHECKBOXS&RADIOS": "مربعات الاختيار وأجهزة الراديو",
+        "PICKERS": "جامعي",
+        "INPUTMASKS": "أقنعة الإدخال",
+        "ADVANCED": "متقدم",
+        "RANGESLIDER": "نطاق المنزلق",
+        "VALIDATION": "تصديق",
+        "WIZARD": "ساحر",
+        "EDITORS": "المحررين",
+        "FILEUPLOADS": "تحميلات الملف",
+        "FORMLAYOUTS": "تخطيطات النموذج"
+      }
+    },
+    "TABLES": {
+      "TEXT": "الجداول",
+      "LIST": {
+        "BASICTABLES": "الجداول الأساسية",
+        "GRIDJS": "شبكة شبيبة",
+        "LISTJS": "قائمة شبيبة",
+        "DATATABLES": "جداول البيانات"
+      }
+    },
+    "CHARTS": {
+      "TEXT": "الرسوم البيانية",
+      "LIST": {
+        "APEXCHARTS": "أبكسشارتس",
+        "LINE": "خط",
+        "AREA": "منطقة",
+        "COLUMN": "عمودي",
+        "BAR": "شريط",
+        "MIXED": "مختلط",
+        "TIMELINE": "الجدول الزمني",
+        "RANGEAREA": "منطقة النطاق",
+        "FUNNEL": "قمع",
+        "SLOPE": "ميل",
+        "CANDLSTICK": "شمعدان",
+        "BOXPLOT": "مربع مؤامرة",
+        "BUBBLE": "فقاعة",
+        "SCATTER": "مبعثر",
+        "HEATMAP": "خريطة الحرارة",
+        "TREEMAP": "خريطة شجرة",
+        "PIE": "فطيرة",
+        "RADIALBAR": "شعاعي",
+        "RADAR": "رادار",
+        "POLARAREA": "المنطقة القطبية",
+        "CHARTJS": "تشارتجس",
+        "ECHARTS": "الصدى"
+      }
+    },
+    "ICONS": {
+      "TEXT": "أيقونات",
+      "LIST": {
+        "REMIX": "ريمكس",
+        "BOXICONS": "بوكسيكونس",
+        "MATERIALDESIGN": "تصميم المواد",
+        "LINEAWESOME": "خط رائع",
+        "FEATHER": "ريشة",
+        "CRYPTOSVG": "تشفير SVG"
+      }
+    },
+    "MAPS": {
+      "TEXT": "خرائط",
+      "LIST": {
+        "GOOGLE": "جوجل",
+        "VECTOR": "المتجه",
+        "LEAFLET": "منشور"
+      }
+    },
+    "MULTILEVEL": {
+      "TEXT": "متعدد المستويات",
+      "LIST": {
+        "LEVEL1": {
+          "1": "المستوى 1.1",
+          "2": "المستوى 1.2",
+          "LEVEL2": {
+            "1": "المستوى 2.1",
+            "2": "المستوى 2.2"
+          }
+        }
+      }
+    }
+  },
+
+  "general": {
+    "search": "بحث",
+    "actions": "الاجراءات",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "message": {
+      "successProccess": "تمت العملية بنجاح",
+      "failProccess": "فشلت العملية",
+      "NotFound": "غير موجود",
+      "successLogin": "تم تسجيل الدخول بنجاح",
+      "filedIdRequired": "هذا الحقل مطلوب",
+      "areyouSureDelete": "هل أنت متأكد أنك تريد الحذف؟",
+      "employeeHasTargetInSamePeriod":"هذأ الموظف لدية تارجت فى نفس الفترة"
+    },
+    "table": {
+      "name": "الاسم",
+      "isActive": "هل نشط",
+      "lastModificationTime": "آخر تعديل",
+      "pFrom": "من",
+      "item": "عنصر",
+      "search": "بحث",
+      "noData": "لا توجد بيانات متاحة",
+      "sort": "ترتيب",
+      "log": "السجل",
+      "filter": "تصفية",
+      "notSelect": "لم يتم التحديد",
+      "notes": "ملاحظات",
+      "all": "كل ",
+      "nameAr": "الاسم بالعربية",
+      "nameEn": "الاسم بالانجليزية",
+      "creationTime": "وقت الإنشاء"
+    },
+    "action": {
+      "register": "تسجيل",
+      "next": "التالي",
+      "previous": "السابق",
+      "edit": "تعديل",
+      "save": "حفظ",
+      "delete": "حذف",
+      "close": "إغلاق",
+      "filter": "فلاتر ابحث ",
+      "clear": "مسح",
+      "export": "  تصدير",
+      "xlxs": "    تصدير xlsx",
+      "pdf": " تصدير pdf",
+
+      "search": "بحث",
+      "addNew": "إضافة جديد",
+      "run": "تشغيل",
+      "back": "رجوع",
+      "view": "رؤية",
+      "saveAndSend": "حفظ وإرسال"
+    },
+    "permission": {
+      "view": "روية",
+      "edit": "تعديل",
+      "delete": "حذف",
+      "register": "تسجيل",
+      "save": "حفظ",
+      "changeStatus": "تغيير الحالة",
+      "changeText": "تغيير النص",
+      "setDefault": "هل افتراضى",
+      "assignPermission": "إضافى لاذن",
+      "search": "بحث",
+      "serachadvanced": "بحث متقدم",
+      "openreport": "فتح التقرير",
+      "changePassword": "تغيير كلمة المرور",
+      "loginAs": "الدخول ك",
+      "unUserLock": "الغاء القفل",
+      "addField": " اضافة حقل",
+      "advancedSearch": "بحث متقدم",
+      "addToLanguages": "تحديث اللغة",
+      "print": "طباعة",
+      "lightMode": "الوضع المضى",
+      "addGallary": "إضافى صور",
+      "userLock": "قفل مستخدم",
+      "resetPassword": "تغيير كلمة المرور",
+      "export": "تصدير",
+      "viewByCreate": "عرض ب المنشى",
+      "viewByAssign": "عرض بالمسند",
+      "evaluation": "إنشاء تقييم",
+      "orderNew": "إنشاء طلب جديد",
+      "addToLead": "إضافة الى عميل محتمل",
+      "recallAction": "إعادة الاتصال",
+      "cancel": "إلغاء الطلب",
+      "confirmed": "تاكيد الطلب",
+      "assignTeam": "تاكيد إسناد لفرقة",
+      "undoAssign": "التراجع عن الاسناد",
+      "finishedOrder": "إنهاء الطلب",
+      "reOpenOrder": "إعادة فتح الطلب",
+      "undoOrder": "التراجع عن الاجراء",
+      "viewList": "رؤية الكل"
+    }
+  },
+  "layout": {
+    "sidebar": {
+      "new": "جديد",
+      "task": "المهام اليومية",
+      "hr": "الموارد البشرية",
+      "client": "إدارة العملاء",
+      "orders": "إدارة الطلبات",
+      "orderManagement": "إدارة الطلبات",
+      "marketing": "إدارة التسويق",
+      "finance": "المالية",
+      "security": "إدارة المستخدمين",
+      "securityManagement": "إدارة المستخدمين",
+      "basicData": "البيانات الأساسية",
+      "messages": "الرسائل الداخلية",
+      "statistics": "الاحصائيات",
+      "crm": "إدارة علاقات العملاء (crm)",
+      "leads": "العملاء المحتملين",
+      "nearly": "قريبا",
+      "store": "إدارة المخزون",
+      "tickets": "تذاكر لدعم",
+      "approval": "الموافقات"
+    },
+    "topbar": {
+      "quickLinks": "روابط سريعة",
+      "newOrder": "طلب جديد",
+      "logOut": "تسجيل الخروج",
+      "messages": "الرسائل الداخلية",
+      "profile": "ملفي الشخصي",
+      "welcome": "مرحبًا",
+      "notifications": "الإشعارات",
+      "new": "جديد",
+      "alerts": "التنبيهات",
+      "markALLSee": "رؤيه الكل"
+    }
+  },
+  "auth": {
+    "login": {
+      "username": "اسم المستخدم",
+      "password": "كلمة المرور",
+      "signin": "تسجيل الدخول"
+    }
+  },
+  "stores": {
+    "store": {
+      "title": "المخازن",
+      "nameEn": "الاسم (En)",
+      "nameAr": "الاسم (Ar)",
+      "isActive": "حالة النشاط",
+      "isMain": "Is Main"
+    },
+    "items": {
+      "title": "عناصر المخزن",
+      "image": "الصورة",
+      "nameEn": "الاسم (En)",
+      "nameAr": "الاسم (Ar)",
+      "minimumQuantity": "اقل كميه (للتحذير)",
+      "isActive": "حالة النشاط",
+      "isMain": "أساسى ؟ ",
+      "quantity":"الكمية الفعلية"
+    },
+    "stocktaking": {
+      "title": "سجل الجرد",
+      "titleDetails": "تفاصيل سجل الجرد",
+      "titleAddDetails": "اضافة تفاصيل سجل الجرد",
+      "stockingStatusName": "حالة سجل الجرد",
+      "date": "التاريخ",
+      "note": "ملخوظة",
+      "status": "الحالة",
+      "open": "مفتوح",
+      "Close": "مغلق",
+      "registerDetails": "اضافة التفاصيل",
+      "addAllItems": "اضافة كل عناصر المخزن",
+      "show": "عرض",
+      "itemName": "اسم العنصر",
+      "quantity": "الكمية",
+      "closeStock": "اغلاق الجرد",
+      "zz": "zz"
+    }
+  },
+  "task": {
+    "tasklist": {
+      "title": "  المهام اليومية",
+      "allTask": "جميع المهام",
+      "complete": "مكتملة",
+      "review": "قيد المراجعة",
+      "inproccess": "قيد التنفيذ",
+      "inTests": "في الاختبارات",
+      "wait": "لم تبدأ",
+      "subject": "الاسم",
+      "dateStart": "تاريخ  البداية",
+      "dateEnd": "تاريخ الاستحقاق",
+      "priority": "الأولوية",
+      "status": "الحالة",
+      "taskMasterAssignees": "المكلفون",
+      "id": "رقم المهمة",
+      "low": "منخفضة",
+      "meduim": "متوسطة",
+      "high": "مرتفعة",
+      "urgent": "عاجلة",
+      "notStart": "لم تبدأ",
+      "inProgress": "قيد التنفيذ",
+      "testing": "قيد الاختبار",
+      "awatingFeddBack": "بانتظار الملاحظات",
+      "addNewTask": "مهمة جديدة",
+      "titleOperation": "المهمة",
+      "taskMasterFollowers": "المتابعون",
+      "filter": "بحث",
+      "tasksList": "قائمة المهام",
+      "progress": "مكتمل",
+      "allTasks": "كل المهام",
+      "countTask": "عدد التاسكات",
+      "finished": "مكتملة"
+    },
+    "taskReport": {
+      "title": "إحصائيات المهمات",
+      "taskStatusTotal": "حاله المهمه / الاجمالى",
+      "taskUserTotal": "مهمام الموظفين / الاجمالى",
+      "taskUserDetail": "تفاصيل المهمات",
+      "taskMasterId": "معرف المهمه ",
+      "assignUser": "الموظف",
+      "date": "التاريخ",
+      "taskStatusName": "الحالة",
+      "dateStart": "تاريخ البداية",
+      "dateEnd": "تاريخ النهاية",
+      "userAssineeToName": "إنتهاء من موظف اخر",
+      "name": "العنوان"
+    },
+    "taskTeam": {
+      "title": "تقرير مهتم الفريق",
+      "creationTime": "التاريخ",
+      "assignName": "الاسم",
+      "allTask": "عدد المهام",
+      "allFinished": "مهام تمت التنفيذ",
+      "precentage": "نسبة التنفيذ"
+    },
+    "taskDetail": {
+      "title": "تفاصيل المهمة"
+    },
+    "todo": {
+      "title": "لائحة المهام",
+      "assignUsers": "المكلفون",
+      "members": "الأعضاء",
+      "add": "إضافة",
+      "cancel": "إلغاء",
+      "assigned": "مُكلف",
+      "creatTask": "إنشاء مهمة",
+      "subject": "الموضوع",
+      "close": "إغلاق",
+      "save": "حفظ",
+      "status": "الحالة",
+      "trackTask": "تتبع المهمة",
+      "timeTracking": "تتبع الوقت",
+      "creationTime": "وقت الإنشاء",
+      "stop": "إيقاف",
+      "start": "بدء",
+      "tasksNo": "عدد المهام",
+      "tasksTitle": "عنوان المهمة",
+      "priority": "الأولوية",
+      "dueDate": "تاريخ الاستحقاق",
+      "assignedTo": "المُكلف",
+      "assignedMember": "العضو المكلف",
+      "followerMember": "عضو المتابعة",
+      "taskMasterFollower": "أعضاء المتابعة",
+      "actions": "الإجراءات",
+      "taskName": "اسم المهمة",
+      "dateVisit": "تاريخ الزيارة",
+      "orderId": "رقم الطلب",
+      "statusName": "اسم الحالة",
+      "inProgress": "قيد التنفيذ",
+      "new": "جديد",
+
+      "finished": "مكتملة",
+      "finishedAnother": "إنهاء من شخص اخر",
+      "notStart": "لم تبدأ",
+      "finishTask": "إنهاء المهمة",
+      "orderNotFound": "الطلب غير موجود",
+      "dateStart": "الفترة",
+      "followerTo": "متابعة إلى",
+      "hr": "س",
+      "min": "د",
+      "sort": "ترتيب",
+      "byID": "بالرقم",
+      "byName": "بالاسم",
+      "allTasks": "كل المهام",
+      "assignAnother": "إنهاء أخرى",
+      "addTasks": "إضافة مهام",
+      "reAssignUsers": "إعادة تخصيص المستخدمين",
+      "assign": "تخصيص",
+      "taskPeriod": "مده المهمة",
+      "assignTo": "تعيين إلى"
+    },
+    "jobSchedule": {
+      "title": "جدولة المهام",
+      "titleOperation": "الجدولة",
+      "Daily": "يوميًا",
+      "Hourly": "كل ساعة",
+      "Weekly": "أسبوعيًا",
+      "Monthly": "شهريا",
+
+      "SpecificTime": "وقت محدد",
+      "OneTime": "مرة واحدة",
+      "Cron": "كرون",
+      "jobName": "اسم المهمة",
+      "Date": "التاريخ",
+      "jobType": "نوع المهمة",
+      "lastRunDateTime": "آخر تشغيل",
+      "runAtSpecificTime": "تشغيل في وقت محدد",
+      "addNew": "  مهمة جديدة",
+      "shiftName": "الشفت",
+      "recurringIntervals": "كل (افتراضى1)",
+      "days": "الايام",
+      "Sunday": "الأحد",
+      "Monday": "الاثنين",
+      "Tuesday": "الثلاثاء",
+      "Wednesday": "الأربعاء",
+      "Thursday": "الخميس",
+      "Friday": "الجمعة",
+      "Saturday": "السبت",
+      "runTask": "هل انت متاكد من تشغل الجدولة"
+    },
+    "taskShift": {
+      "title": "شفتات المهام اليومية",
+      "titleOperation": "الشفت",
+      "addNewShift": "إضافة شفت جديد",
+      "times": "أوقات العمل",
+      "assignUsers": "موظفو المهام",
+      "maxTaskForEmployee": "أقصى عدد مهام (للموظف)",
+      "shiftFollowers": "متابعو الشفت"
+    }
+  },
+  "hr": {
+    "employee": {
+      "title": "الموظفون",
+      "titleOperation": "الموظف",
+      "employeeName": "الاسم",
+      "mobile": "الجوال",
+      "employeeTypeName": "نوع الموظف",
+      "employeeGroupName": "مجموعة الموظف",
+      "employeeTeam": "فريق الموظف",
+      "managment": "الإدارة",
+      "customerService": "خدمة العملاء",
+      "employeeType": "نوع الموظف",
+      "email": "البريد الإلكتروني",
+      "newEmployee": "موظف جديد",
+      "allEmployee": "جميع الموظفين",
+      "active": "نشط",
+      "noActive": "غير نشط",
+      "isActive": "الحالة",
+      "basicInfo": "البيانات الاساسية",
+      "dayWork": "أيام العمل",
+      "sunday": "الأحد",
+      "monday": "الاثنين",
+      "tuesday": "الثلاثاء",
+      "wednesday": "الأربعاء",
+      "thursday": "الخميس",
+      "friday": "الجمعة",
+      "saturday": "السبت",
+      "editEmployee": "تعديل موظف",
+      "addEmployee": "إضافة موظف",
+      "dayOff": "أيام العطلات"
+    },
+    "team": {
+      "title": "الفرق",
+      "titleOperation": "فرقة",
+      "cityName": "المدينة",
+      "categoryName": "فئات الخدمات",
+      "workTimeName": "الاوقات ",
+      "dayOff": "أيم العطلات "
+    },
+    "teamEmployee": {
+      "title": "فرق الموظفين",
+      "dateFrom": "التاريخ (من)",
+      "dateTo": "التاريخ (الى)"
+    },
+    "workTime": {
+      "title": "جداول العمل"
+    },
+    "taskShift": {
+      "title": "شفتات المهام اليومية",
+      "titleOperation": "الشفت",
+      "addNewShift": "إضافة شفت جديد",
+      "times": "أوقات العمل",
+      "assignUsers": "موظفو المهام",
+      "maxTaskForEmployee": "أقصى عدد مهام (للموظف)",
+      "shiftFollowers": "متابعو الشفت"
+    },
+    "employeeHoliday": {
+      "title": "الإجازات",
+      "titleOperation": "الإجازة",
+      "employees": "الموظف",
+      "date": "التاريخ",
+      "note": "ملاحظة",
+      "addNewHoliday": "إضافة إجازة",
+      "employeeName": "الموظف",
+      "shiftFrom": "الشفت من",
+      "shiftTo": "الشفت إلى",
+      "dateFrom": "التاريخ من",
+      "dateTo": "التاريخ إلى"
+    },
+    "employeeChangeShift": {
+      "title": "تغيير الشفتات",
+      "titleOperation": "الشفت",
+      "addNew": "إضافة جديد"
+    },
+    "rewards": {
+      "title": "المكافأت",
+      "titleOperation": "مكافأه "
+    },
+    "target": {
+      "title": "الاهداف",
+      "employeesTarget": "أهداف الموظفين",
+      "teamsTarget": "أهداف الفرق",
+      "ordersTarget": "أهداف الطلبات",
+      "employeeName": "اسم الموظف",
+      "targetType": "نوع الهدف",
+      "dateFrom": "التاريخ (من)",
+      "dateTo": "التاريخ (الى)",
+      "cost": "التكلفة",
+      "note": "ملحوظة",
+      "fromToDate": "التاريخ (من-إلى)",
+      "employees": "موظفين",
+      "teams": "الفرق",
+      "teamName": "اسم الفريق",
+      "titleOperation": "الأهداف"
+    }
+  },
+  "clientManagement": {
+    "client": {
+      "title": "العملاء"
+    }
+  },
+  "orderManagement": {
+    "order": {
+      "attachment": "الملف",
+      "title": "الطلبات",
+      "titlePending": "الطلبات المعلقة",
+      "quantity": "الكمية",
+      "invoiceDiscount": "الخصم",
+      "discountAdd": "خصم العروض",
+      "titleRecall": "طلبات اعادة الاتصال",
+      "allOrder": "جميع الطلبات",
+      "evalOrder": "تقييم الطلبات",
+      "newOrder": "طلبات جديدة",
+      "map": "خرايطه طلبات (الفرق)",
+      "all": "كل الطلبات",
+      "pending": "إنتظار",
+      "finish": "إنهاء",
+      "cancelled": "إلغاء",
+      "orderCode": "الكود",
+      "createdDate": "تارخ الانشاء",
+      "creationUser": "  المنشى",
+      "cityName": "المدينة",
+      "districtName": "المنطقة",
+      "status": "الحالة",
+      "agentName": "العميل",
+      "channelName": "القنوات",
+      "mobile": "رقم الجوال",
+      "assignTo": "اسناد الى ",
+      "visitDate": "تاريخ الزيارة",
+      "workTimes": "الاوقات",
+      "services": "الخدمات",
+      "nothing": "لا يوجد",
+      "cancel": "إلغاء",
+      "reopen": "إعادة فتح",
+      "free": "مجانى",
+      "finished": "منتهى",
+      "serviceAfterSale": "خدمة ما بعد البيع",
+      "creationDate": "تاريخ الانشاء",
+      "finishedDate": "تاريخ الانتهاء",
+      "Recall": "إعادة الاتصال",
+      "RecallMessage": "هل انت متاكد من احالة الى معاودة الاتصال؟",
+      "callCounter": "عدد معاودة الاتصال",
+      "RecallMessageCount": "تم الاتصال بالعميل أكثر من",
+      "RecallMessageCount2": "سيتم تحويل الطلب للاستفسار.",
+      "times": "مرات",
+      "addOrders": "لإضافة طلب",
+      "editOrders": "تعديل طلب",
+      "orderType": "نوع الطلب",
+      "orderSource": "مصدر الطلب",
+      "clientName": "اسم العميل",
+      "phoneNumber": "رقم الجوال",
+      "CityName": "المدينة",
+      "name": "الاسم",
+      "DistrictName": "المنطقة",
+      "email": "البريد الالكتروني",
+      "HowYouKnowAboutUs": "كيف تعرفت علينا؟",
+      "PreviousOrders": "الطلبات السابقة",
+      "Code": "الكود",
+      "Status": "الحالة",
+      "AssignedTo": "مسند الى",
+      "VisitDate": "تاريخ الزيارة",
+      "VisitTime": "وقت الزيارة",
+      "OrderDetails": "تفاضيل الطلب",
+      "clientInfo": "معلومات العميل",
+      "serviceCategory": "فئة خدمة",
+      "ServiceName": "اسم الخدمة",
+      "ServicePrice": "سعر الخدمة",
+      "service": "خدمة",
+      "price": "السعر",
+      "notes": "ملاحظات",
+      "date": "التاريخ",
+      "noData": "لايوجد بيانات بالجدول حتى الان",
+      "extraDiscount": "خصم إضافي",
+      "isUrgent": "التعيين في اقرب وقت",
+      "paymentMethods": "طرق الدفع",
+      "paid": "الدفع",
+      "file": "الملف المرفق",
+      "noServices": "لم يتم اختيار اي خدمة حتى الان",
+      "AvailableTimes": "الأوقات المتاحة",
+      "SubTotal": "الاجمالى (قبل الخصم)",
+      "Discount": "الخصم",
+      "Total": "الاجمالى بعد الخصم ",
+      "TotalPaid": "إجمالى المدفوعات",
+      "OrderSummary": "ملخص الطلب",
+      "actions": "اجراءات",
+      "teamName": "اسم الفريق",
+      "location": "الموقع",
+      "AreYouSureMessage": "هل انت متاكد؟",
+      "call": "إجراء مكالمة",
+      "inquiry": "إستفسار",
+      "evaluation": "تقييم",
+      "orderNew": "طلب جديد",
+      "noMap": "لا يوجد خريطة",
+      "viewMap": "رؤية الموقع",
+      "AssignMessage": " هل انت متأكد من إسناد الطلب الى الفرق والأوقات الظاهرة في الأسفل؟",
+      "cost": "المبلغ",
+      "VAT": "الاجمالى بعد الضريبة(.15)",
+      "total": "الاجمالى",
+      "paymentTypeName": "المدفوعات",
+      "finishUser": "منهى بواسطه",
+      "creation": "الانشاء",
+      "printPill": "طباعة الفاتورة",
+      "reopenOrder": "إعادة الفتح",
+      "returnReason": "السبب",
+      "reopenNotes": "ملاحظات",
+      "reopenTitle": "إعادة الفتح",
+      "returnReasonName": "السبب",
+      "cancelReasonName": "السبب",
+      "priceEvaluation": "تقييم السعر",
+      "finishEvaluation": "التقييم",
+      "assignEvaluation": "تقييم مسند",
+      "selectedServices": "الخدمات التي تم اختيارها",
+      "clientServices": "خدمات العميل",
+      "noCategoryMessage": "لم يتم اختيار اي تصنيف بعد !",
+      "orderSummary": "ملخص الطلب",
+      "viewOrderSummary": "يمكنك رؤية ملخص تفاصيل الطلب",
+      "paymentSelection": "اختيار طريقة الدفع",
+      "nameOnCard": "الاسم على البطاقة",
+      "cardNumber": "رقم البطاقة",
+      "expiration": "الانتهاء",
+      "CVV": "CVV",
+      "orderNote": "ملاحظات الطلب",
+      "teamStatus": "حالة الفريق",
+      "requestNoStart": "لم يبدأ",
+      "callLoggedBeforeArrival": "اتصال بالعميل",
+      "noAnswerStatusUpdated": "العميل لم يرد ",
+      "appointmentPostponed": " تغيير الموعد",
+      "requestFinished": "إنهاء الطلب",
+      "changeTeamStatus": "تغيير الحالة",
+      "finishOrder": "انهاء الطلب",
+      "evaluate": "تفقييم",
+      "clientExist": "هذا العميل موجود من قبل",
+      "clientNotExist": "هذا العميل غير موجود من قبل",
+      "yes": "نعم",
+      "no": "لا",
+      "assignDate": "تاريخ الاسناد",
+      "team": "الفريق",
+      "locations": "العنوان",
+      "timesNav": "المواعيد",
+      "clientFound": "العميل موجود مسبقا",
+      "clientNotFound": "العميل غير موجود",
+      "phoneMust10Digit": "رقم الجوال يجيب ان يحتوى على 10 ارقام فقط",
+      "phoneMustStart05": "رقم الجوال يجيب ان يبدأ ب 05",
+      "phoneMustContainOnlyDigit": "رقم الجوال يجيب ان يحتوى على ارقام فقط",
+      "currancy": "ريال",
+      "canceledEvaluation": "التقييمات الملغية",
+      "assignedTo": "مسند الى",
+      "sendToClient": "إضافة جديد",
+      "successSendLocation": "نجاح فى إرسال تحديد الموقع",
+      "failSendLocation": "فشل فى الارسال ",
+      "mustEnterNumber": "يجب إدخال الجوال",
+      "lat": "Lat",
+      "lng": "Lng",
+      "address": "العنوان",
+      "attchment": "المرفقات",
+      "orderComplete": "حفظ الطلب",
+      "orderSaveSuccess": "شكرًا لك! تم إكمال طلبك!",
+      "mustSelectClientInfo": "يجب إكمال بيانات العميل المطلوبة",
+      "mustSelectServices": "يجب إختيار الخدمات",
+      "mustSelectTimes": "يجب إختيار الموعد متاح",
+      "newOrderAgain": "طلب جديد",
+      "addCostLargeTotal": "المبلغ المدفع اكبر من المطلوب",
+      "orderEdit": "تعديل طلب",
+      "addToLead": " عميل محتمل",
+      "sureGoLead": "هل انت متاكد من الإضافة الى العملاء المحتملين؟",
+      "trackOrder": "تتبع الطلب",
+      "sureDate": "تاريخ التاكيد",
+      "finishDate": "تاريخ الانتهاء",
+      "paidTotal": "إجمالى المدفوع",
+      "reminder": "المتبقى",
+      "confirmOrder": "تاكيد الطلب",
+      "cancelOrder": "الغاء الطلب",
+      "assignOrder": "اسناد الطلب",
+      "undoOrder": "نراجع عن الطلب",
+      "refundable": "الطلبات الملغاة",
+      "teamAssign": "الطلبات المسندة",
+      "reAssign": "إعادة الإسناد",
+      "customerDetails": "تفاصيل العميل",
+      "customerAddress": "عنوان العميل",
+      "tax": "الضريبة",
+      "net": "الصافى",
+      "subTotal": "الاجمالي قبل الضرائب والخصم",
+      "mapURL": "لينك الموقع للعميل",
+      "serviceTime": " عدد المواعيد اللازمة",
+      "mustSelectOrderLocations": "يجب ملى بيانات العميل والعنوان اولا ",
+      "mustSelectServiceTime": "يجب إختيار عدد مواعيد مساو على مواعيد الخدمة",
+      "withPayURL": "مع رابط دفع ",
+      "cashOnDelivery": "الدفع عند الاستلام",
+      "mustAddPayment": "يجب تسجيل المدفوعات",
+      "callClientAndSure": "تم الاتصال بالعميل وتأكيد الطلب",
+      "enRouteToCustomer": "فى الطريق للعميل",
+      "arrivedAtLocation": "تم الوصول لموقع العميل",
+      "startWork": "تم بدأ العمل",
+      "clientNotResponse": "العميل لايرد",
+      "requestCancellation": "العميل طلب الالغاء",
+      "clientDelayOrder": "العميل طلب التأخيل",
+      "isFree": "هل مجانى",
+      "teams": "الفرق",
+      "discount": "خصم نسبة",
+      "teamAssignedWeekOrders": "إسناد اخر اسبوع",
+      "PriceAfterDisaccount": "الاجمالى بعد الخصم",
+      "assign": "مسند",
+      "confirmed": "مؤكد",
+      "OrderVAT": "الضريبة",
+      "discountTypeAdd": "خصم عرض ",
+      "invoice": "الفاتورة",
+      "itemPrice":"سعر الخدمة",
+      
+      "newOrders": {
+        "title": "الطلبات الجديدة",
+        "titleOperation": "الطلبات الجديدة"
+      },
+      "urgentOrders": {
+        "title": "الطلبات المستعجلة",
+        "titleOperation": "الطلبات المستعجلة"
+      },
+      "sureOrders": {
+        "title": "الطلبات المؤكدة",
+        "titleOperation": "الطلبات المؤكدة"
+      },
+      "assignedOrders": {
+        "title": "الطلبات المسندة",
+        "titleOperation": "الطلبات المسندة",
+        "finishOrder": "انهاء الطلب (طلب جديد)",
+        "usedShow": "العرض المستخدم",
+        "total": "الاجمالى",
+        "tax": "الضريبة",
+        "net": "الصافى",
+        "paymentMethod": "طريقة دفع",
+        "notes": "ملاحظات",
+        "attachImages": "ارفاق الصور",
+        "extraDiscount": "خصم إضافي",
+        "promotionDiscount": "الخصم الترويجي",
+        "paid": "المدفوع",
+        "select": "اختر",
+        "remain": "المتبقي",
+        "attachments": "إرفاق صور"
+      },
+      "completeOrders": {
+        "title": "الطلبات المكتملة",
+        "titleOperation": "الطلبات المكتملة"
+      },
+      "refundableOrders": {
+        "title": "الملغاه",
+        "titleOperation": "الملغى"
+      }
+    },
+    "expensesItems": {
+      "title": "اصناف المصروفات",
+      "titleOperation": "اصناف المصروفات",
+      "name": "الاسم",
+      "notes": "ملاحظات",
+      "isActive": "Is Active"
+    },
+    "expensesOrders": {
+      "title": "المصروفات",
+      "titleOperation": "المصروفات",
+      "expensesItem": "اصناف المصروفات",
+      "date": "التاريخ",
+      "price": "السعر",
+      "creationUser": "انشئ بواسطة",
+      "creationDate": "تاريخ الانشاء",
+      "attachFile": "الملف المرفق",
+      "show": "عرض",
+      "notes": "ملاحظات",
+      "code": "كود"
+    },
+    "timeAvailable": {
+      "title": "المواعيد المتاحة",
+      "titleOperation": "موعد متاح",
+      "date": "اليوم",
+      "back": "اليوم السابق",
+      "next": "اليوم التالى",
+      "city": "المدينة",
+      "categories": "الفئة",
+      "selectCity": "من فضلك اختر مدينة",
+      "selectServiceCategory": "من فضلك أختر فئة او اكثر",
+      "selectDate": "من فضلك أختر تاريخ",
+      "block": "تم حجزه",
+      "unBlock": "غير محجوز",
+      "time": "الموعد",
+      "holidayTeam": "أجازة"
+    },
+    "priceEvaluation": {
+      "title": "تقييم السعر",
+      "titleOperation": "تقييم سعر",
+      "assign": "إسناد",
+      "cancel": "إلغاء",
+      "status": "الحالة",
+      "isUrgent": "مستعجل",
+      "reassign": "اعادة اسناد",
+      "show": "عرض",
+      "normal": "تقييم سعر"
+    },
+    "assignEvaluation": {
+      "title": "التقييمات المسندة",
+      "titleOperation": "التقييمات المسندة",
+      "assign": "إسناد",
+      "cancel": "إلغاء",
+      "status": "الحالة",
+      "isUrgent": "مستعجل",
+      "reassign": "اعادة اسناد",
+      "reassignEval": "اعادة اسناد التقييم",
+      "show": "عرض",
+      "normal": "تقييم سعر"
+    },
+    "finishedEvaluation": {
+      "title": "التقييمات المنتهية",
+      "finish": "انهاء",
+      "titleOperation": "التقييمات المنتهية",
+      "assign": "إسناد",
+      "cancel": "إلغاء",
+      "status": "الحالة",
+      "isUrgent": "مستعجل",
+      "reassign": "اعادة اسناد",
+      "show": "عرض",
+      "normal": "تقييم سعر"
+    },
+    "canceledEvaluation": {
+      "title": "التقييمات الملغية",
+      "titleOperation": "التقييمات الملغية",
+      "assign": "إسناد",
+      "cancel": "إلغاء",
+      "status": "الحالة",
+      "isUrgent": "مستعجل",
+      "reassign": "اعادة اسناد",
+      "show": "عرض",
+      "normal": "تقييم سعر"
+    },
+    "invoices": {
+      "title": "الفواتير",
+      "paymentMethod": "طريقة الدفع",
+      "client": "العميل",
+      "value": "القيمة",
+      "discount": "الخصم",
+      "service": "الخدمة",
+      "priceBeforeTax": "المبلغ قبل الضريبة",
+      "price": "السعر",
+      "print": "طباعة",
+      "total": "الإجمالي",
+      "vat": "% ضريبة القيمة المضافة 15%"
+    },
+    "pending": {
+      "title": "الانتظار"
+    },
+    "recall": {
+      "title": "إعادة الاتصال"
+    },
+    "newOrder": {
+      "title": "الطلبات الجديدة"
+    },
+    "urgented": {
+      "title": "الطلبات المستعجلة"
+    },
+    "confirmed": {
+      "title": "طلبات المؤكدة"
+    },
+    "assigned": {
+      "title": "الطلبات المسندة"
+    },
+    "completed": {
+      "title": "الطلبات المنتهية"
+    },
+    "reopen": {
+      "title": "الطلبات إعادة الفتح"
+    },
+    "canceled": {
+      "title": "الطلبات الملغاه"
+    },
+    "PriceEval": {
+      "title": "تقييم الاسعار"
+    },
+    "orderMap": {
+      "title": "تتبع الطلب"
+    }
+  },
+  "marketingManagement": {
+    "marketingCampaigns": {
+      "title": "حملات التسويق"
+    }
+  },
+  "messages": {
+    "mailbox": {
+      "title": "البريد الوارد"
+    }
+  },
+  "financeManagement": {
+    "expensesCategory": {
+      "title": "فئات المصروفات"
+    },
+    "expenses": {
+      "title": "المصروفات"
+    },
+    "paymentType": {
+      "title": "طرق الدفع"
+    }
+  },
+  "securityManagement": {
+    "user": {
+      "title": "المستخدمون",
+      "Admin": "مدير",
+      "OperationSupervisor": "مشرف العمليات",
+      "TeamLeader": "قائد الفريق",
+      "SalesMarketingSupervisor": "مشرف المبيعات والتسويق",
+      "HRManager": "مدير الموارد البشرية",
+      "SalesMarketingSpecialist": "اختصاصي مبيعات وتسويق",
+      "Marketing": "التسويق",
+      "Accountant": "محاسب",
+      "Other": "أخرى",
+      "userCode": "الكود",
+      "userTypeName": "النوع",
+      "employeeCode": "كود الموظف",
+      "lastLogin": "أخر دخول",
+      "loginAs": "الدخول ك",
+      "changePassword": "تغيير كلمة المرور",
+      "name": "الإسم",
+      "mobile": "الجوال",
+      "userName": "إسم المستخدم",
+      "employeeName": "إسم الموظفس",
+      "userType": "نوع المستخدم",
+      "roleName": "الصلاحية",
+      "basicInfo": "البيانات الاساسية",
+      "password": "كلمة المرور",
+      "editUser": "تعديل مستخدم",
+      "addUser": "إضافة مستخدم",
+      "roles": "الصلاحية",
+      "rePassword": "إعادة كلمة المرور",
+      "resetPassword": "تغيير كلمة المرور",
+      "rePasswordAndPasswordNotEqual": "كلمة المرور غير متطابقتين",
+      "active": "نشط",
+      "noActive": "غير نشط"
+    },
+    "role": {
+      "title": "صلاحية",
+      "titleOperation": "الصلاحية",
+      "nameDb": "الاسم (db)"
+    },
+    "permission": {
+      "title": "الصلاحيات",
+      "titleOperation": "الصلاحية",
+      "updatePermission": "تعديل الصلاحية"
+    }
+  },
+  "basicData": {
+    "whatsapp": {
+      "title": "قوالب الواتس اب",
+      "titleOperation": "قالب واتس اب",
+      "tableTitle": "عنوان الرسالة",
+      "body": "الرسالة",
+      "type": "نوع الرسالة",
+      "isActive": "هل نشط",
+      "InvoiceWithDiscount": "الفاتورة مع الخصم",
+      "InvoiceWithoutDiscount": "الفاتورة بدون الخصم",
+      "Recall": "اعادة الاتصال",
+      "Review": "المراجعة",
+      "Visit": "الزيارة",
+      "AddOrder": "اضافة طلب",
+      "InvoiceVIP": "فاتورة (VIP)",
+      "Invoice": "فاتورة",
+      "CampaignAGent": "حملة تسويقية",
+      "NewOrder": "تحديد موقع(طلب جديد)",
+      "CallCounter": "لم يتم الرد (ؤقة)"
+    },
+    "banners": {
+      "title": "لافتات اعلانية",
+      "titleOperation": "لافتات اعلانية",
+      "bannerName": "اسم اللافتة",
+      "bannerImage": "صورة اللافتة",
+      "selectImage": "اختر صورة",
+      "isActive": "حالة النشاط"
+    },
+    "integrations": {
+      "title": "ريط api",
+      "titleOperation": "ربط api"
+    },
+    "whatsAppSetting": {
+      "title": "إعدادت الواتس اب",
+      "link": "اللينك",
+      "mobile": "رقم الجوال",
+      "password": "الباسورد",
+      "instanceId": "رقم instance Id"
+    },
+    "emailSetting": {
+      "title": "إعدادت الايميل"
+    },
+
+    "setupData": {
+      "title": "البيانات الاساسية"
+    },
+    "city": {
+      "title": "المدن",
+      "titleOperation": "مدينة",
+      "lat": "Lat",
+      "lng": "Lng",
+      "radius": "Radius",
+      "districts": "المناطق",
+      "district": "منطقة",
+      "addCity": "إضافة مدينة",
+      "addDistrict": "إضافة منطقة"
+    },
+    "returnReason": {
+      "title": "أسباب الإرجاع"
+    },
+    "cancelReason": {
+      "title": "أسباب الإلغاء",
+      "titleOperation": "سبب إلغاء"
+    },
+    "serviceType": {
+      "title": "أنواع الخدمات",
+      "titleOperation": "نوع خدمة"
+    },
+    "service": {
+      "title": "الخدمات"
+    },
+    "serviceCategory": {
+      "title": "الفئات",
+      "titleOperation": "فئة",
+      "add": "إضافة خدمة",
+      "edit": "تعديل خدمة",
+      "services": "الخدمات",
+      "service": "خدمة",
+      "addServiceCategory": "إضافة فئة",
+      "addService": "إضافة خدمة",
+      "price": "السعر",
+      "serviceTypeCode": "نوع الخدمة",
+      "timeCount": "عدد لمواعيد",
+      "description": "الوصف (En)",
+      "DescriptionAr": "الوصف (Ar)",
+      "ShortDescriptionEn": "وصف قصير (En)",
+      "ShortDescriptionAr": "وصف قصير (Ar)",
+      "isMostWanted": "الاكثر طلباً",
+      "Publish": "نشر",
+      "ServicePublish": "نشر الخدمة",
+      "ServiceCategories": "اصناف الخدمات",
+      "Categories": "الاصناف الخدمات",
+      "ServiceImage": "صور الخدمة",
+      "ServiceGallery": "معرض الخدمة",
+      "AddImage": "إضافة صورة",
+      "english": "الانجليزية",
+      "arabic": "العربية",
+      "mainImage": "الصورة الرئيسية",
+      "descriptionAr": "الوصف بالعربية"
+    },
+    "channel": {
+      "title": "القنوات",
+      "symbol": "الرمز",
+      "siteUrl": "اللينك",
+      "titleOperation": "قناة"
+    },
+    "generalSetting": {
+      "title": "الإعدادات",
+      "tasks": "المهام اليومية",
+      "orders": "الطلبات",
+      "taskPerfix": "بادئة المهام",
+      "orderPerfix": "بادئة الطلبات",
+      "visitMessage": "رسالة الزيارة",
+      "reviewMessage": "رسالة التقييم",
+      "recallMessage": "رساله إعادة الاتصال",
+      "compainMessage": "رسالة الحملة الاعلانية",
+      "confirmOrderMessage": "رسالة تاكيد الطلبات",
+      "invoiceMessageWithDiscount": "رسالة الفاتورة مع الخصم",
+      "invoiceMessageWithOutDiscount": "رسالة الفاتورة بدون خصم",
+      "tax": "الضريبة"
+    },
+    "systemSchedule": {
+      "title": "جدوله النظام",
+      "tasks": "الموديل",
+      "task": "التاسكات",
+      "order": "الطلب",
+      "crm": "علاقات العملاء",
+      "taskShift": "شيفتات التاسكات",
+      "agentCareJob": "العملاء",
+      "assignOrderJob": "إسناد الطلبات ",
+      "campaignAgentsJob": "حمله تسوقيه",
+      "reviewJob": "تقييم الطلبات  ",
+      "moduleType": "النوع",
+      "eventSchedule": "الحدث",
+      "visitJob": "تاريخ الزيارة",
+      "parameter": "القيمه(الشيفت-الخ)"
+    }
+  },
+  "client": {
+    "client": {
+      "title": "العملاء",
+      "titleOperation": "عميل",
+      "mobile": "الموبيل",
+      "cityName": "المدينة",
+      "channelName": "المصدر ",
+      "name": "الاسم",
+      "email": "الايميل",
+      "note": "الملاحظات",
+      "editClient": "تعديل عميل",
+      "addClient": "إضافة عميل",
+      "status": "الحالة",
+      "profile": "ملف العميل"
+    }
+  },
+  "crm": {
+    "pending": {
+      "title": "الطلبات المعلقة"
+    },
+    "recall": {
+      "title": "طلبات إعادة الاتصال"
+    },
+    "crmOrders": {
+      "title": "الطلبات المعلقة"
+    },
+    "CrmClient": {
+      "title": "العملاء"
+    },
+    "leads": {
+      "title": "العملاء المحتملين",
+      "titleOperation": "العملاء المحتملين",
+      "addLeads": "إضافة عملاء محتملين",
+      "editLeads": "تعديل عملاء محتملين",
+      "mobile": "الهاتف",
+      "cityName": "المدينة",
+      "channelName": "القناة ",
+      "leadType": "نوع العملاء المحتملين",
+      "name": "الإسم",
+      "email": "البريد الالكتروني",
+      "Proposed": "عميل مقترح",
+      "Inquiry": "عميل استفسار",
+      "VIP": "VIP",
+      "vIPNumber": "رقم vip",
+      "discuontPercentage": "نسبة الخصم"
+    },
+    "serviceAfterSale": {
+      "title": "خدمة ما بعد البيع",
+      "titleOperation": "خدمة ما بعد البيع",
+      "addReview": "إضافة تقييم",
+      "review": "تقييم",
+      "noAnswer": "لا يوجد رد",
+      "noReview": "هل انت متاكد من حفظ عدم الرد"
+    },
+    "reviewQuestion": {
+      "title": "أسئلة تقييم",
+      "titleOperation": "سؤال تقييم",
+      "isSendClient": "عرض على الموقع",
+      "sort": "الترتيب",
+      "answerType": "أنواع الإجابة",
+      "items": "العناصر (افصل بينهم بالفواصل)",
+      "point": "الدرجة"
+    },
+    "reviewAnswer": {
+      "title": "إجابة تقييم",
+      "titleOperation": "إجابة تقييم",
+      "answerType": "أنواع الإجابة",
+      "star": "نجم",
+      "checkBox": "مربع اختيار",
+      "text": "نص",
+      "point": "الدرجة",
+      "sort": "الترتيب"
+    },
+    "clientReview": {
+      "title": "تقييم العملاء",
+      "titleOperation": "سؤال تقييم",
+      "clientName": "اسم العميل",
+      "orderId": "رقم الطلب",
+      "clientReviewFinalResultNameAr": "نتيجة تقييم",
+      "note": "الملاحظات",
+      "clientPrice": "سعر الخدمة للعميل",
+      "mobile": "الجوال",
+      "questionName": "إسم السؤال",
+      "startStatusName": "حالة البداية ",
+      "endStatusName": "النتيجة النهائية",
+      "actionDoing": "الإجراء المتخذ",
+      "doAction": "الإجراء",
+      "orderPrice": "سعر الفعلى للخدمة",
+      "review": "اخذ اجراء"
+    },
+    "clientReviewPrice": {
+      "title": "مراجعه تقييم الاسعار",
+      "titleOperation": "مراجعه أسعار التقييم",
+      "match": "متساو",
+      "notMatch": "غير متساو",
+      "matchPrice": "متساو",
+      "numberMatch": "  الاسعار المتساوية",
+      "numberNotMatch": "الاسعار الغير متشاوية",
+      "notReview": "لم يراجع",
+      "review": "تمت مراجعته",
+      "actionMismatch": "الاجراءات المتخذه",
+      "reviewStatus": "المراجعه",
+      "team": "الفرقة"
+    },
+    "clientReviewFinalResult": {
+      "title": "نتائج تقييم",
+      "titleOperation": "نتيجة تقييم",
+      "scoreFrom": "الدرجة من",
+      "scoreTo": "الدرجة إلى",
+      "color": "اللون"
+    },
+    "clientReviewActionDoing": {
+      "title": "نتائج  تقييم",
+      "titleOperation": "نتيجة تقييم"
+    },
+    "reviewstatistics": {
+      "title": "إحصائيات تقييم",
+      "titleOperation": "إحصائيات تقييم",
+      "qestionCount": "الاسئلة / العدد",
+      "question": "السؤال"
+    },
+    "crmSetting": {
+      "title": "إعدادات CRM",
+      "titleOperation": "إعدادات CRM"
+    }
+  },
+  "statistics": {
+    "orderReview": {
+      "title": "أحصائية تقييم الطلبات",
+      "title2": "تفاصيل أحصائية تقييم الطلبات",
+      "titleOperation": "تقييم طلب",
+      "cities": "المدن",
+      "teams": "الفرق",
+      "dateReview": "التاريخ (من - إلى)",
+      "visitDateFromTo": "تاريخ الزيارة (من - إلى)",
+      "visitDate": "تاريخ الزيارة",
+      "ordersMap": "خريطة الطلبات ",
+      "ordersDetails": "تفاصيل الطلبات ",
+      "evaluationQualityService": "Evaluation Quality Service",
+      "areSatisfiedTeamTreatment": "Team treating you well?",
+      "howPunctualYou": "How punctual were you?",
+      "wouldLikeDealAgain": "Work with us again?"
+    },
+
+    "orderManager": {
+      "title": "تحليل الطلبات",
+      "titleOperation": "تحليل الطلبات",
+      "totalInvoices": "إجمالى الفواتير",
+      "totalOrder": "إجمالى الطلبات",
+      "avgValueOrder": "متوسط قيمه الطلب",
+      "avgTeamOrder": "متوسط الفريق",
+      "avgTimeOrder": "متوسط الموعد",
+      "orderForDays": "الطلبات / الايام",
+      "orderDaily": "الطلبات اليومية"
+    },
+    "orderDaily": {
+      "title": "الطلبات اليومية",
+      "titleOperation": "طلب يومى",
+      "notFound": "لا يوجد عميل",
+      "total": "الإجمالي",
+      "time": "المواعيد",
+      "revenue": "الايراد",
+      "cityTime": "المدن- الامواعيد",
+      "revenueTime": "المواعد - الايراد",
+      "orderDays": "الطلبات - الايام",
+      "reorder": "إعادة",
+      "teamHoliday": "راحة",
+      "noOrder": "لا يوجد طلب",
+      "totalCity": "اجمالى المدينة",
+      "totalAvailable": "عدد المواعيد المتاحة"
+    }
+  },
+
+  "store": {
+    "item": {
+      "title": "أصناف المخزن"
+    },
+    "stocktaking": {
+      "title": "سجل الجرد"
+    },
+    "storeTransaction": {
+      "title": "حركة المخزن"
+    }
+  },
+  "approvals": {
+    "approval-types": {
+      "title": "أنواع الموافقة",
+      "nameEn": "الاسم (En)",
+      "nameAr": "الاسم (Ar)",
+      "isActive": "حالة النشاط"
+    },
+    "approval-requests": {
+      "title": "طلبات الموافقة",
+      "formTitle": "العنوان",
+      "description": "الوصف",
+      "approvalType": "نوع الموافقة",
+      "notes": "ملحوظات",
+      "Accept": "مقبول",
+      "Reject": "مرفوض",
+      "NoneReview": "لا يوجد مراجعة",
+      "status": "حالة"
+    }
+  },
+  "ticketSupport": {
+    "ticket": {
+      "title": "تذاكر الدعم"
+    },
+    "newTicket": {
+      "title": "تذكرة جديدة"
+    }
+  },
+  "approval": {
+    "approval": {
+      "title": "الموافقات"
+    }
+  }
+}

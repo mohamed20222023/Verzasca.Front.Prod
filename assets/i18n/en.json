@@ -1,0 +1,1560 @@
+{
+  "maps": {
+    "title": "Maps",
+    "orderCode": "Order Code",
+    "city": "City",
+    "district": "District",
+    "agentName": "Client Name",
+    "mobile": "Mobile",
+    "openInGoogleMaps": "Open InGoogle Maps",
+    "moreDetails": "More Details",
+    "servicesName": "Services Name",
+    "title2": "Maps"
+  },
+  "HEADER": {
+    "MORE": {
+      "TEXT": "More"
+    }
+  },
+  "MENUITEMS": {
+    "MENU": {
+      "TEXT": "MENU"
+    },
+    "DASHBOARD": {
+      "TEXT": "Dashboards",
+      "BADGE": "New",
+      "LIST": {
+        "ANALYTICS": "Analytics",
+        "CRM": "CRM",
+        "ECOMMERCE": "Ecommerce",
+        "CRYPTO": "Crypto",
+        "PROJECTS": "Projects",
+        "NFT": "NFT",
+        "JOB": "Job"
+      }
+    },
+    "APPS": {
+      "TEXT": "Apps",
+      "LIST": {
+        "CALENDAR": "Calendar",
+        "MAINCALENDAR": "Main Calendar",
+        "MONTHGRID": "Month Grid",
+        "CHAT": "Chat",
+        "EMAIL": "Email",
+        "MAILBOX": "Mailbox",
+        "MAILTEMPLATES": "Email Templates",
+        "BASICACTION": "Basic Action",
+        "ECOMMERCEACTION": "Ecommerce Action",
+        "ECOMMERCE": "Ecommerce",
+        "PRODUCTS": "Products",
+        "PRODUCTDETAILS": "Product Details",
+        "CREATEPRODUCT": "Create Product",
+        "ORDERS": "Orders",
+        "ORDERDETAILS": "Order Details",
+        "CUSTOMERS": "Customers",
+        "SHOPPINGCART": "Shopping Cart",
+        "CHECKOUT": "Checkout",
+        "SELLERS": "Sellers",
+        "SELLERDETAILS": "Seller Details",
+        "PROJECTS": "Projects",
+        "LIST": "List",
+        "OVERVIEW": "Overview",
+        "CREATEPROJECT": "Create Project",
+        "TASK": "Tasks",
+        "KANBANBOARD": "Kanban Board",
+        "LISTVIEW": "List View",
+        "TASKDETAILS": "Task Details",
+        "CRM": "CRM",
+        "CONTACTS": "Contacts",
+        "COMPANIES": "Companies",
+        "DEALS": "Deals",
+        "LEADS": "Leads",
+        "CRYPTO": "Crypto",
+        "TRANSACTIONS": "Transactions",
+        "BUY&SELL": "Buy & Sell",
+        "MYWALLET": "My Wallet",
+        "ICOLIST": "ICO List",
+        "KYCAPPLICATION": "KYC Application",
+        "INVOICES": "Invoices",
+        "DETAILS": "Details",
+        "CREATEINVOICE": "Create Invoice",
+        "SUPPORTTICKETS": "Support Tickets",
+        "TICKETDETAILS": "Ticket Details",
+        "NFTMARKETPLACE": "NFT Marketplace",
+        "MARKETPLACE": "Marketplace",
+        "EXPLORENOW": "Explore Now",
+        "LIVEAUCTION": "Live Auction",
+        "ITEMDETAILS": "Item Details",
+        "COLLECTIONS": "Collections",
+        "CREATORS": "Creators",
+        "RANKING": "Ranking",
+        "WALLETCONNECT": "Wallet Connect",
+        "CREATENFT": "Create NFT",
+        "FILEMANAGER": "File Manager",
+        "TODO": "To Do",
+        "JOBS": "Jobs",
+        "STATISTICS": "Statistics",
+        "JOBLISTS": "Job Lists",
+        "GRID": "Grid",
+        "CANDIDATELISTS": "Candidate Lists",
+        "GRIDVIEW": "Grid View",
+        "APPLICATION": "Application",
+        "NEWJOB": "New Job",
+        "COMPANIESLIST": "Companies List",
+        "JOBCATEGORIES": "Job Categories",
+        "APIKEY": "API Key"
+      }
+    },
+    "LAYOUTS": {
+      "TEXT": "Layouts",
+      "LIST": {
+        "HORIZONTAL": "Horizontal",
+        "DETACHED": "Detached",
+        "TWOCOLUMN": "Two Column",
+        "HOVERED": "Hovered"
+      }
+    },
+    "PAGES": {
+      "TEXT": "Pages"
+    },
+    "AUTHENTICATION": {
+      "login": {
+        "username": "إسم المستخدم",
+        "password": "كلمة المرور"
+      },
+      "TEXT": "Authentication",
+      "LIST": {
+        "BASIC": "Basic",
+        "COVER": "Cover",
+        "SIGNIN": "Sign In",
+        "SIGNUP": "Sign Up",
+        "PASSWORDRESET": "Password Reset",
+        "PASSWORDCREATE": "Password Create",
+        "LOCKSCREEN": "Lock Screen",
+        "LOGOUT": "Logout",
+        "SUCCESSMESSAGE": "Success Message",
+        "TWOSTEPVERIFICATION": "Two Step Verification",
+        "ERRORS": "Errors",
+        "404BASIC": "404 Basic",
+        "404COVER": "404 Cover",
+        "404ALT": "404 Alt",
+        "500": "500",
+        "OFFLINE": "Offline Page"
+      }
+    },
+    "PAGES": {
+      "TEXT": "Pages",
+      "LIST": {
+        "STARTER": "Starter",
+        "PROFILE": "Profile",
+        "SIMPLEPAGE": "Simple Page",
+        "SETTINGS": "Settings",
+        "TEAM": "Team",
+        "TIMELINE": "Timeline",
+        "FAQS": "FAQs",
+        "PRICING": "Pricing",
+        "GALLERY": "Gallery",
+        "MAINTENANCE": "Maintenance",
+        "COMINGSOON": "Coming Soon",
+        "SITEMAP": "Sitemap",
+        "SEARCHRESULTS": "Search Results",
+        "PRIVACYPOLICY": "Privacy Policy",
+        "TERMS&CONDITIONS": "Term & Conditions",
+        "BLOG": "Blog",
+        "BLOGLIST": "List View",
+        "BLOGOVERVIEW": "Overview",
+        "BLOGGRID": "Grid View"
+      }
+    },
+    "LANDING": {
+      "TEXT": "Landing",
+      "LIST": {
+        "ONEPAGE": "One Page",
+        "NFTLANDING": "NFT Landing",
+        "JOB": "Job"
+      }
+    },
+    "COMPONENTS": {
+      "TEXT": "Components"
+    },
+    "BASEUI": {
+      "TEXT": "Base UI",
+      "LIST": {
+        "ALERTS": "Alerts",
+        "BADGES": "Badges",
+        "BUTTONS": "Buttons",
+        "COLORS": "Colors",
+        "CARDS": "Cards",
+        "CAROUSEL": "Carousel",
+        "DROPDOWNS": "Dropdowns",
+        "GRID": "Grid",
+        "IMAGES": "Images",
+        "TABS": "Tabs",
+        "ACCORDION&COLLAPSE": "Accordion & Collapse",
+        "MODALS": "Modals",
+        "OFFCANVAS": "Offcanvas",
+        "PLACEHOLDERS": "Placeholders",
+        "PROGRESS": "Progress",
+        "NOTIFICATIONS": "Notifications",
+        "MEDIAOBJECT": "Media object",
+        "EMBEDVIDEO": "Embed Video",
+        "TYPOGRAPHY": "Typography",
+        "LISTS": "Lists",
+        "LINKS": "Links",
+        "GENERAL": "General",
+        "RIBBONS": "Ribbons",
+        "UTILITIES": "Utilities"
+      }
+    },
+    "ADVANCEUI": {
+      "TEXT": "Advance UI",
+      "LIST": {
+        "SWEETALERTS": "Sweet Alerts",
+        "NESTABLELIST": "Nestable List",
+        "SCROLLBAR": "Scrollbar",
+        "ANIMATION": "Animation",
+        "TOUR": "Tour",
+        "SWIPERSLIDER": "Swiper Slider",
+        "RATTINGS": "Ratings",
+        "HIGHLIGHT": "Highlight",
+        "SCROLLSPY": "ScrollSpy"
+      }
+    },
+    "WIDGETS": {
+      "TEXT": "Widgets"
+    },
+    "FORMS": {
+      "TEXT": "Forms",
+      "LIST": {
+        "BASICELEMENTS": "Basic Elements",
+        "FORMSELECT": "Form Select",
+        "CHECKBOXS&RADIOS": "Checkboxs & Radios",
+        "PICKERS": "Pickers",
+        "INPUTMASKS": "Input Masks",
+        "ADVANCED": "Advanced",
+        "RANGESLIDER": "Range Slider",
+        "VALIDATION": "Validation",
+        "WIZARD": "Wizard",
+        "EDITORS": "Editors",
+        "FILEUPLOADS": "File Uploads",
+        "FORMLAYOUTS": "Form Layouts"
+      }
+    },
+    "TABLES": {
+      "TEXT": "Tables",
+      "LIST": {
+        "BASICTABLES": "Basic Tables",
+        "GRIDJS": "Grid Js",
+        "LISTJS": "List Js",
+        "DATATABLES": "Datatables"
+      }
+    },
+    "CHARTS": {
+      "TEXT": "Charts",
+      "LIST": {
+        "APEXCHARTS": "Apexcharts",
+        "LINE": "Line",
+        "AREA": "Area",
+        "COLUMN": "Column",
+        "BAR": "Bar",
+        "MIXED": "Mixed",
+        "TIMELINE": "Timeline",
+        "RANGEAREA": "Range Area",
+        "FUNNEL": "Funnel",
+        "SLOPE": "Slope",
+        "CANDLSTICK": "Candlstick",
+        "BOXPLOT": "Boxplot",
+        "BUBBLE": "Bubble",
+        "SCATTER": "Scatter",
+        "HEATMAP": "Heatmap",
+        "TREEMAP": "Treemap",
+        "PIE": "Pie",
+        "RADIALBAR": "Radialbar",
+        "RADAR": "Radar",
+        "POLARAREA": "Polar Area",
+        "CHARTJS": "Chartjs",
+        "ECHARTS": "Echarts"
+      }
+    },
+    "ICONS": {
+      "TEXT": "Icons",
+      "LIST": {
+        "REMIX": "Remix",
+        "BOXICONS": "Boxicons",
+        "MATERIALDESIGN": "Material Design",
+        "LINEAWESOME": "Line Awesome",
+        "FEATHER": "Feather",
+        "CRYPTOSVG": "Crypto SVG"
+      }
+    },
+    "MAPS": {
+      "TEXT": "Maps",
+      "LIST": {
+        "GOOGLE": "Google",
+        "VECTOR": "Vector",
+        "LEAFLET": "Leaflet"
+      }
+    },
+    "MULTILEVEL": {
+      "TEXT": "Multi Level",
+      "LIST": {
+        "LEVEL1": {
+          "1": "Level 1.1",
+          "2": "Level 1.2",
+          "LEVEL2": {
+            "1": "Level 2.1",
+            "2": "Level 2.2"
+          }
+        }
+      }
+    }
+  },
+
+  "general": {
+    "search": "Search",
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete",
+    "message": {
+      "successProccess": "Process completed successfully",
+      "failProccess": "Process failed",
+      "NotFound": "Not found",
+      "successLogin": "Logged in successfully",
+      "filedIdRequired": "This field is required",
+      "areyouSureDelete": "Are you sure you want to delete?",
+      "employeeHasTargetInSamePeriod": "Employee Has Target Type In Same Period"
+    },
+    "table": {
+      "name": "Name",
+      "isActive": "Is Active",
+      "lastModificationTime": "Last Modified",
+      "pFrom": "From",
+      "item": "Item",
+      "search": "Search",
+      "noData": "No data available",
+      "sort": "Sort",
+      "log": "Log",
+      "filter": "Filter",
+      "notSelect": "No Select",
+      "notes": "Notes",
+      "active": "Active",
+      "noActive": "No Active",
+      "all": "All",
+      "nameAr": "Arabic Name",
+      "nameEn": "English Name",
+      "creationTime": "Creation Time"
+    },
+    "action": {
+      "register": "Register",
+      "next": "Next",
+      "previous": "Previous",
+      "edit": "Edit",
+      "save": "Save",
+      "delete": "Delete",
+      "close": "Close",
+      "filter": "Filter",
+      "clear": "Clear",
+      "export": "Export",
+      "xlxs": "Export  xlsx",
+      "pdf": "Export  Pdf",
+      "search": "Search",
+      "addNew": "Add New",
+      "back": "Back",
+      "run": "Run",
+      "view": "View",
+      "loading": "Loading",
+      "saveAndSend": "Save & Send"
+    },
+
+    "permission": {
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete",
+      "register": "Create",
+      "save": "Save",
+      "changeStatus": "Change Status",
+      "changeText": "Change Text",
+      "setDefault": "Set as Default",
+      "assignPermission": "Assign Permission",
+      "search": "Search",
+      "serachadvanced": "Advanced Search",
+      "openreport": "Open Report",
+      "changePassword": "Change Password",
+      "loginAs": "Login As",
+      "unUserLock": "Unlock User",
+      "addField": "Add Field",
+      "advancedSearch": "Advanced Search",
+      "addToLanguages": "Update Language",
+      "print": "Print",
+      "lightMode": "Light Mode",
+      "addGallary": "Add Gallery",
+      "userLock": "Lock User",
+      "resetPassword": "Reset Password",
+      "export": "Export",
+      "viewByCreate": "View By Create",
+      "viewByAssign": "View By Assign",
+      "evaluation": "Add Evaluation",
+      "orderNew": "Add Order New",
+      "addToLead": "Add To Lead",
+      "recallAction": "Recall Action",
+      "cancel": "Cancel Order",
+      "confirmed": "Confirmed Order",
+      "assignTeam": "Assign  To Team",
+      "undoAssign": "Undo Assign",
+      "finishedOrder": "Finished Order",
+      "reOpenOrder": "ReOpen Order",
+      "undoOrder": "Undo Order",
+      "viewList": "View All Order",
+      "viewAvaliableTime": "View AvaliableTime"
+    }
+  },
+  "layout": {
+    "sidebar": {
+      "new": "New",
+      "task": "Daily Tasks",
+      "hr": "Human Resources",
+      "client": "Client Management",
+      "orders": "Order Management",
+      "orderManagement": "order Management",
+      "marketing": "Marketing Management",
+      "finance": "Finance",
+      "security": "Security",
+      "securityManagement": "Security Management",
+      "basicData": "Basic Data",
+      "messages": "Internal Messages",
+      "statistics": "Statistics",
+      "crm": "CRM",
+      "leads": "Leads",
+      "nearly": "Nearly",
+      "store": "Stores",
+      "tickets": "Tickets",
+      "approval": "Approvals"
+    },
+    "topbar": {
+      "quickLinks": "Quick Links",
+      "newOrder": "New Order",
+      "logOut": "Logout",
+      "messages": "Internal Messages",
+      "profile": "My Profile",
+      "welcome": "Welcome",
+      "notifications": "Notifications",
+      "new": "New",
+      "alerts": "Alerts",
+      "markALLSee": "Mark ALL Read",
+      "timeAvailable": "Time Available"
+    }
+  },
+  "auth": {
+    "login": {
+      "username": "Username",
+      "password": "Password",
+      "signin": "Sign In"
+    }
+  },
+  "stores": {
+    "store": {
+      "title": "Stores",
+      "nameEn": "Name (En)",
+      "nameAr": "Name (Ar)",
+      "isActive": "Is Active",
+      "isMain": "Is Main"
+    },
+    "items": {
+      "title": "Stores Items",
+      "image": "Image",
+      "nameEn": "Name (En)",
+      "nameAr": "Name (Ar)",
+      "minimumQuantity": "Limit QTY (Min)",
+      "isActive": "Is Active",
+      "isMain": "Is Main",
+      "quantity": "Actual Quantity"
+    },
+    "stocktaking": {
+      "title": "Stocktaking",
+      "titleDetails": "Stocktaking Details",
+      "titleAddDetails": "Add Stocktaking Details",
+      "stockingStatusName": "Stocking Status",
+      "date": "Date",
+      "note": "Note",
+      "status": "Status",
+      "open": "Open",
+      "close": "Close",
+      "registerDetails": "Register Details",
+      "addAllItems": "Add All Items",
+      "show": "Show",
+      "itemName": "Item Name",
+      "quantity": "Quantity",
+      "closeStock": "Close Stock",
+      "zz": "zz"
+    }
+  },
+  "task": {
+    "tasklist": {
+      "title": "Daily Tasks  ",
+      "allTask": "All Tasks",
+      "complete": "Completed",
+      "review": "Review",
+      "inproccess": "In Progress",
+      "inTests": "In Tests",
+      "wait": "Not Started",
+      "subject": "Name",
+      "dateStart": "Start Date",
+      "dateEnd": "Due Date",
+      "priority": "Priority",
+      "status": "Status",
+      "taskMasterAssignees": "Assigned To",
+      "id": "Task ID",
+      "low": "Low",
+      "meduim": "Medium",
+      "high": "High",
+      "urgent": "Urgent",
+      "notStart": "Not Started",
+      "inProgress": "In Progress",
+      "testing": "Testing",
+      "awatingFeddBack": "Awaiting Feedback",
+      "addNewTask": "New Task",
+      "titleOperation": "Task",
+      "taskMasterFollowers": "Followers",
+      "filter": "Filter",
+      "tasksList": "Tasks List",
+      "progress": "Completed",
+      "allTasks": "All Tasks",
+      "countTask": "Task Count",
+      "finished": "Finished"
+    },
+    "taskReport": {
+      "title": "Task Statistics ",
+      "taskStatusTotal": "Task Status / Total",
+      "taskUserTotal": "Task User / Total",
+      "taskUserDetail": "Task User Detail",
+      "taskMasterId": "# Task ",
+      "assignUser": "Assign User",
+      "date": "Date",
+      "taskStatusName": "Status Name",
+      "dateStart": "Date Start",
+      "dateEnd": "Date End",
+      "userAssineeToName": "Assinee Another",
+      "name": "Title"
+    },
+    "taskTeam": {
+      "title": "Task Team ",
+      "creationTime": "Date",
+      "assignName": "Name",
+      "allTask": "All Task",
+      "allFinished": "Finished Task",
+      "precentage": "Precentage"
+    },
+    "taskDetail": {
+      "title": "Task Details"
+    },
+    "todo": {
+      "title": "To do",
+      "assignUsers": "Assigned Users",
+      "members": "Members",
+      "add": "Add",
+      "cancel": "cancel",
+      "assigned": "Assigned",
+      "creatTask": "Creat Task",
+      "subject": "Subject",
+      "close": "Close",
+      "save": "Save",
+      "status": "Status",
+      "trackTask": "Track Task",
+      "timeTracking": "Time Tracking",
+      "creationTime": "Creation Time",
+      "stop": "Stop",
+      "start": "Start",
+      "tasksNo": "Tasks No",
+      "tasksTitle": "Tasks Title",
+      "priority": "Priority",
+      "dueDate": "DueDate",
+      "assignedTo": "Assigned To",
+      "assignedMember": "Assigned Member",
+      "followerMember": "Follower Member",
+      "taskMasterFollower": "Follower Members",
+      "actions": "Actions",
+      "taskName": "Task Name",
+      "dateVisit": "Date Visit",
+      "orderId": "Order Id",
+      "statusName": "Status Name",
+      "inProgress": "In Progress",
+      "finished": "Finished",
+      "finishedAnother": "Finished Another",
+      "notStart": "Not Start",
+      "finishTask": "Finish Task",
+      "orderNotFound": "Order Not Found",
+      "dateStart": "Period",
+      "followerTo": "Follower To",
+      "hr": "H",
+      "min": "Min",
+      "sort": "Sort",
+      "byID": "By ID",
+      "byName": "By Name",
+      "allTasks": "All Tasks",
+      "assignAnother": "Finihed Another",
+      "addTasks": "Add Tasks",
+      "reAssignUsers": "Re_Assign Users",
+      "assign": "Assign",
+      "taskPeriod": "Task Time",
+      "assignTo": "Assign To"
+    },
+    "jobSchedule": {
+      "title": "Task Schedule",
+      "titleOperation": "Schedule",
+      "Daily": "Daily",
+      "Hourly": "Hourly",
+      "Weekly": "Weekly",
+      "Monthly": "Monthly",
+      "SpecificTime": "Specific Time",
+      "OneTime": "OneTime",
+      "Cron": "Cron",
+      "jobName": "Job Name",
+      "Date": "Date",
+      "jobType": "Job Type",
+      "lastRunDateTime": "Last Run Time",
+      "runAtSpecificTime": "Run Time",
+      "addNew": "Add New Job",
+      "shiftName": "Shift",
+      "recurringIntervals": "Repeat (default=1)",
+      "days": "Days",
+      "Sunday": "Sunday",
+      "Monday": "Monday",
+      "Tuesday": "Tuesday",
+      "Thursday": "Thursday",
+      "Saturday": "Saturday",
+      "Wednesday": "Wednesday",
+      "Friday": "Friday",
+      "runTask": "Are you sure run   schedule"
+    },
+    "taskShift": {
+      "title": "Daily Task Shifts",
+      "titleOperation": "Shift",
+      "addNewShift": "Add New Shift",
+      "times": "Work Times",
+      "assignUsers": "Task Employees",
+      "maxTaskForEmployee": "Max Task (Employee)",
+      "shiftFollowers": "Shift Followers"
+    }
+  },
+  "hr": {
+    "employee": {
+      "title": "Employees",
+      "titleOperation": "Employee",
+      "employeeName": "Name",
+      "mobile": "Mobile",
+      "employeeTypeName": "Employee Type",
+      "employeeGroupName": "Employee Group",
+      "employeeTeam": "Employee Team",
+      "managment": "Managment",
+      "customerService": "Customer Service",
+      "employeeType": "Employee Type",
+      "email": "Email",
+      "newEmployee": "New Employee",
+      "allEmployee": "All Employees",
+      "active": "Active",
+      "noActive": "No Active",
+      "isActive": "Status",
+      "basicInfo": "Basic Info",
+      "dayWork": "Days Works",
+      "sunday": "Sunday",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "thursday": "Thursday",
+      "saturday": "Saturday",
+      "friday": "Friday",
+      "wednesday": "Wednesday",
+      "editEmployee": "Edit Employee",
+      "addEmployee": "Add Employee",
+      "dayOff": "Day Off"
+    },
+    "team": {
+      "title": "Teams",
+      "titleOperation": "Team",
+
+      "cityName": "City ",
+      "categoryName": "Category Name",
+      "workTimeName": "Work Time  ",
+      "dayOff": "Days Off"
+    },
+    "teamEmployee": {
+      "title": "Employee Teams",
+      "dateFrom": "Date (From)",
+      "dateTo": "Date (To)"
+    },
+    "workTime": {
+      "title": "Work Times",
+      "titleOperation": "Work Time"
+    },
+    "taskShift": {
+      "title": "Daily Task Shifts",
+      "titleOperation": "Shift",
+      "addNewShift": "Add New Shift",
+      "times": "Work Times",
+      "assignUsers": "Task Employees",
+      "maxTaskForEmployee": "Max Task (Employee)",
+      "shiftFollowers": "Shift Followers"
+    },
+    "employeeHoliday": {
+      "title": "Holidays",
+      "titleOperation": "Holiday",
+      "employees": "Employee",
+      "date": "Date",
+      "note": "Note",
+      "addNewHoliday": "New Holiday",
+      "employeeName": "Employee",
+      "shiftFrom": "Shift From",
+      "shiftTo": "Shift To",
+      "dateFrom": "Date From",
+      "dateTo": "Date To"
+    },
+    "employeeChangeShift": {
+      "title": "  Shift Changes",
+      "titleOperation": "Shift ",
+      "addNew": "add New "
+    },
+    "rewards": {
+      "title": "Rewards",
+      "titleOperation": "Reward "
+    },
+    "target": {
+      "title": "Targets",
+      "employeesTarget": "Employees Targets",
+      "teamsTarget": "Teams Targets",
+      "ordersTarget": "Orders Targets",
+      "employeeName": "Employee Name",
+      "targetType": "Target Type",
+      "dateFrom": "Date (From)",
+      "dateTo": "Date (To)",
+      "cost": "Cost",
+      "note": "Note",
+      "fromToDate": "Date (From-To)",
+      "employees": "Employees",
+      "teams": "Teams",
+      "teamName": "Team Name",
+      "titleOperation": "Targets"
+    }
+  },
+  "clientManagement": {
+    "client": {
+      "title": "Clients"
+    }
+  },
+  "orderManagement": {
+    "order": {
+      "attachment": "Attachment",
+      "title": "Orders",
+      "titlePending": "Pending Orders",
+      "quantity": "Quantity",
+      "invoiceDiscount": "Discount",
+      "discountAdd": "Discount Add",
+      "titleRecall": "Recall Orders",
+      "titleOperation": "Order",
+      "allOrder": "  Orders",
+      "evalOrder": "Order Evaluation",
+      "newOrder": "New Order",
+      "map": "Order Map",
+      "all": "All",
+      "pending": "Pending",
+      "cancelled": "Cancelled",
+      "orderCode": "Code",
+      "createdDate": "Created Date",
+      "creationUser": "Creation User",
+      "districtName": "District",
+      "status": "Status",
+      "agentName": "Client",
+      "channelName": "Channel",
+      "mobile": "Mobile",
+      "assignTo": "Assign To",
+      "visitDate": "Visit Date",
+      "finishedDate": "Finished Date",
+      "workTimes": "Times",
+      "services": "Services",
+      "new": "New",
+      "nothing": "No thing",
+      "cancel": "Cancel",
+      "finish": "Finish",
+      "reopen": "Re open",
+      "free": "Free",
+      "finished": "finished",
+      "serviceAfterSale": "Service After Sale",
+      "creationDate": "Creation Date",
+      "Recall": "Recall",
+      "RecallMessage": "Are you sure you are converting the order to Recall?",
+      "callCounter": "Call Counter",
+      "RecallMessageCount": "The customer has been contacted more than",
+      "RecallMessageCount2": "The request will be forwarded for inquiry.",
+      "times": "times",
+      "addOrders": "New",
+      "editOrders": "Edit",
+      "orderType": "Order Type",
+      "orderSource": "Order Source",
+      "clientName": "client",
+      "phoneNumber": "Mobile",
+      "cityName": "City",
+      "name": "Name",
+      "DistrictName": "District",
+      "email": "Email",
+      "HowYouKnowAboutUs": "How You Know About Us",
+      "PreviousOrders": "Previous Orders",
+      "Code": "Code",
+      "Status": "Status",
+      "AssignedTo": "Assigned To",
+      "VisitDate": "Visit Date",
+      "VisitTime": "Visit Time",
+      "OrderDetails": "Order Details",
+      "clientInfo": "Client Info",
+      "serviceCategory": "Category",
+      "ServicePrice": "Service Price",
+      "service": "Service",
+      "ServiceName": "Service",
+      "price": "Price",
+      "notes": "Notes",
+      "date": "Date",
+      "noData": "There is no data in the table yet.",
+      "extraDiscount": "Extra Discount",
+      "isUrgent": "Is Urgent",
+      "paymentMethods": "Payment Methods",
+      "paid": "Cost",
+      "file": "file attached",
+      "AvailableTimes": "Available Times",
+      "noServices": "No Services Selected Yet",
+      "SubTotal": "Price Before (VAT)",
+      "Discount": "Discount .",
+      "Total": "Total",
+      "TotalPaid": "Total Paid",
+      "OrderSummary": "Summary",
+      "actions": "Actions",
+      "location": "Location",
+      "AreYouSureMessage": "Are you sure?",
+      "AssignMessage": "Are you sure to assign the order to the teams and times shown below?",
+      "call": "Call",
+      "inquiry": "Inquiry",
+      "evaluation": "Evaluation",
+      "orderNew": "Order New",
+      "lastCallDate": "Last Call Date",
+      "noMap": "No Map",
+      "viewMap": "View Map",
+      "cost": "Cost",
+      "VAT": "Price After (VAT)",
+      "total": "Total",
+      "paymentTypeName": "Payment",
+      "finishUser": "Finish By",
+      "creation": "Creation",
+      "printPill": "Print Pill",
+      "reopenOrder": "Reopen Order",
+      "returnReason": "Reason",
+      "reopenNotes": "Notes",
+      "reopenTitle": "Reopen",
+      "returnReasonName": "Reason",
+      "cancelReasonName": "Reason ",
+      "priceEvaluation": "Price Eval",
+      "finishEvaluation": "Finish Eval",
+      "assignEvaluation": "Assign Eval",
+      "selectedServices": "Services",
+      "clientServices": "Client Services",
+      "noCategoryMessage": "No Category Selected Yet !",
+      "orderSummary": "Summary",
+      "viewOrderSummary": "You Can View Order Summary Details",
+      "paymentSelection": "Payment Selection",
+      "nameOnCard": "Name On Card",
+      "cardNumber": "Credit Card Number",
+      "expiration": "Expiration",
+      "CVV": "CVV",
+      "orderNote": "Order Note",
+      "teamStatus": "Move Status",
+      "requestNoStart": "No Start",
+      "callLoggedBeforeArrival": "Call Before Arrival",
+      "noAnswerStatusUpdated": "No Answer ",
+      "appointmentPostponed": " Change appointment",
+      "requestFinished": "Finished",
+      "changeTeamStatus": "Move Status",
+      "rollBackAssign": "Undo Assign",
+      "finishOrder": "Finish Order",
+      "teamStatusNotes": "Notes",
+      "evaluate": "Evaluate",
+      "clientExist": "Client already exist",
+      "clientNotExist": "Client is Not exist",
+      "yes": "Yes",
+      "no": "No",
+      "assignDate": "AssignDate",
+      "team": "Team",
+      "locations": "Locations",
+      "timesNav": "Times",
+      "clientFound": "Client Found",
+      "clientNotFound": "Client Not Found",
+      "phoneMust10Digit": "Phone Must Length 10 Digits Only",
+      "phoneMustStart05": "Phone Must Start 05",
+      "phoneMustContainOnlyDigit": "Mobile Must Only Digit",
+      "currancy": "SAR",
+      "searchService": "Service Name",
+      "savedAddress": "Saved Loctions",
+      "addAddress": "Add Loction",
+      "canceledEvaluation": "Canceled Evaluation",
+      "assignedTo": "Assigned To",
+      "teamName": "Team Name",
+
+      "sendToClient": "Add New",
+      "successSendLocation": "Success Send Location",
+      "failSendLocation": "Fail Send Location",
+      "mustEnterNumber": "Must Enter Mobile",
+      "lat": "Lat",
+      "lng": "Lng",
+      "address": "Address",
+      "attchment": "Attachments",
+      "orderComplete": "Order Complete",
+      "orderSaveSuccess": "Thank you ! Your Order is Completed !",
+      "mustSelectClientInfo": "Must Select Client Data Required",
+      "mustSelectServices": "Must Select Services",
+      "mustSelectTimes": "Must Select Times",
+      "newOrderAgain": "New Order",
+      "addCostLargeTotal": "Cost Payment Large Required",
+      "orderEdit": "Order Edit",
+      "addToLead": "Add to Lead",
+      "sureGoLead": "Are You Sure Add To Lead ?",
+      "trackOrder": "Track Order",
+      "sureDate": "Sure Date",
+      "finishDate": "Finish Date",
+      "paidTotal": "Total paid",
+      "reminder": "Reminder",
+      "confirmOrder": "Confirm Order",
+      "cancelOrder": "cancel Order",
+      "assignOrder": "assign Order",
+      "undoOrder": "Undo Order",
+      "refundable": "refundableOrders",
+      "teamAssign": "Team Assign",
+      "reAssign": "Re Assign",
+      "customerDetails": "Customer Details",
+      "customerAddress": "Customer Address",
+      "mapURL": "Client Location URL",
+      "serviceTime": "Service Number Time",
+      "mustSelectOrderLocations": "must Select Order Locations",
+      "tax": "Tax",
+      "net": "Net",
+      "subTotal": "Price Before (VAT)",
+      "mustSelectServiceTime": "Must Select   Time Equal Service Need ",
+      "withPayURL": "With  Payment link  ",
+      "cashOnDelivery": "Cash On Delivery",
+      "mustAddPayment": "Must Add Payment",
+      "callClientAndSure": "client called, Order  confirmed",
+      "enRouteToCustomer": "On   way to client",
+      "arrivedAtLocation": "Arrived at  location",
+      "startWork": "Work has started",
+      "clientNotResponse": "not responding",
+      "requestCancellation": "cancellation",
+      "clientDelayOrder": " requested  delay",
+      "teams": " Teams",
+      "discount": "Discount precentage",
+      "teamAssignedWeekOrders": "Assigned Next Week",
+      "PriceAfterDisaccount":"Price After (Discount)",
+      "assign":"Assign",
+      "confirmed":"Confirmed",
+      "isFree": "Is Free",
+      "OrderVAT":"VAT",
+      "discountTypeAdd":"Promotion ",
+      "invoice":"Invoice",
+      "itemPrice":"Item Price",
+      "newOrders": {
+        "title": "New Orders",
+        "titleOperation": "New"
+      },
+      "urgentOrders": {
+        "title": "Urgent Orders",
+        "titleOperation": "Urgent"
+      },
+      "sureOrders": {
+        "title": "Confirmed Orders",
+        "titleOperation": "Confirmed "
+      },
+      "assignedOrders": {
+        "title": "Assigned Orders",
+        "titleOperation": "Assigned",
+        "finishOrder": "Finish order (New order)",
+        "usedShow": "Used show",
+        "total": "Total",
+        "tax": "Tax",
+        "net": "Net",
+        "paymentMethod": "Payment Method",
+        "notes": "Notes",
+        "attachImages": "Attach images",
+        "extraDiscount": "Extra discount",
+        "promotionDiscount": "Promotion discount",
+        "paid": "paid",
+        "select": "Select",
+        "remain": "Remain",
+        "attachments": "Attachments"
+      },
+      "completeOrders": {
+        "title": "Completed Orders",
+        "titleOperation": "Completes"
+      },
+      "refundableOrders": {
+        "title": "Canceled Orders",
+        "titleOperation": "Canceled"
+      }
+    },
+    "expensesItems": {
+      "title": "Expenses Items",
+      "titleOperation": "Expenses Items",
+      "name": "Name",
+      "notes": "Notes",
+      "isActive": "Is Active"
+    },
+    "expensesOrders": {
+      "title": "Expenses",
+      "titleOperation": "Expenses",
+      "expensesItem": "Expenses Item",
+      "date": "Date",
+      "price": "Price",
+      "creationUser": "Creation User",
+      "creationDate": "Creation Date",
+      "attachFile": "Attach File",
+      "show": "Show",
+      "notes": "Notes",
+      "code": "code"
+    },
+    "timeAvailable": {
+      "title": "Time availables",
+      "titleOperation": "Time available",
+      "date": "Date",
+      "back": " Previous Day  ",
+      "next": " Next Day",
+      "city": "City",
+      "categories": "Category",
+      "selectCity": "Please Select City",
+      "selectServiceCategory": "Please Service Category",
+      "selectDate": "Please Select Date",
+      "block": "Booked",
+      "unBlock": "Not Booked",
+      "holidayTeam": "Holiday",
+      "time": "Time"
+    },
+    "priceEvaluation": {
+      "title": "Price Evaluation",
+      "titleOperation": "Price Evaluations ",
+      "assign": "Assign",
+      "cancel": "Cancel",
+      "status": "Status",
+      "isUrgent": "Urgent",
+      "reassign": "Reassign",
+      "show": "Show",
+      "normal": "Normal"
+    },
+    "assignEvaluation": {
+      "title": "Assigned Evaluation",
+      "titleOperation": "Assigned Evaluations ",
+      "assign": "Assign",
+      "cancel": "Cancel",
+      "status": "Status",
+      "isUrgent": "Urgent",
+      "reassign": "Reassign",
+      "reassignEval": "Reassign Evaluation",
+      "show": "Show",
+      "normal": "Normal"
+    },
+    "finishedEvaluation": {
+      "title": "Finished Evaluation",
+      "finish": "Finish",
+      "titleOperation": "Finished Evaluations ",
+      "assign": "Assign",
+      "cancel": "Cancel",
+      "status": "Status",
+      "isUrgent": "Urgent",
+      "reassign": "Reassign",
+      "show": "Show",
+      "normal": "Normal"
+    },
+    "canceledEvaluation": {
+      "title": "Finished Canceled",
+      "titleOperation": "Finished Canceled ",
+      "assign": "Assign",
+      "cancel": "Cancel",
+      "status": "Status",
+      "isUrgent": "Urgent",
+      "reassign": "Reassign",
+      "show": "Show",
+      "normal": "Normal"
+    },
+    "invoices": {
+      "title": "Invoices",
+      "paymentMethod": "Payment Method",
+      "client": "Client",
+      "value": "Value",
+      "service": "Service",
+      "discount": "Discount",
+      "priceBeforeTax": "Price before Tax",
+      "price": "Price",
+      "print": "Print",
+      "total": "Total",
+      "vat": "VAT 15%"
+    },
+    "pending": {
+      "title": "Pending"
+    },
+    "recall": {
+      "title": "Recall"
+    },
+    "newOrder": {
+      "title": "New Order"
+    },
+    "urgented": {
+      "title": "Urgented"
+    },
+    "confirmed": {
+      "title": "Confirmed"
+    },
+    "assigned": {
+      "title": "Assigned"
+    },
+    "completed": {
+      "title": "Completed"
+    },
+    "reopen": {
+      "title": "Reopen"
+    },
+    "canceled": {
+      "title": "Canceled"
+    },
+    "priceEval": {
+      "title": "Price Eval"
+    },
+    "orderMap": {
+      "title": "Order Map"
+    }
+  },
+  "marketingManagement": {
+    "marketingCampaigns": {
+      "title": "Marketing Campaigns"
+    }
+  },
+  "messages": {
+    "mailbox": {
+      "title": "Inbox"
+    }
+  },
+  "financeManagement": {
+    "expensesCategory": {
+      "title": "Expense Categories"
+    },
+    "expenses": {
+      "title": "Expenses"
+    },
+    "paymentType": {
+      "title": "Payment Methods"
+    }
+  },
+  "securityManagement": {
+    "user": {
+      "title": "Users",
+      "Admin": "Admin",
+      "OperationSupervisor": "Operation Supervisor",
+      "TeamLeader": "Team Leader",
+      "SalesMarketingSupervisor": "Sales Marketing Supervisor",
+      "HRManager": "HR Manager",
+      "SalesMarketingSpecialist": "Sales Marketing Specialist",
+      "Marketing": "Marketing",
+      "Accountant": "Accountant",
+      "Other": "Other",
+      "userCode": "Code",
+      "userTypeName": "Type",
+      "employeeCode": "Emp Code",
+      "lastLogin": "Last Login",
+      "loginAs": "Login As",
+      "changePassword": "Reset Password",
+      "name": "Name",
+      "mobile": "Mobile",
+      "userName": "User Name",
+      "employeeName": "Emp Name",
+      "userType": "User Type",
+      "roleName": "Role Name",
+      "basicInfo": "Basic Info",
+      "password": "Password",
+      "editUser": "Edit User",
+      "addUser": "Add User",
+      "roles": "Role",
+      "rePassword": "Re Password",
+      "resetPassword": "Reset Password",
+      "rePasswordAndPasswordNotEqual": "re Password And Password Not Equal",
+      "active": "Active",
+      "noActive": "No Active"
+    },
+    "role": {
+      "title": "Roles",
+      "titleOperation": "Role",
+      "nameDb": "Name Db"
+    },
+    "permission": {
+      "title": "Permissions",
+      "titleOperation": "Permission",
+      "updatePermission": "Permissions Update"
+    }
+  },
+  "basicData": {
+    "whatsapp": {
+      "title": "Whatsapp Template",
+      "titleOperation": "Whatsapp Template",
+      "tableTitle": "Message Title",
+      "body": "Body",
+      "type": "Type Message ",
+      "isActive": "Is Active",
+      "InvoiceWithDiscount": "Invoice With Discount",
+      "InvoiceWithoutDiscount": "Invoice Without Discount",
+      "Recall": "Recall",
+      "Review": "Review",
+      "Visit": "Visit",
+      "AddOrder": "Add Order",
+      "InvoiceVIP": "Invoice VIP",
+      "Invoice": "Invoice",
+      "CampaignAGent": "Campaign",
+      "NewOrder": "Determine Location",
+      "CallCounter": "No Answer"
+    },
+    "banners": {
+      "title": "Banners",
+      "titleOperation": "Banners",
+      "bannerName": "Banner Name",
+      "bannerImage": "Banner Image",
+      "selectImage": "Select Image",
+      "isActive": "isActive"
+    },
+    "integrations": {
+      "title": "Api & Keys",
+      "titleOperation": "Api & Keys"
+    },
+    "whatsAppSetting": {
+      "title": "Whats App Setting",
+      "link": "Link",
+      "mobile": "Mobile",
+      "password": "Password",
+      "instanceId": "Instance Id"
+    },
+    "emailSetting": {
+      "title": "Email Setting"
+    },
+    "setupData": {
+      "title": "Setup Data"
+    },
+    "city": {
+      "title": "Cities",
+      "titleOperation": "City",
+      "lat": "Lat",
+      "lng": "Lng",
+      "radius": "Radius",
+      "districts": "Districts",
+      "district": "District",
+      "addCity": "Add City",
+      "addDistrict": "Add District"
+    },
+    "returnReason": {
+      "title": "Return Reasons"
+    },
+    "cancelReason": {
+      "title": "Cancellation Reasons",
+      "titleOperation": "Cancellation Reason"
+    },
+
+    "service": {
+      "title": "Services"
+    },
+    "serviceType": {
+      "title": "Service Types",
+      "titleOperation": "Service Type"
+    },
+    "serviceCategory": {
+      "title": "Categories",
+      "titleOperation": "Category",
+      "add": "Add Service",
+      "edit": "Edit Service",
+      "services": "Services",
+      "service": "Service",
+      "addServiceCategory": "Add Category",
+      "addService": "Add Service",
+      "price": "Price",
+      "serviceTypeCode": "Service Type",
+      "timeCount": "Time Count",
+      "description": "Description (En)",
+      "DescriptionAr": "Description (Ar)",
+      "ShortDescriptionEn": "Short Description (En)",
+      "ShortDescriptionAr": "Short Description (Ar)",
+      "isMostWanted": "Is Most Wanted",
+      "Publish": "Publish",
+      "ServicePublish": "Service Publish",
+      "ServiceCategories": "Services Categories",
+      "Categories": "Categories",
+      "ServiceImage": "Service Images",
+      "ServiceGallery": "Service Gallery",
+      "AddImage": "Add Image",
+      "english": "English",
+      "arabic": "Arabic",
+      "mainImage": "Main Image",
+      "descriptionAr": "Description Arabic"
+    },
+
+    "channel": {
+      "title": "Channels",
+      "symbol": "Symbol",
+      "siteUrl": "Site Url",
+      "titleOperation": "channel"
+    },
+    "generalSetting": {
+      "title": "General Setting",
+      "tasks": "Daily Tasks",
+      "orders": "Orders",
+      "taskPerfix": "Task Perfix",
+      "orderPerfix": "Order Perfix",
+      "visitMessage": "Visit Message",
+      "reviewMessage": "Review Message",
+      "recallMessage": "Recall Message",
+      "compainMessage": "Compain Message",
+      "confirmOrderMessage": "Confirm Order Message",
+      "invoiceMessageWithDiscount": "Invoice Message With Discount",
+      "invoiceMessageWithOutDiscount": "Invoice Message With Out Discount",
+      "tax": "Tax"
+    },
+    "systemSchedule": {
+      "title": "System Schedules",
+      "tasks": "System Schedule",
+      "task": "Task",
+      "order": "Order",
+      "crm": "CRM",
+      "taskShift": "Task Shift",
+      "agentCareJob": "Client Care  ",
+      "assignOrderJob": "Assign Order  ",
+      "campaignAgentsJob": "Campaign Clients  ",
+      "reviewJob": "Review  ",
+      "moduleType": "Module",
+      "eventSchedule": "Event",
+      "visitJob": "Visit Job",
+      "parameter": "Parameter(Shift-etc)"
+    }
+  },
+  "client": {
+    "client": {
+      "title": "Clients",
+      "titleOperation": "Client",
+      "mobile": "Mobile",
+      "cityName": "City",
+      "channelName": "Channel ",
+      "name": "Name",
+      "email": "Email",
+      "note": "Notes",
+      "editClient": "Edit Client",
+      "addClient": "Add Client",
+      "status": "Status",
+      "profile": "Client Profile"
+    },
+    "clientProfile": {
+      "profile": "Profile",
+      "contacts": "Contacts",
+      "invoices": "Invoices",
+      "payments": "Payments",
+      "orders": "Orders",
+      "porposals": "Porposals",
+      "notes": "Notes",
+      "reView": "Order Review"
+    }
+  },
+  "crm": {
+    "pending": {
+      "title": "Pending"
+    },
+    "recall": {
+      "title": "Recall"
+    },
+    "crmOrders": {
+      "title": "Pending Orders"
+    },
+    "CrmClient": {
+      "title": "Clients"
+    },
+    "leads": {
+      "title": "Leads",
+      "titleOperation": "Lead",
+      "addLeads": "Add Leads",
+      "editLeads": "Edit Leads",
+      "mobile": "Mobile",
+      "cityName": "City",
+      "channelName": "Channel ",
+      "leadType": "Lead Types",
+      "name": "Name",
+      "email": "Email",
+      "note": "Notes",
+      "status": "Status",
+      "Proposed": "Proposed",
+      "Inquiry": "Inquiry",
+      "VIP": "VIP",
+      "vIPNumber": "VIP Number",
+      "discuontPercentage": "discuont(%)"
+    },
+    "serviceAfterSale": {
+      "title": "Service After Sale",
+      "titleOperation": "Service After Sale",
+      "addReview": "Add Review",
+      "review": "Review",
+      "noAnswer": "No Answer",
+      "noReview": "Are You Sure Save No Answer"
+    },
+    "reviewQuestion": {
+      "title": "Review Questions",
+      "titleOperation": "Review Question",
+      "isSendClient": "Show On Website",
+      "sort": "Sort",
+      "answerType": "Answer Types",
+      "items": "Display Name (separate by ,)",
+      "score": "Score Answer (separate by ,)",
+      "point": "Score",
+      "isSeeMobileApp": "Show On  Mobile",
+      "isRequired": "Is Required"
+    },
+    "reviewAnswer": {
+      "title": "Review Answer",
+      "titleOperation": "Review Answer",
+      "answerType": "Answer Shape",
+      "star": "Star",
+      "checkBox": "Check Box",
+      "text": "Text",
+      "point": "Max Score",
+      "sort": "Sort",
+      "radio": "Radio"
+    },
+    "clientReview": {
+      "title": "Clients Review",
+      "titleOperation": "Review Question",
+      "clientName": "Client Name",
+      "orderId": "Order",
+      "clientReviewFinalResultNameAr": "Review Result",
+      "note": "Notes",
+      "mobile": "Mobile",
+      "questionName": "Question Name",
+      "startStatusName": "Inital Status  ",
+      "endStatusName": "Final Status  ",
+      "actionDoing": "Action",
+      "doAction": "Do Action",
+      "clientPrice": "Client Price",
+      "orderPrice": "Order Price",
+      "review": "Action"
+    },
+    "clientReviewPrice": {
+      "title": "Client Review Price",
+      "titleOperation": "Client Review Price",
+      "match": "Match",
+      "notMatch": "Not Match",
+      "matchPrice": "Match Price",
+      "numberMatch": "# Match",
+      "numberNotMatch": "# Not Match",
+      "notReview": "Not Review",
+      "review": "Review",
+      "actionMismatch": "Action Note",
+      "reviewStatus": "Review",
+      "team": "Team"
+    },
+    "clientReviewFinalResult": {
+      "title": "Review Results",
+      "titleOperation": "Review Result",
+      "scoreFrom": "Score From",
+      "scoreTo": "Score To",
+      "color": "Color"
+    },
+    "clientReviewActionDoing": {
+      "title": "Review Actions",
+      "titleOperation": "Review Action"
+    },
+    "reviewstatistics": {
+      "title": "Review statistics",
+      "titleOperation": "Review statistics",
+      "qestionCount": "Qestion Count - Review",
+      "question": "Question"
+    },
+    "crmSetting": {
+      "title": "Crm Setting",
+      "titleOperation": "Crm Setting"
+    }
+  },
+  "statistics": {
+    "orderReview": {
+      "title": "Orders Review",
+      "titleOperation": "Order Review",
+      "cities": "Cities",
+      "teams": "Teams",
+      "dateReview": "Date (From - To) ",
+      "visitDateFromTo": "visitDate (From - To)",
+      "visitDate": "visitDate",
+      "ordersMap": "Orders Map",
+      "ordersDetails": "Orders Details",
+      "evaluationQualityService": "Evaluation Quality Service",
+      "areSatisfiedTeamTreatment": "Team treating you well?",
+      "howPunctualYou": "How punctual were you?",
+      "wouldLikeDealAgain": "Work with us again?"
+    },
+    "orderManager": {
+      "title": "Order Analysis",
+      "titleOperation": "Order Analysis",
+      "totalInvoices": "T. Invoices",
+      "totalOrder": "T.Order",
+      "avgValueOrder": "avg V. Order",
+      "avgTeamOrder": "avg Order / Team",
+      "avgTimeOrder": "avg Order / Time",
+      "orderForDays": "Order Daily/ Days",
+      "orderDaily": "Order Daily"
+    },
+    "orderDaily": {
+      "title": "Order Daily",
+      "title2": "Order Daily Details",
+      "titleOperation": "Order Daily",
+      "notFound": "Not Found",
+      "total": "Total",
+      "time": "Time",
+      "revenue": "Revenue",
+      "cityTime": "City- Work Time",
+      "revenueTime": "Revenue - Time",
+      "orderDays": "Order -  Days",
+      "reorder": "re Order",
+      "teamHoliday": "Holiday",
+      "noOrder": "No Order",
+      "totalCity": "Total City",
+      "totalAvailable": "No Order"
+    }
+  },
+  "store": {
+    "item": {
+      "title": "Items"
+    },
+    "stocktaking": {
+      "title": "Stocktaking"
+    },
+    "storeTransaction": {
+      "title": "Store Transactions"
+    }
+  },
+  "approvals": {
+    "approval-types": {
+      "title": "Approval Types",
+      "nameEn": "Name (En)",
+      "nameAr": "Name (Ar)",
+      "isActive": "Is Active"
+    },
+    "approval-requests": {
+      "title": "Approval Requests",
+      "formTitle": "Title",
+      "description": "Description",
+      "approvalType": "Approval Type",
+      "notes": "notes",
+      "Accept": "Accept",
+      "Reject": "Reject",
+      "NoneReview": "None Review",
+      "status": "Status"
+    }
+  },
+  "ticketSupport": {
+    "ticket": {
+      "title": "tickets"
+    },
+    "newTicket": {
+      "title": "New ticket"
+    }
+  },
+  "approval": {
+    "approval": {
+      "title": "approvals"
+    }
+  }
+}
