@@ -319,7 +319,7 @@
       "successLogin": "تم تسجيل الدخول بنجاح",
       "filedIdRequired": "هذا الحقل مطلوب",
       "areyouSureDelete": "هل أنت متأكد أنك تريد الحذف؟",
-      "employeeHasTargetInSamePeriod":"هذأ الموظف لدية تارجت فى نفس الفترة"
+      "employeeHasTargetInSamePeriod": "هذأ الموظف لدية تارجت فى نفس الفترة"
     },
     "table": {
       "name": "الاسم",
@@ -329,6 +329,7 @@
       "item": "عنصر",
       "search": "بحث",
       "noData": "لا توجد بيانات متاحة",
+      "noAttachments": "لا توجد ملفات متاحة",
       "sort": "ترتيب",
       "log": "السجل",
       "filter": "تصفية",
@@ -352,12 +353,14 @@
       "export": "  تصدير",
       "xlxs": "    تصدير xlsx",
       "pdf": " تصدير pdf",
+      "cancel": "الغاء",
 
       "search": "بحث",
       "addNew": "إضافة جديد",
       "run": "تشغيل",
       "back": "رجوع",
       "view": "رؤية",
+      "proceed": "تقدم",
       "saveAndSend": "حفظ وإرسال"
     },
     "permission": {
@@ -366,6 +369,7 @@
       "delete": "حذف",
       "register": "تسجيل",
       "save": "حفظ",
+      "pendingSteps": "الطلبات المعلقة للمستخدم",
       "changeStatus": "تغيير الحالة",
       "changeText": "تغيير النص",
       "setDefault": "هل افتراضى",
@@ -420,12 +424,14 @@
       "leads": "العملاء المحتملين",
       "nearly": "قريبا",
       "store": "إدارة المخزون",
-      "tickets": "تذاكر لدعم",
-      "approval": "الموافقات"
+      "ticketSupport": "تذاكر لدعم",
+      "approvals": "الموافقات",
+      "sales": "المبيعات"
     },
     "topbar": {
       "quickLinks": "روابط سريعة",
       "newOrder": "طلب جديد",
+      "newSales": "عرض سعر جديد",
       "logOut": "تسجيل الخروج",
       "messages": "الرسائل الداخلية",
       "profile": "ملفي الشخصي",
@@ -451,6 +457,28 @@
       "isActive": "حالة النشاط",
       "isMain": "Is Main"
     },
+    "storeSetting": {
+      "title": "اعدادات المخازن",
+      "nameEn": "الاسم (En)",
+      "nameAr": "الاسم (Ar)",
+      "isActive": "حالة النشاط",
+      "isMain": "Is Main"
+    },
+    "storesItemsUnits": {
+      "title": "الوحدات",
+      "nameEn": "الاسم (En)",
+      "nameAr": "الاسم (Ar)",
+      "isActive": "حالة النشاط",
+      "isMain": "Is Main"
+    },
+    "storesUnits": {
+      "title": "الوحدات",
+      "nameEn": "الاسم (En)",
+      "nameAr": "الاسم (Ar)",
+      "isActive": "حالة النشاط",
+      "isMain": "Is Main"
+    },
+
     "items": {
       "title": "عناصر المخزن",
       "image": "الصورة",
@@ -459,7 +487,13 @@
       "minimumQuantity": "اقل كميه (للتحذير)",
       "isActive": "حالة النشاط",
       "isMain": "أساسى ؟ ",
-      "quantity":"الكمية الفعلية"
+      "basicData": "المعلومات الاساسية",
+      "editItem": "اضافة عنصر",
+      "addItem": "تعديل عنصر",
+      "smallUnit": "الوحدة الصغرى",
+      "largeUnit": "الوحدة الكبرى",
+      "conversionFactor": "Conversion Factor",
+      "quantity": "الكمية الفعلية"
     },
     "stocktaking": {
       "title": "سجل الجرد",
@@ -660,7 +694,40 @@
       "saturday": "السبت",
       "editEmployee": "تعديل موظف",
       "addEmployee": "إضافة موظف",
+      "position": "المنصب",
       "dayOff": "أيام العطلات"
+    },
+    "positionName": {
+      "title": "اسماء المناصب",
+      "addPosition": "اضافة اسم منصب",
+      "nameEn": "الاسم (En)",
+      "nameAr": "الاسم (Ar)",
+      "isHead": "Is Head",
+      "notHead": "ليس رئيس",
+      "head": "رئيس",
+      "employeeName": "اسم الموظف",
+      "employees": "الموظفين"
+    },
+    "departments": {
+      "title": "الاقسام",
+      "departmentName": "اسم القسم",
+      "parentDepartment": "القسم الاعلى",
+      "nameEn": "الاسم (En)",
+      "nameAr": "الاسم (Ar)",
+      "hasParent": "يندرج تحت قسم",
+      "notHasParent": "لا يندرج تحت قسم",
+      "isActive": "حالة النشاط"
+    },
+    "positions": {
+      "title": "المناصب",
+      "addPosition": "اضافة منصب",
+      "nameEn": "الاسم (En)",
+      "nameAr": "الاسم (Ar)",
+      "isHead": "Is Head",
+      "notHead": "ليس رئيس",
+      "head": "رئيس",
+      "employeeName": "اسم الموظف",
+      "employees": "الموظفين"
     },
     "team": {
       "title": "الفرق",
@@ -677,6 +744,23 @@
     },
     "workTime": {
       "title": "جداول العمل"
+    },
+    "channels": {
+      "title": "القنوات",
+      "titleOperation": "القنوات",
+      "channelName": "اسم القناة",
+      "symbol": "الرمز",
+      "siteUrl": "رابط القناة"
+    },
+    "projects": {
+      "title": "المشاريع",
+      "titleOperation": "المشاريع",
+      "nameEn": "الاسم (En)",
+      "nameAr": "الاسم (Ar)",
+      "descriptionEn": "الوصف (En)",
+      "descriptionAr": "الوصف (Ar)",
+      "startDate": "تاريخ البداية",
+      "endDate": "تاريخ النهاية"
     },
     "taskShift": {
       "title": "شفتات المهام اليومية",
@@ -938,8 +1022,14 @@
       "OrderVAT": "الضريبة",
       "discountTypeAdd": "خصم عرض ",
       "invoice": "الفاتورة",
-      "itemPrice":"سعر الخدمة",
-      
+      "itemPrice": "سعر الخدمة",
+      "clientSearch": "بحث العميل  الاسم - الجوال - الكود ",
+      "items": "الأصناف",
+      "orderSaved": "حفظ الطلب",
+      "totalTax": "قيمه الضريبة",
+      "invoiceCode": "# الفاتورة",
+      "orderId": "# الطلب",
+
       "newOrders": {
         "title": "الطلبات الجديدة",
         "titleOperation": "الطلبات الجديدة"
@@ -1244,7 +1334,13 @@
       "titleOperation": "نوع خدمة"
     },
     "service": {
-      "title": "الخدمات"
+      "title": "الخدمات",
+      "isStore": "صنف مخزنى",
+      "smallUnit": "الوحده الصغرى",
+      "largeUnit": "الوحده الكبرى",
+      "conversionFactor": "معامل التحويل",
+      "units": "الوحدات",
+      "addUnit": "إضافه وحدة"
     },
     "serviceCategory": {
       "title": "الفئات",
@@ -1318,6 +1414,7 @@
       "title": "العملاء",
       "titleOperation": "عميل",
       "mobile": "الموبيل",
+      "clientGroup": "مجموعة العملاء",
       "cityName": "المدينة",
       "channelName": "المصدر ",
       "name": "الاسم",
@@ -1326,7 +1423,13 @@
       "editClient": "تعديل عميل",
       "addClient": "إضافة عميل",
       "status": "الحالة",
-      "profile": "ملف العميل"
+      "profile": "ملف العميل",
+      "clientType": "نوع العميل",
+      "NationalAddress": "العنوان الوطنى",
+      "VATNumber": "الرقم الضريبى",
+      "CreditLimit": "الحد الاتمانى",
+      "Individual": "أفراد",
+      "Company": "شركة"
     }
   },
   "crm": {
@@ -1428,6 +1531,10 @@
       "title": "نتائج  تقييم",
       "titleOperation": "نتيجة تقييم"
     },
+    "clientGroups": {
+      "title": "مجموعات العملاء",
+      "titleOperation": "مجموعات العملاء"
+    },
     "reviewstatistics": {
       "title": "إحصائيات تقييم",
       "titleOperation": "إحصائيات تقييم",
@@ -1495,6 +1602,115 @@
     },
     "storeTransaction": {
       "title": "حركة المخزن"
+    },
+    "storeSetting": {
+      "title": "اعدادات المخازن"
+    }
+  },
+
+  "ticketSupport": {
+    "ticketList": {
+      "title": "  التذاكر اليومية",
+      "allTicket": "جميع التذاكر",
+      "complete": "مغلق",
+      "review": "قيد المراجعة",
+      "deleted": "محذوفة",
+      "inproccess": "معلقة",
+      "inTests": "في الاختبارات",
+      "wait": "جديد",
+      "subject": "الاسم",
+      "dateStart": "تاريخ  البداية",
+      "dateEnd": "تاريخ الاستحقاق",
+      "priority": "الأولوية",
+      "status": "الحالة",
+      "ticketMasterAssignees": "المكلفون",
+      "id": "رقم التذكرة",
+      "low": "منخفضة",
+      "meduim": "متوسطة",
+      "high": "مرتفعة",
+      "urgent": "عاجلة",
+      "notStart": "جديد",
+      "inProgress": "معلقة",
+      "testing": "قيد الاختبار",
+      "awatingFeddBack": "بانتظار الملاحظات",
+      "addNewTicket": "تذكرة جديدة",
+      "titleOperation": "التذكرة",
+      "ticketMasterFollowers": "المتابعون",
+      "filter": "بحث",
+      "ticketsList": "قائمة التذاكر",
+      "progress": "مغلق",
+      "allTickets": "كل التذاكر",
+      "countTicket": "عدد التاسكات",
+      "finished": "مكتملة"
+    },
+    "ticketReport": {
+      "title": "إحصائيات التذاكر",
+      "ticketStatusTotal": "حاله التذكرة / الاجمالى",
+      "ticketUserTotal": "تذاكر الموظفين / الاجمالى",
+      "ticketUserDetail": "تفاصيل التذاكر",
+      "ticketMasterId": "معرف التذكرة ",
+      "assignUser": "الموظف",
+      "date": "التاريخ",
+      "ticketStatusName": "الحالة",
+      "dateStart": "تاريخ البداية",
+      "dateEnd": "تاريخ النهاية",
+      "userAssineeToName": "إنتهاء من موظف اخر",
+      "name": "العنوان"
+    },
+    "ticketDetail": {
+      "title": "تفاصيل المهمة"
+    },
+    "todo": {
+      "title": "لائحة التذاكر",
+      "assignUsers": "المكلفون",
+      "members": "الأعضاء",
+      "add": "إضافة",
+      "cancel": "إلغاء",
+      "assigned": "مُكلف",
+      "creatTicket": "إنشاء تذكرة",
+      "subject": "الموضوع",
+      "close": "إغلاق",
+      "save": "حفظ",
+      "status": "الحالة",
+      "trackTicket": "تتبع التذكرة",
+      "timeTracking": "تتبع الوقت",
+      "creationTime": "وقت الإنشاء",
+      "stop": "إيقاف",
+      "start": "بدء",
+      "ticketsNo": "عدد التذاكر",
+      "ticketsTitle": "عنوان التذكرة",
+      "priority": "الأولوية",
+      "dueDate": "تاريخ الاستحقاق",
+      "assignedTo": "المُكلف",
+      "assignedMember": "العضو المكلف",
+      "followerMember": "عضو المتابعة",
+      "ticketMasterFollower": "أعضاء المتابعة",
+      "actions": "الإجراءات",
+      "ticketName": "اسم التذكرة",
+      "dateVisit": "تاريخ الزيارة",
+      "orderId": "رقم الطلب",
+      "statusName": "اسم الحالة",
+      "inProgress": "قيد التنفيذ",
+      "new": "جديد",
+      "finished": "مكتملة",
+      "finishedAnother": "إنهاء من شخص اخر",
+      "notStart": "لم تبدأ",
+      "finishTicket": "إنهاء التذكرة",
+      "orderNotFound": "الطلب غير موجود",
+      "dateStart": "الفترة",
+      "followerTo": "متابعة إلى",
+      "hr": "س",
+      "min": "د",
+      "sort": "ترتيب",
+      "byID": "بالرقم",
+      "byName": "بالاسم",
+      "allTickets": "كل التذاكر",
+      "assignAnother": "إنهاء أخرى",
+      "addTickets": "إضافة تذاكر",
+      "reAssignUsers": "إعادة تخصيص المستخدمين",
+      "assign": "تخصيص",
+      "ticketPeriod": "مده التذكرة",
+      "assignTo": "تعيين إلى"
     }
   },
   "approvals": {
@@ -1504,8 +1720,29 @@
       "nameAr": "الاسم (Ar)",
       "isActive": "حالة النشاط"
     },
+    "departments": {
+      "title": "الاقسام",
+      "departmentName": "اسم القسم",
+      "parentDepartment": "القسم الاعلى",
+      "nameEn": "الاسم (En)",
+      "nameAr": "الاسم (Ar)",
+      "hasParent": "يندرج تحت قسم",
+      "notHasParent": "لا يندرج تحت قسم",
+      "isActive": "حالة النشاط"
+    },
+    "positions": {
+      "title": "المناصب",
+      "addPosition": "اضافة منصب",
+      "nameEn": "الاسم (En)",
+      "nameAr": "الاسم (Ar)",
+      "isHead": "Is Head",
+      "notHead": "ليس رئيس",
+      "head": "رئيس",
+      "employeeName": "اسم الموظف",
+      "employees": "الموظفين"
+    },
     "approval-requests": {
-      "title": "طلبات الموافقة",
+      "title": "اعدادات طلبات",
       "formTitle": "العنوان",
       "description": "الوصف",
       "approvalType": "نوع الموافقة",
@@ -1513,20 +1750,179 @@
       "Accept": "مقبول",
       "Reject": "مرفوض",
       "NoneReview": "لا يوجد مراجعة",
-      "status": "حالة"
-    }
-  },
-  "ticketSupport": {
-    "ticket": {
-      "title": "تذاكر الدعم"
+      "status": "حالة",
+      "isManual": "Is Manual",
+      "responsibleOrder": "ترتيب المسؤولين"
     },
-    "newTicket": {
-      "title": "تذكرة جديدة"
+    "approvals": {
+      "approval-types": {
+        "title": "أنواع الموافقة",
+        "nameEn": "الاسم (En)",
+        "nameAr": "الاسم (Ar)",
+        "isActive": "حالة النشاط"
+      },
+      "departments": {
+        "title": "الاقسام",
+        "departmentName": "اسم القسم",
+        "parentDepartment": "القسم الاعلى",
+        "nameEn": "الاسم (En)",
+        "nameAr": "الاسم (Ar)",
+        "hasParent": "يندرج تحت قسم",
+        "notHasParent": "لا يندرج تحت قسم",
+        "isActive": "حالة النشاط"
+      },
+      "positions": {
+        "title": "المناصب",
+        "addPosition": "اضافة منصب",
+        "nameEn": "الاسم (En)",
+        "nameAr": "الاسم (Ar)",
+        "isHead": "Is Head",
+        "notHead": "ليس رئيس",
+        "head": "رئيس",
+        "employeeName": "اسم الموظف",
+        "employees": "الموظفين"
+      },
+      "approval-settings": {
+        "title": "اعدادات طلبات",
+        "formTitle": "العنوان",
+        "description": "الوصف",
+        "approvalType": "نوع الموافقة",
+        "notes": "ملحوظات",
+        "Accept": "مقبول",
+        "Reject": "مرفوض",
+        "NoneReview": "لا يوجد مراجعة",
+        "status": "حالة",
+        "hierarchy": "التسلسل الوظيفي",
+        "isHierarchy": "طبقا للتسلسل الوظيفي",
+        "position": "المنصب",
+        "action": "اجراء",
+        "pendingSteps": "الطلبات المعلقة للمستخدم",
+        "responsibleOrder": "ترتيب المسؤولين"
+      },
+      "approval-requests": {
+        "title": "طلبات الموافقة",
+        "formTitle": "العنوان",
+        "description": "الوصف",
+        "approvalType": "نوع الموافقة",
+        "notes": "ملحوظات",
+        "Accept": "مقبول",
+        "Reject": "مرفوض",
+        "NoneReview": "لا يوجد مراجعة",
+        "status": "حالة",
+        "isManual": "Is Manual",
+        "pendingSteps": "الطلبات المعلقة للمستخدم",
+        "responsibleOrder": "ترتيب المسؤولين"
+      },
+      "pendingSteps": {
+        "title": "الطلبات المعلقة للمستخدم",
+        "nameEn": "الاسم (En)",
+        "nameAr": "الاسم (Ar)",
+        "reject": "رفض",
+        "approve": "موافقة",
+        "notes": "ملاحظات",
+        "isActive": "حالة النشاط"
+      }
     }
   },
   "approval": {
     "approval": {
       "title": "الموافقات"
+    }
+  },
+  "sales": {
+    "salesOrder": {
+      "title": "طلبات المبيعات",
+      "allOrders": "كل الطلبات",
+      "newOrders": "الطلبات الجديدة",
+      "sureOrder": "الطلبات المؤكدة",
+      "completeOrder": "الطلبات المكتملة",
+      "cancelOrder": " الطلبات الملغية",
+      "itemName": "اسم الصنف",
+      "clientQuantity": "الكميه الطلوبه",
+      "approvedQuantity": "الكميه المنصرفة",
+      "price": "السعر",
+      "discount": "الخصم",
+      "discountType": "نوع الخصم",
+      "unit": "الوحدة",
+      "clientVisitDate": "تاريخ التسليم",
+      "Pending": "إنتظار",
+      "UnderReview": "تحت الموافقة",
+      "Approved": "تمت الموافقه",
+      "Cancel": "ملغي",
+      "Assign": "إسناد لشاحنة",
+      "Finished": "منتهي",
+      "totalQuantity": "إجمالى الكمية",
+      "totalCost": " إجمالى التكلفة",
+      "totalDiscount": "إجمالى الخصم",
+      "netPrice": " إجمالى الصافى",
+      "clientName": "إسم العميل",
+      "vatNumber": "العنوان الضريبى",
+      "mobile": "الجوال",
+      "creditLimit": "الحد الاتمانى",
+      "nationalAddress": "العنوان الوطنى",
+      "clientGroupName": "الفئة",
+      "shipping": "تعديل الشاحنة",
+      "isSync": "مزامنة",
+      "syncSend": "تم الارسال",
+      "syncNotSend": "لم ترسل",
+      "totalPayment": "إجمالى المدفوع",
+      "shippingTruckName": "الشاحنة",
+      "truckUpdate": "تعديل الشاحنة",
+      "order": " الطلبات",
+      "acutalVisitDate":"تاريخ  تسليم الشاحنة"
+    },
+    "requestPrice": {
+      "title": "طلبات الاسعار",
+      "titleOperation": "طلبات الاسعار"
+    },
+    "salesRequests": {
+      "title": "طلبات المبيعات",
+      "titleOperation": "طلبات المبيعات",
+      "orderNumber": "رقم الطلب",
+      "visitDate": "تاريخ الزيارة",
+      "status": "الحالة",
+      "clientGroup": "مجموعة العملاء",
+      "clients": "العملاء",
+      "clientLocation": "موقع العميل",
+      "itemGroup": "مجموعة العناصر",
+      "items": "العناصر",
+      "itemName": "اسم العنصر",
+      "unit": "الوحدة",
+      "quantity": "الكمية",
+      "priceUnit": "سعر الوحده",
+      "discount": "الخصم",
+      "net": "الصافي",
+      "discountType":"نوع الخصم",
+      "actions": "الإجراءات"
+    },
+    "salesSetting": {
+      "title": "اعدادات طلبات الاسعار",
+      "titleOperation": "اعدادات طلبات الاسعار"
+    },
+    "salesInvoices": {
+      "title": "فواتير المبيعات",
+      "titleOperation": "فواتير المبيعات",
+      "cost": "التكلفة",
+      "paymentTypeName": "طريقة الدفع",
+      "attachment": "ملف مرفق",
+      "addPayment": "اضافة دفع",
+      "payment": "الدفع",
+      "tax": "الضريبة",
+      "notes": "الملاحظات",
+      "total": "الكلي"
+    },
+    "truckDriver": {
+      "title": "سائقي الشاحنات",
+      "titleOperation": "سائقي الشاحنات"
+    },
+    "shippingTruck": {
+      "title": "شاحنات النقل",
+      "titleOperation": "شاحنات النقل",
+      "name": "اسم الشاحنة",
+      "truckNumber": "رقم الشاحنة",
+      "truckDriverName": "اسم سائق الشاحنة",
+      "driver": "السائق",
+      "cityName":"المدن"
     }
   }
 }

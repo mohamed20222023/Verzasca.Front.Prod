@@ -105,7 +105,7 @@ a.ck.ck-button{
 }
 
 .ck-editor__editable {
-    min-height: 245px !important;
+    min-height: 90px !important;
 }
 
 .ck[class*=ck-heading_heading] {
@@ -156,8 +156,6 @@ a.ck {
         }
     }
 }
-
-
 
 .ck.ck-labeled-field-view>.ck.ck-labeled-field-view__input-wrapper>.ck.ck-label{
     background: $dropdown-bg !important;

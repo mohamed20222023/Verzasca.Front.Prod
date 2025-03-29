@@ -332,6 +332,7 @@
       "item": "Item",
       "search": "Search",
       "noData": "No data available",
+      "noAttachments": "No available attachments",
       "sort": "Sort",
       "log": "Log",
       "filter": "Filter",
@@ -354,6 +355,7 @@
       "close": "Close",
       "filter": "Filter",
       "clear": "Clear",
+      "cancel": "Cancel",
       "export": "Export",
       "xlxs": "Export  xlsx",
       "pdf": "Export  Pdf",
@@ -363,6 +365,7 @@
       "run": "Run",
       "view": "View",
       "loading": "Loading",
+      "proceed": "proceed",
       "saveAndSend": "Save & Send"
     },
 
@@ -376,6 +379,7 @@
       "changeText": "Change Text",
       "setDefault": "Set as Default",
       "assignPermission": "Assign Permission",
+      "pendingSteps": "Pending Requests For User",
       "search": "Search",
       "serachadvanced": "Advanced Search",
       "openreport": "Open Report",
@@ -427,12 +431,14 @@
       "leads": "Leads",
       "nearly": "Nearly",
       "store": "Stores",
-      "tickets": "Tickets",
-      "approval": "Approvals"
+      "ticketSupport": "Tickets",
+      "approvals": "Approvals",
+      "sales": "Sales"
     },
     "topbar": {
       "quickLinks": "Quick Links",
-      "newOrder": "New Order",
+      "newOrder": "  Order Service",
+      "newSales": " Order Sales",
       "logOut": "Logout",
       "messages": "Internal Messages",
       "profile": "My Profile",
@@ -459,6 +465,27 @@
       "isActive": "Is Active",
       "isMain": "Is Main"
     },
+    "storeSetting": {
+      "title": "Store Setting",
+      "nameEn": "Name (En)",
+      "nameAr": "Name (Ar)",
+      "isActive": "Is Active",
+      "isMain": "Is Main"
+    },
+    "storesItemsUnits": {
+      "title": "Units",
+      "nameEn": "Name (En)",
+      "nameAr": "Name (Ar)",
+      "isActive": "Is Active",
+      "isMain": "Is Main"
+    },
+    "storesUnits": {
+      "title": "Units",
+      "nameEn": "Name (En)",
+      "nameAr": "Name (Ar)",
+      "isActive": "Is Active",
+      "isMain": "Is Main"
+    },
     "items": {
       "title": "Stores Items",
       "image": "Image",
@@ -467,6 +494,12 @@
       "minimumQuantity": "Limit QTY (Min)",
       "isActive": "Is Active",
       "isMain": "Is Main",
+      "basicData": "Basic Data",
+      "editItem": "Edit Item",
+      "addItem": "Add Item",
+      "smallUnit": "Small Unit",
+      "largeUnit": "Large Unit",
+      "conversionFactor": "Conversion Factor",
       "quantity": "Actual Quantity"
     },
     "stocktaking": {
@@ -636,6 +669,111 @@
       "shiftFollowers": "Shift Followers"
     }
   },
+  "ticketSupport": {
+    "ticketList": {
+      "title": "Daily Tickets  ",
+      "allTicket": "All Tickets",
+      "complete": "Closed",
+      "review": "Review",
+      "deleted": "Deleted",
+      "inproccess": "Pending",
+      "inTests": "In Tests",
+      "wait": "New",
+      "subject": "Name",
+      "dateStart": "Start Date",
+      "dateEnd": "Due Date",
+      "priority": "Priority",
+      "status": "Status",
+      "ticketMasterAssignees": "Assigned To",
+      "id": "Ticket ID",
+      "low": "Low",
+      "meduim": "Medium",
+      "high": "High",
+      "urgent": "Urgent",
+      "notStart": "New",
+      "inProgress": "Pending",
+      "testing": "Testing",
+      "awatingFeddBack": "Awaiting Feedback",
+      "addNewTicket": "New Ticket",
+      "titleOperation": "Ticket",
+      "ticketMasterFollowers": "Followers",
+      "filter": "Filter",
+      "ticketsList": "Tickets List",
+      "progress": "Closed",
+      "allTickets": "All Tickets",
+      "countTicket": "Ticket Count",
+      "finished": "Finished"
+    },
+    "ticketReport": {
+      "title": "Ticket Statistics ",
+      "ticketStatusTotal": "Ticket Status / Total",
+      "ticketUserTotal": "Ticket User / Total",
+      "ticketUserDetail": "Ticket User Detail",
+      "ticketMasterId": "# Ticket ",
+      "assignUser": "Assign User",
+      "date": "Date",
+      "ticketStatusName": "Status Name",
+      "dateStart": "Date Start",
+      "dateEnd": "Date End",
+      "userAssineeToName": "Assign Another",
+      "name": "Title"
+    },
+    "ticketDetail": {
+      "title": "Task Details"
+    },
+    "todo": {
+      "title": "To do",
+      "assignUsers": "Assigned Users",
+      "members": "Members",
+      "add": "Add",
+      "cancel": "cancel",
+      "assigned": "Assigned",
+      "creatTicket": "Creat Ticket",
+      "subject": "Subject",
+      "close": "Close",
+      "save": "Save",
+      "status": "Status",
+      "trackTicket": "Track Ticket",
+      "timeTracking": "Time Tracking",
+      "creationTime": "Creation Time",
+      "stop": "Stop",
+      "start": "Start",
+      "ticketsNo": "Tickets No",
+      "ticketsTitle": "Tickets Title",
+      "priority": "Priority",
+      "dueDate": "DueDate",
+      "assignedTo": "Assigned To",
+      "assignedMember": "Assigned Member",
+      "followerMember": "Follower Member",
+      "ticketMasterFollower": "Follower Members",
+      "actions": "Actions",
+      "ticketName": "Ticket Name",
+      "dateVisit": "Date Visit",
+      "orderId": "Order Id",
+      "statusName": "Status Name",
+      "inProgress": "In Progress",
+      "finished": "Finished",
+      "finishedAnother": "Finished Another",
+      "notStart": "Not Start",
+      "finishTicket": "Finish Ticket",
+      "orderNotFound": "Order Not Found",
+      "dateStart": "Period",
+      "followerTo": "Follower To",
+      "hr": "H",
+      "min": "Min",
+      "sort": "Sort",
+      "byID": "By ID",
+      "byName": "By Name",
+      "allTickets": "All Tickets",
+      "assignAnother": "Finished Another",
+      "addTickets": "Add Tickets",
+      "reAssignUsers": "Re_Assign Users",
+      "assign": "Assign",
+      "ticketPeriod": "Ticket Time",
+      "assignTo": "Assign To"
+    }
+  },
+
   "hr": {
     "employee": {
       "title": "Employees",
@@ -665,7 +803,40 @@
       "wednesday": "Wednesday",
       "editEmployee": "Edit Employee",
       "addEmployee": "Add Employee",
+      "position": "Position",
       "dayOff": "Day Off"
+    },
+    "positionName": {
+      "title": "Position Name",
+      "addPosition": "Add Position Name",
+      "nameEn": "Name (En)",
+      "nameAr": "Name (Ar)",
+      "isHead": "Is Head",
+      "employeeName": "Employee Name",
+      "notHead": "Not Head",
+      "head": "Head",
+      "employees": "Employees"
+    },
+    "departments": {
+      "title": "departments",
+      "departmentName": "Department Name",
+      "parentDepartment": "Parent Department",
+      "nameEn": "Name (En)",
+      "nameAr": "Name (Ar)",
+      "hasParent": "Has Parent",
+      "notHasParent": "Not Has Parent",
+      "isActive": "Is Active"
+    },
+    "positions": {
+      "title": "positions",
+      "addPosition": "Add Position",
+      "nameEn": "Name (En)",
+      "nameAr": "Name (Ar)",
+      "isHead": "Is Head",
+      "employeeName": "Employee Name",
+      "notHead": "Not Head",
+      "head": "Head",
+      "employees": "Employees"
     },
     "team": {
       "title": "Teams",
@@ -684,6 +855,23 @@
     "workTime": {
       "title": "Work Times",
       "titleOperation": "Work Time"
+    },
+    "channels": {
+      "title": "Channels",
+      "titleOperation": "Channels",
+      "channelName": "Channel Name",
+      "symbol": "Symbol",
+      "siteUrl": "Site Url"
+    },
+    "projects": {
+      "title": "Projects",
+      "titleOperation": "Projects",
+      "nameEn": "Name (En)",
+      "nameAr": "Name (Ar)",
+      "descriptionEn": "Description (En)",
+      "descriptionAr": "Description (Ar)",
+      "startDate": "Start Date",
+      "endDate": "End Date"
     },
     "taskShift": {
       "title": "Daily Task Shifts",
@@ -817,7 +1005,7 @@
       "paid": "Cost",
       "file": "file attached",
       "AvailableTimes": "Available Times",
-      "noServices": "No Services Selected Yet",
+      "noServices": "No Item Selected Yet",
       "SubTotal": "Price Before (Discount)",
       "PriceBeforeVat": "Price Before (VAT)",
       "Discount": "Discount .",
@@ -946,14 +1134,21 @@
       "teams": " Teams",
       "discount": "Discount precentage",
       "teamAssignedWeekOrders": "Assigned Next Week",
-      "PriceAfterDisaccount":"Price After (Discount)",
-      "assign":"Assign",
-      "confirmed":"Confirmed",
+      "PriceAfterDisaccount": "Price After (Discount)",
+      "assign": "Assign",
+      "confirmed": "Confirmed",
       "isFree": "Is Free",
-      "OrderVAT":"VAT",
-      "discountTypeAdd":"Promotion ",
-      "invoice":"Invoice",
-      "itemPrice":"Item Price",
+      "OrderVAT": "VAT",
+      "discountTypeAdd": "Promotion ",
+      "invoice": "Invoice",
+      "itemPrice": "Item Price",
+      "clientSearch": " Client ( Name - Phone - Code - VAT Number )",
+      "items": "Items",
+      "orderSaved": "Order Saved",
+      "totalTax": "Tax",
+      "invoiceCode": "# Invoice ",
+      "orderId": "# Code",
+
       "newOrders": {
         "title": "New Orders",
         "titleOperation": "New"
@@ -1254,11 +1449,18 @@
     },
 
     "service": {
-      "title": "Services"
+      "title": "Services",
+      "isStore": "is Item Store",
+      "smallUnit": "Small Unit",
+      "largeUnit": "Large Unit",
+      "conversionFactor": "Conversion Factor",
+      "units": "Units",
+      "addUnit": "Add Unit"
     },
     "serviceType": {
       "title": "Service Types",
       "titleOperation": "Service Type"
+     
     },
     "serviceCategory": {
       "title": "Categories",
@@ -1333,6 +1535,7 @@
       "title": "Clients",
       "titleOperation": "Client",
       "mobile": "Mobile",
+      "clientGroup": "Client Group",
       "cityName": "City",
       "channelName": "Channel ",
       "name": "Name",
@@ -1341,7 +1544,13 @@
       "editClient": "Edit Client",
       "addClient": "Add Client",
       "status": "Status",
-      "profile": "Client Profile"
+      "profile": "Client Profile",
+      "clientType": "Client Type",
+      "NationalAddress": "National Address",
+      "VATNumber": "VAT-Number",
+      "CreditLimit": "Credit Limit",
+      "Individual":"Individual",
+      "Company":"Company"
     },
     "clientProfile": {
       "profile": "Profile",
@@ -1459,6 +1668,10 @@
       "title": "Review Actions",
       "titleOperation": "Review Action"
     },
+    "clientGroups": {
+      "title": "Clients Groups",
+      "titleOperation": "Clients Groups"
+    },
     "reviewstatistics": {
       "title": "Review statistics",
       "titleOperation": "Review statistics",
@@ -1524,38 +1737,183 @@
     },
     "storeTransaction": {
       "title": "Store Transactions"
+    },
+    "storeSetting": {
+      "title": "Stores Setting"
     }
   },
   "approvals": {
     "approval-types": {
-      "title": "Approval Types",
+      "title": "Approval Transactions",
       "nameEn": "Name (En)",
       "nameAr": "Name (Ar)",
       "isActive": "Is Active"
+    },
+    "departments": {
+      "title": "departments",
+      "departmentName": "Department Name",
+      "parentDepartment": "Parent Department",
+      "nameEn": "Name (En)",
+      "nameAr": "Name (Ar)",
+      "hasParent": "Has Parent",
+      "notHasParent": "Not Has Parent",
+      "isActive": "Is Active"
+    },
+    "positions": {
+      "title": "positions",
+      "addPosition": "Add Position",
+      "nameEn": "Name (En)",
+      "nameAr": "Name (Ar)",
+      "isHead": "Is Head",
+      "employeeName": "Employee Name",
+      "notHead": "Not Head",
+      "head": "Head",
+      "employees": "Employees"
+    },
+    "approval-settings": {
+      "title": "Approval setting",
+      "formTitle": "Title",
+      "description": "Description",
+      "approvalType": "Approval Transaction",
+      "notes": "notes",
+      "Accept": "Accept",
+      "Reject": "Reject",
+      "NoneReview": "None Review",
+      "hierarchy": "Hierarchy",
+      "position": "Position",
+      "status": "Status",
+      "action": "Action",
+      "isHierarchy": "According to hierarchy",
+      "pendingSteps": "Pending Requests For User",
+      "responsibleOrder": "Responsibles Order"
     },
     "approval-requests": {
       "title": "Approval Requests",
       "formTitle": "Title",
       "description": "Description",
-      "approvalType": "Approval Type",
+      "approvalType": "Approval Transaction",
       "notes": "notes",
       "Accept": "Accept",
       "Reject": "Reject",
       "NoneReview": "None Review",
-      "status": "Status"
-    }
-  },
-  "ticketSupport": {
-    "ticket": {
-      "title": "tickets"
+      "status": "Status",
+      "isManual": "Is Manual",
+      "pendingSteps": "Pending Requests For User",
+      "responsibleOrder": "Responsibles Order"
     },
-    "newTicket": {
-      "title": "New ticket"
+    "pendingSteps": {
+      "title": "Pending Requests For User",
+      "nameEn": "Name (En)",
+      "nameAr": "Name (Ar)",
+      "reject": "Reject",
+      "approve": "Approve",
+      "notes": "Notes",
+      "isActive": "Is Active"
     }
   },
+
   "approval": {
     "approval": {
       "title": "approvals"
+    }
+  },
+  "sales": {
+    "salesOrder":{
+      "title": "Sales Orders",
+      "allOrders": "All Orders",
+      "newOrders": "New Orders",
+      "sureOrder": "Sure Orders",
+      "completeOrder": "Complete Orders",
+      "cancelOrder": "Cancel Orders",
+      "itemName": "Item Name",
+      "clientQuantity": "Client Quantity",
+      "approvedQuantity": "Approved Quantity",
+      "price": "Price",
+      "discount": "Discount",
+      "discountType": "Discount Type ",
+      "unit": "Unit",
+      "Cost": "Cost",
+      "Precentage": "Precentage",
+      "clientVisitDate": "Delivery Date",
+      "Pending": "Pending",
+      "UnderReview": "UnderReview",
+      "Approved": "Approved",
+      "Finished": "Finished",
+      "Cancel": "Canceled",
+      "Assign": "Assign",
+      "totalQuantity": "T.Quantity",
+      "totalCost": "T.Cost",
+      "totalDiscount": "T.Discount",
+      "netPrice": "T.Net",
+      "clientName": "Client Name",
+      "vatNumber": "VAT-Number",
+      "mobile": "Mobile",
+      "creditLimit": "Credit Limit",
+      "nationalAddress": "National Address",
+      "clientGroupName": "Group Name",
+      "shipping":"Edit Truck",
+      "isSync":"Odoo Sync",
+      "syncSend":"Sended",
+      "syncNotSend":"Not Send",
+      "totalPayment":"T.Payment",
+      "shippingTruckName":"Truck",
+      "truckUpdate":"Truck Update",
+      "order":"#SO#",
+      "acutalVisitDate":"Truck Date Delivery"
+    },
+    "requestPrice": {
+      "title": "Requests Price",
+      "titleOperation": "Requests Price"
+    },
+    "salesRequests": {
+      "title": "Sales Requests",
+      "titleOperation": "Sales Requests",
+      "orderNumber": "Order Number",
+      "visitDate": "Visit Date",
+      "status": "Status",
+      "clientGroup": "Client Group",
+      "clients": "Clients",
+      "clientLocation": "Client Location",
+      "itemGroup": "Item Group",
+      "items": "Items",
+      "itemName": "Item Name",
+      "unit": "Unit",
+      "quantity": "QTY",
+      "priceUnit": "Price",
+      "discount": "Discount",
+      "net": "Net",
+      "actions": "Actions",
+      "discountType":"D.Type "
+    },
+    "salesSetting": {
+      "title": "Sales Setting",
+      "titleOperation": "Sales Setting"
+    },
+    "salesInvoices": {
+      "title": "Sales Invoices",
+      "titleOperation": "Sales Invoices",
+      "cost": "Cost",
+      "paymentTypeName": "Payment Name",
+      "attachment": "Attachment",
+      "addPayment": "Add Payment",
+      "payment": "Payment",
+      "tax": "Tax",
+      "notes": "Notes",
+      "total": "Total"
+    },
+    "truckDriver": {
+      "title": "Truck Drivers",
+      "titleOperation": "Truck Drivers"
+    },
+    "shippingTruck": {
+      "title": "Shipping Trucks",
+      "titleOperation": "Shipping Trucks",
+      "name": "Truck Name",
+      "truckNumber": "Truck Number",
+      "truckDriverName": "Truck Driver Name",
+      "driver": "Driver",
+      "cities":"Cities",
+      "cityName":"Cities"
     }
   }
 }
