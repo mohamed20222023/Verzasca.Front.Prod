@@ -1029,6 +1029,8 @@
       "totalTax": "قيمه الضريبة",
       "invoiceCode": "# الفاتورة",
       "orderId": "# الطلب",
+      "orderSavedAsDraft": "حفظ كمسودة",
+      "creditLimit": "  الحد الأتمانى",
 
       "newOrders": {
         "title": "الطلبات الجديدة",
@@ -1336,6 +1338,8 @@
     "service": {
       "title": "الخدمات",
       "isStore": "صنف مخزنى",
+      "isNotStore": "ليس صنف مخزنى",
+
       "smallUnit": "الوحده الصغرى",
       "largeUnit": "الوحده الكبرى",
       "conversionFactor": "معامل التحويل",
@@ -1850,6 +1854,8 @@
       "Approved": "تمت الموافقه",
       "Cancel": "ملغي",
       "Assign": "إسناد لشاحنة",
+      "Accept": "تم الموافقة",
+      "Reject": "تم الرفض",
       "Finished": "منتهي",
       "totalQuantity": "إجمالى الكمية",
       "totalCost": " إجمالى التكلفة",
@@ -1869,7 +1875,21 @@
       "shippingTruckName": "الشاحنة",
       "truckUpdate": "تعديل الشاحنة",
       "order": " الطلبات",
-      "acutalVisitDate":"تاريخ  تسليم الشاحنة"
+      "acutalVisitDate": "تاريخ  تسليم الشاحنة",
+      "clientDeliveryDate": "تاريخ التسليم للعميل",
+      "acutalDeliveryDate": "تاريخ التسليم الفعلى",
+      "plzSelectTrunck": "يجب أختيار شاحنه",
+      "printBillOfLading": "طباعه الاصناف",
+      "finihedOrder": "إنهاء الطلب",
+      "newOrder": "رجوع  طلب جديد",
+      "cancelReasonName": "السبب",
+      "all": "كل ",
+      "assignTrunk": "إسناد للشاحنات",
+      "addRequestLimit": "طلب رفع الحد الاتمانى",
+      "assignOrder": "اسناد الطلب",
+      "draftOrder": "الطلبات المسودة",
+      "printOrder": "طباعه الطلب",
+      "clientLocationName":"الموقع"
     },
     "requestPrice": {
       "title": "طلبات الاسعار",
@@ -1892,7 +1912,7 @@
       "priceUnit": "سعر الوحده",
       "discount": "الخصم",
       "net": "الصافي",
-      "discountType":"نوع الخصم",
+      "discountType": "نوع الخصم",
       "actions": "الإجراءات"
     },
     "salesSetting": {
@@ -1922,7 +1942,29 @@
       "truckNumber": "رقم الشاحنة",
       "truckDriverName": "اسم سائق الشاحنة",
       "driver": "السائق",
-      "cityName":"المدن"
+      "cityName": "المدن"
+    },
+    "requestPersonSales": {
+      "title": "طلبات المندوب",
+      "titleOperation": "طلب المندوب",
+      "requestPersonStatus": "حالة الطلب"
+    },
+    "clientCollection": {
+      "title": "تحصيلات العميل",
+      "titleOperation": "تحصيل عمبل",
+      "clientName": "إسم العميل",
+      "cost": "التكلفة",
+      "notes": "ملاحظات",
+      "isSyncOdoo": "مزامنه اودو",
+      "syncDate": "تاريخ المزامنة"
+    },
+    "priceList": {
+      "title": "قائمة الاسعار",
+      "titleOperation": "فائمة سعر"
+    },
+    "assignTruckOrder": {
+      "title": "طلبات الشاحنات المسنده",
+      "titleOperation": "طلب شاحنه مسند"
     }
   }
 }

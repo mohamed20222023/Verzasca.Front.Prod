@@ -1148,6 +1148,8 @@
       "totalTax": "Tax",
       "invoiceCode": "# Invoice ",
       "orderId": "# Code",
+      "orderSavedAsDraft":"Saved As Draft",
+      "creditLimit":"Credit Limit",
 
       "newOrders": {
         "title": "New Orders",
@@ -1451,6 +1453,7 @@
     "service": {
       "title": "Services",
       "isStore": "is Item Store",
+      "isNotStore": "Not Item Store",
       "smallUnit": "Small Unit",
       "largeUnit": "Large Unit",
       "conversionFactor": "Conversion Factor",
@@ -1818,7 +1821,7 @@
     }
   },
   "sales": {
-    "salesOrder":{
+    "salesOrder": {
       "title": "Sales Orders",
       "allOrders": "All Orders",
       "newOrders": "New Orders",
@@ -1836,9 +1839,11 @@
       "Precentage": "Precentage",
       "clientVisitDate": "Delivery Date",
       "Pending": "Pending",
-      "UnderReview": "UnderReview",
+      "UnderReview": "Under Review",
       "Approved": "Approved",
       "Finished": "Finished",
+      "Accept": "Accept",
+      "Reject": "Reject",
       "Cancel": "Canceled",
       "Assign": "Assign",
       "totalQuantity": "T.Quantity",
@@ -1851,15 +1856,29 @@
       "creditLimit": "Credit Limit",
       "nationalAddress": "National Address",
       "clientGroupName": "Group Name",
-      "shipping":"Edit Truck",
-      "isSync":"Odoo Sync",
-      "syncSend":"Sended",
-      "syncNotSend":"Not Send",
-      "totalPayment":"T.Payment",
-      "shippingTruckName":"Truck",
-      "truckUpdate":"Truck Update",
-      "order":"#SO#",
-      "acutalVisitDate":"Truck Date Delivery"
+      "shipping": "Edit Truck",
+      "isSync": "Odoo Sync",
+      "syncSend": "Sended",
+      "syncNotSend": "Not Send",
+      "totalPayment": "T.Payment",
+      "shippingTruckName": "Truck",
+      "truckUpdate": "Truck Update",
+      "order": "#SO#",
+      "acutalVisitDate": "Delivery Date ",
+      "clientDeliveryDate": "Client Delivery Date",
+      "acutalDeliveryDate": "Acutal Delivery Date",
+      "plzSelectTrunck": "PLZ Select Trunck",
+      "printBillOfLading": "Print Items",
+      "finihedOrder": "Finihed Order",
+      "newOrder": "Go New Order",
+      "cancelReasonName": "Reason ",
+      "all":"All",
+      "assignTrunk":"Assign Trunk",
+      "addRequestLimit":"Add Request Limit",
+      "assignOrder":"Assign Order",
+      "draftOrder":"Draft Orders",
+      "printOrder":"Print Order",
+      "clientLocationName":"Location"
     },
     "requestPrice": {
       "title": "Requests Price",
@@ -1883,7 +1902,7 @@
       "discount": "Discount",
       "net": "Net",
       "actions": "Actions",
-      "discountType":"D.Type "
+      "discountType": "D.Type "
     },
     "salesSetting": {
       "title": "Sales Setting",
@@ -1912,8 +1931,30 @@
       "truckNumber": "Truck Number",
       "truckDriverName": "Truck Driver Name",
       "driver": "Driver",
-      "cities":"Cities",
-      "cityName":"Cities"
+      "cities": "Cities",
+      "cityName": "Cities"
+    },
+    "requestPersonSales": {
+      "title": "Request Client limit",
+      "titleOperation": "Request Client limit",
+      "requestPersonStatus":"Status"
+    },
+    "clientCollection": {
+      "title": "Client Payments",
+      "titleOperation": "Client Payment",
+      "clientName": "Client Name",
+      "cost": "Cost",
+      "notes": "Notes",
+      "isSyncOdoo": "Sync Odoo",
+      "syncDate": "Sync Date"
+    },
+    "priceList": {
+      "title": "Price List",
+      "titleOperation": "Price List"
+    },
+     "assignTruckOrder": {
+      "title": "Assign Truck Orders",
+      "titleOperation": "Assign Truck Order"
     }
   }
 }
