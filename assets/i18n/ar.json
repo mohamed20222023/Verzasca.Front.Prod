@@ -319,7 +319,8 @@
       "successLogin": "تم تسجيل الدخول بنجاح",
       "filedIdRequired": "هذا الحقل مطلوب",
       "areyouSureDelete": "هل أنت متأكد أنك تريد الحذف؟",
-      "employeeHasTargetInSamePeriod": "هذأ الموظف لدية تارجت فى نفس الفترة"
+      "employeeHasTargetInSamePeriod": "هذأ الموظف لدية تارجت فى نفس الفترة",
+      "AllQuntityShippingOrDelivery": "جميع الكميات تم شحنها أو تسليمها"
     },
     "table": {
       "name": "الاسم",
@@ -695,7 +696,8 @@
       "editEmployee": "تعديل موظف",
       "addEmployee": "إضافة موظف",
       "position": "المنصب",
-      "dayOff": "أيام العطلات"
+      "dayOff": "أيام العطلات",
+      "cityName":"المدن"
     },
     "positionName": {
       "title": "اسماء المناصب",
@@ -1031,7 +1033,7 @@
       "orderId": "# الطلب",
       "orderSavedAsDraft": "حفظ كمسودة",
       "creditLimit": "  الحد الأتمانى",
-
+      "shippingOrder": "رقم الشحن",
       "newOrders": {
         "title": "الطلبات الجديدة",
         "titleOperation": "الطلبات الجديدة"
@@ -1254,7 +1256,9 @@
       "resetPassword": "تغيير كلمة المرور",
       "rePasswordAndPasswordNotEqual": "كلمة المرور غير متطابقتين",
       "active": "نشط",
-      "noActive": "غير نشط"
+      "noActive": "غير نشط",
+      "SalesPerson":"مندوب مبيعات"
+
     },
     "role": {
       "title": "صلاحية",
@@ -1889,7 +1893,28 @@
       "assignOrder": "اسناد الطلب",
       "draftOrder": "الطلبات المسودة",
       "printOrder": "طباعه الطلب",
-      "clientLocationName":"الموقع"
+      "clientLocationName": "الموقع",
+      "terms": "الشروط والأحكام",
+      "termsPlaceholder": "أدخل الشروط والأحكام الخاصة بنشاطك التجاري لعرضها في معاملاتك",
+      "truncks": "إختر شاحنة",
+      "total": "الإجمالى",
+      "extraDiscount": "الخصم ",
+      "tax": "الضريبه (15%)",
+      "net": "الصافى",
+      "deliveryQuantity": "الكمية المسلمة",
+      "WaitTrunk": "إنتظار الشاحنة",
+      "ArriveStore": "فى المخزن",
+      "GoClient": "فى الطريق للعميل",
+      "ArriveClient": "تم الوصول للعميل",
+      "DeliveryClient": "تم استلام العميل",
+      "DelayOrder": "تاجيل الاستلام",
+      "CancelOrder": "إلغاء الاستلام",
+      "trunckStatus":"حالة الشاحنة",
+      "deliveryStatus":"حاله التسليم",
+      "noDelivery":"لا يوجد تسليم",
+      "partialDelivery":"تسليم جزئى",
+      "fullDelivery":"تسليم كامل"
+
     },
     "requestPrice": {
       "title": "طلبات الاسعار",
@@ -1956,7 +1981,8 @@
       "cost": "التكلفة",
       "notes": "ملاحظات",
       "isSyncOdoo": "مزامنه اودو",
-      "syncDate": "تاريخ المزامنة"
+      "syncDate": "تاريخ المزامنة",
+      "paymentTypeName":"طريقة الدفع"
     },
     "priceList": {
       "title": "قائمة الاسعار",

@@ -322,7 +322,8 @@
       "successLogin": "Logged in successfully",
       "filedIdRequired": "This field is required",
       "areyouSureDelete": "Are you sure you want to delete?",
-      "employeeHasTargetInSamePeriod": "Employee Has Target Type In Same Period"
+      "employeeHasTargetInSamePeriod": "Employee Has Target Type In Same Period",
+      "AllQuntityShippingOrDelivery":"All quantity are  in shipping or delivery !"
     },
     "table": {
       "name": "Name",
@@ -804,7 +805,8 @@
       "editEmployee": "Edit Employee",
       "addEmployee": "Add Employee",
       "position": "Position",
-      "dayOff": "Day Off"
+      "dayOff": "Day Off",
+      "cityName":"Cities"
     },
     "positionName": {
       "title": "Position Name",
@@ -1150,6 +1152,7 @@
       "orderId": "# Code",
       "orderSavedAsDraft":"Saved As Draft",
       "creditLimit":"Credit Limit",
+      "shippingOrder":"SHO",
 
       "newOrders": {
         "title": "New Orders",
@@ -1373,7 +1376,8 @@
       "resetPassword": "Reset Password",
       "rePasswordAndPasswordNotEqual": "re Password And Password Not Equal",
       "active": "Active",
-      "noActive": "No Active"
+      "noActive": "No Active",
+      "SalesPerson": "Sales Person"
     },
     "role": {
       "title": "Roles",
@@ -1451,7 +1455,7 @@
     },
 
     "service": {
-      "title": "Services",
+      "title": "Items & Services",
       "isStore": "is Item Store",
       "isNotStore": "Not Item Store",
       "smallUnit": "Small Unit",
@@ -1824,8 +1828,8 @@
     "salesOrder": {
       "title": "Sales Orders",
       "allOrders": "All Orders",
-      "newOrders": "New Orders",
-      "sureOrder": "Sure Orders",
+      "newOrders": "Approve Quantity",
+      "sureOrder": "Prepare Shipping",
       "completeOrder": "Complete Orders",
       "cancelOrder": "Cancel Orders",
       "itemName": "Item Name",
@@ -1872,13 +1876,33 @@
       "finihedOrder": "Finihed Order",
       "newOrder": "Go New Order",
       "cancelReasonName": "Reason ",
-      "all":"All",
-      "assignTrunk":"Assign Trunk",
-      "addRequestLimit":"Add Request Limit",
-      "assignOrder":"Assign Order",
-      "draftOrder":"Draft Orders",
-      "printOrder":"Print Order",
-      "clientLocationName":"Location"
+      "all": "All",
+      "assignTrunk": "Assign Trunk",
+      "addRequestLimit": "Add Request Limit",
+      "assignOrder": "Assign Order",
+      "draftOrder": "Draft Orders",
+      "printOrder": "Print Order",
+      "clientLocationName": "Location",
+      "terms": "Terms & Conditions",
+      "termsPlaceholder": "Enter terms and conditions of your business to Display in your transactions",
+      "truncks": "Select Trunck",
+      "total": "Total",
+      "extraDiscount": "Extra Discount",
+      "tax": "Tax",
+      "net": "Net",
+      "deliveryQuantity": "Delivery Quantity",
+      "WaitTrunk": "Wait Trunk",
+      "ArriveStore": "Arrive Store",
+      "GoClient": "Go client",
+      "ArriveClient": "Arrive to client",
+      "DeliveryClient": "Delivery client",
+      "DelayOrder": "Delay order",
+      "CancelOrder": "Cancel order",
+      "trunckStatus": " Status",
+      "deliveryStatus": "Delivery Status",
+      "noDelivery": "Not Delivery",
+      "partialDelivery":"Partial Delivery",
+      "fullDelivery": "Full Delivery"
     },
     "requestPrice": {
       "title": "Requests Price",
@@ -1909,8 +1933,8 @@
       "titleOperation": "Sales Setting"
     },
     "salesInvoices": {
-      "title": "Sales Invoices",
-      "titleOperation": "Sales Invoices",
+      "title": "Invoices",
+      "titleOperation": "Invoice",
       "cost": "Cost",
       "paymentTypeName": "Payment Name",
       "attachment": "Attachment",
@@ -1940,13 +1964,14 @@
       "requestPersonStatus":"Status"
     },
     "clientCollection": {
-      "title": "Client Payments",
-      "titleOperation": "Client Payment",
+      "title": "Payments Received",
+      "titleOperation": "Payments Received",
       "clientName": "Client Name",
       "cost": "Cost",
       "notes": "Notes",
       "isSyncOdoo": "Sync Odoo",
-      "syncDate": "Sync Date"
+      "syncDate": "Sync Date",
+      "paymentTypeName":"Payment Name"
     },
     "priceList": {
       "title": "Price List",
