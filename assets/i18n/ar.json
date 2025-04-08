@@ -1909,12 +1909,13 @@
       "DeliveryClient": "تم استلام العميل",
       "DelayOrder": "تاجيل الاستلام",
       "CancelOrder": "إلغاء الاستلام",
-      "trunckStatus":"حالة الشاحنة",
-      "deliveryStatus":"حاله التسليم",
-      "noDelivery":"لا يوجد تسليم",
-      "partialDelivery":"تسليم جزئى",
-      "fullDelivery":"تسليم كامل"
-
+      "trunckStatus": "حالة الشاحنة",
+      "deliveryStatus": "حاله التسليم",
+      "noDelivery": "لا يوجد تسليم",
+      "partialDelivery": "تسليم جزئى",
+      "fullDelivery": "تسليم كامل",
+      "Draft": "مسودة",
+      "salsePerson":"المندوب"
     },
     "requestPrice": {
       "title": "طلبات الاسعار",
@@ -1938,7 +1939,9 @@
       "discount": "الخصم",
       "net": "الصافي",
       "discountType": "نوع الخصم",
-      "actions": "الإجراءات"
+      "actions": "الإجراءات",
+      "clientQuantity":"الكميه الطلوبه",
+      "addItem":"إضافة عنصر"
     },
     "salesSetting": {
       "title": "اعدادات طلبات الاسعار",
@@ -1986,7 +1989,14 @@
     },
     "priceList": {
       "title": "قائمة الاسعار",
-      "titleOperation": "فائمة سعر"
+      "titleOperation": "فائمة سعر",
+      "clientGroupName": "فئة العميل",
+      "name": "الاسم",
+      "priceListItems": "أصناف قائمة الاسعار",
+      "itemName": "اسم الصنف",
+      "unitName": "الوحدة",
+      "price": "السعر",
+      "UpdateItems": "تحديث الاصناف"
     },
     "assignTruckOrder": {
       "title": "طلبات الشاحنات المسنده",

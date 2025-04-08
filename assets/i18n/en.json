@@ -1902,7 +1902,9 @@
       "deliveryStatus": "Delivery Status",
       "noDelivery": "Not Delivery",
       "partialDelivery":"Partial Delivery",
-      "fullDelivery": "Full Delivery"
+      "fullDelivery": "Full Delivery",
+      "Draft":"Draft",
+      "salsePerson":"Salse Person"
     },
     "requestPrice": {
       "title": "Requests Price",
@@ -1926,7 +1928,9 @@
       "discount": "Discount",
       "net": "Net",
       "actions": "Actions",
-      "discountType": "D.Type "
+      "discountType": "D.Type ",
+      "clientQuantity":"C-Quantity",
+      "addItem":"Add Item"
     },
     "salesSetting": {
       "title": "Sales Setting",
@@ -1975,7 +1979,14 @@
     },
     "priceList": {
       "title": "Price List",
-      "titleOperation": "Price List"
+      "titleOperation": "Price List",
+      "clientGroupName": "Client Groups",
+      "name": "Name",
+      "priceListItems": "Price List Items ",
+      "itemName": "Item Name",
+      "unitName": "Unit Name",
+      "price": "Price",
+      "UpdateItems":"Update Items"
     },
      "assignTruckOrder": {
       "title": "Assign Truck Orders",
