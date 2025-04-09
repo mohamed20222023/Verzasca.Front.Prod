@@ -1794,7 +1794,7 @@
       "pendingSteps": "Pending Requests For User",
       "responsibleOrder": "Responsibles Order"
     },
-    "approval-requests": {
+    "approvalRequests": {
       "title": "Approval Requests",
       "formTitle": "Title",
       "description": "Description",
