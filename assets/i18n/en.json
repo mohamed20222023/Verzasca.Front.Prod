@@ -367,7 +367,8 @@
       "view": "View",
       "loading": "Loading",
       "proceed": "proceed",
-      "saveAndSend": "Save & Send"
+      "saveAndSend": "Save & Send",
+      "print":"Print"
     },
 
     "permission": {
@@ -410,7 +411,18 @@
       "reOpenOrder": "ReOpen Order",
       "undoOrder": "Undo Order",
       "viewList": "View All Order",
-      "viewAvaliableTime": "View AvaliableTime"
+      "viewAvaliableTime": "View AvaliableTime",
+      "newOrder":"Go S/M Aprrove",
+      "salesChangeQTY":"Go  Change QTY",
+      "sureOrder":"Store Prepare",
+      "editTrunk":"Edit  Trunk",
+      "shippingOrder":"Go Shipping Order",
+      "completeOrder":"Complete Orders",
+      "printItem":"Print Paper",
+      "odooSync":"Odoo Sync",
+      "printPill":"Print Pill",
+      "finish":"Order Finish"
+
     }
   },
   "layout": {
@@ -806,7 +818,8 @@
       "addEmployee": "Add Employee",
       "position": "Position",
       "dayOff": "Day Off",
-      "cityName":"Cities"
+      "cityName":"Cities",
+      "contacts":"Contacts"
     },
     "positionName": {
       "title": "Position Name",
@@ -926,7 +939,10 @@
   },
   "clientManagement": {
     "client": {
-      "title": "Clients"
+      "title": "Clients Services"
+    },
+    "clientCompany":{
+      "title": "Clients Company"
     }
   },
   "orderManagement": {
@@ -951,7 +967,7 @@
       "creationUser": "Creation User",
       "districtName": "District",
       "status": "Status",
-      "agentName": "Client",
+      "agentName": "Customer",
       "channelName": "Channel",
       "mobile": "Mobile",
       "assignTo": "Assign To",
@@ -978,7 +994,7 @@
       "editOrders": "Edit",
       "orderType": "Order Type",
       "orderSource": "Order Source",
-      "clientName": "client",
+      "clientName": "Customer",
       "phoneNumber": "Mobile",
       "cityName": "City",
       "name": "Name",
@@ -992,7 +1008,7 @@
       "VisitDate": "Visit Date",
       "VisitTime": "Visit Time",
       "OrderDetails": "Order Details",
-      "clientInfo": "Client Info",
+      "clientInfo": "Customer Info",
       "serviceCategory": "Category",
       "ServicePrice": "Service Price",
       "service": "Service",
@@ -1042,7 +1058,7 @@
       "finishEvaluation": "Finish Eval",
       "assignEvaluation": "Assign Eval",
       "selectedServices": "Services",
-      "clientServices": "Client Services",
+      "clientServices": "Customer Services",
       "noCategoryMessage": "No Category Selected Yet !",
       "orderSummary": "Summary",
       "viewOrderSummary": "You Can View Order Summary Details",
@@ -1058,21 +1074,21 @@
       "noAnswerStatusUpdated": "No Answer ",
       "appointmentPostponed": " Change appointment",
       "requestFinished": "Finished",
-      "changeTeamStatus": "Move Status",
+      "changeTeamStatus": "Status",
       "rollBackAssign": "Undo Assign",
-      "finishOrder": "Finish Order",
+      "finishOrder": "Finish",
       "teamStatusNotes": "Notes",
       "evaluate": "Evaluate",
-      "clientExist": "Client already exist",
-      "clientNotExist": "Client is Not exist",
+      "clientExist": "Customer already exist",
+      "clientNotExist": "Customer is Not exist",
       "yes": "Yes",
       "no": "No",
       "assignDate": "AssignDate",
       "team": "Team",
       "locations": "Locations",
       "timesNav": "Times",
-      "clientFound": "Client Found",
-      "clientNotFound": "Client Not Found",
+      "clientFound": "Customer Found",
+      "clientNotFound": "Customer Not Found",
       "phoneMust10Digit": "Phone Must Length 10 Digits Only",
       "phoneMustStart05": "Phone Must Start 05",
       "phoneMustContainOnlyDigit": "Mobile Must Only Digit",
@@ -1094,7 +1110,7 @@
       "attchment": "Attachments",
       "orderComplete": "Order Complete",
       "orderSaveSuccess": "Thank you ! Your Order is Completed !",
-      "mustSelectClientInfo": "Must Select Client Data Required",
+      "mustSelectClientInfo": "Must Select Customer Data Required",
       "mustSelectServices": "Must Select Services",
       "mustSelectTimes": "Must Select Times",
       "newOrderAgain": "New Order",
@@ -1116,7 +1132,7 @@
       "reAssign": "Re Assign",
       "customerDetails": "Customer Details",
       "customerAddress": "Customer Address",
-      "mapURL": "Client Location URL",
+      "mapURL": "Customer Location URL",
       "serviceTime": "Service Number Time",
       "mustSelectOrderLocations": "must Select Order Locations",
       "tax": "Tax",
@@ -1126,8 +1142,8 @@
       "withPayURL": "With  Payment link  ",
       "cashOnDelivery": "Cash On Delivery",
       "mustAddPayment": "Must Add Payment",
-      "callClientAndSure": "client called, Order  confirmed",
-      "enRouteToCustomer": "On   way to client",
+      "callClientAndSure": "Customer called, Order  confirmed",
+      "enRouteToCustomer": "On   way to Customer",
       "arrivedAtLocation": "Arrived at  location",
       "startWork": "Work has started",
       "clientNotResponse": "not responding",
@@ -1144,9 +1160,9 @@
       "discountTypeAdd": "Promotion ",
       "invoice": "Invoice",
       "itemPrice": "Item Price",
-      "clientSearch": " Client ( Name - Phone - Code - VAT Number )",
+      "clientSearch": " Customer ( Name  - Code - VAT Number )",
       "items": "Items",
-      "orderSaved": "Order Saved",
+      "orderSaved": " Saved & Send",
       "totalTax": "Tax",
       "invoiceCode": "# Invoice ",
       "orderId": "# Code",
@@ -1278,7 +1294,7 @@
     "invoices": {
       "title": "Invoices",
       "paymentMethod": "Payment Method",
-      "client": "Client",
+      "client": "Customer",
       "value": "Value",
       "service": "Service",
       "discount": "Discount",
@@ -1455,7 +1471,17 @@
     },
 
     "service": {
-      "title": "Items & Services",
+      "title": " Services",
+      "isStore": "is Item Store",
+      "isNotStore": "Not Item Store",
+      "smallUnit": "Small Unit",
+      "largeUnit": "Large Unit",
+      "conversionFactor": "Conversion Factor",
+      "units": "Units",
+      "addUnit": "Add Unit"
+    },
+    "item":{
+      "title": "Items ",
       "isStore": "is Item Store",
       "isNotStore": "Not Item Store",
       "smallUnit": "Small Unit",
@@ -1475,6 +1501,7 @@
       "add": "Add Service",
       "edit": "Edit Service",
       "services": "Services",
+      "items": "Items",
       "service": "Service",
       "addServiceCategory": "Add Category",
       "addService": "Add Service",
@@ -1527,9 +1554,9 @@
       "order": "Order",
       "crm": "CRM",
       "taskShift": "Task Shift",
-      "agentCareJob": "Client Care  ",
+      "agentCareJob": "Customer Care  ",
       "assignOrderJob": "Assign Order  ",
-      "campaignAgentsJob": "Campaign Clients  ",
+      "campaignAgentsJob": "Campaign Customers  ",
       "reviewJob": "Review  ",
       "moduleType": "Module",
       "eventSchedule": "Event",
@@ -1539,25 +1566,34 @@
   },
   "client": {
     "client": {
-      "title": "Clients",
-      "titleOperation": "Client",
+      "title": "Customers",
+      "titleOperation": "Customer",
       "mobile": "Mobile",
-      "clientGroup": "Client Group",
+      "clientGroup": "Customer Group",
       "cityName": "City",
       "channelName": "Channel ",
       "name": "Name",
       "email": "Email",
       "note": "Notes",
-      "editClient": "Edit Client",
-      "addClient": "Add Client",
+      "editClient": "Edit Customer",
+      "addClient": "Add Customer",
       "status": "Status",
-      "profile": "Client Profile",
-      "clientType": "Client Type",
+      "profile": "Customer Profile",
+      "clientType": "Customer Type",
       "NationalAddress": "National Address",
       "VATNumber": "VAT-Number",
       "CreditLimit": "Credit Limit",
       "Individual":"Individual",
-      "Company":"Company"
+      "Company":"Company",
+      "alertMessage":"Alert Message",
+      "clientName":"Client Name",
+      "lastTransactionDate":"Last Transaction Date",
+      "numberInvoiceQuantity":"#Invoice Quantity - Cost",
+      "totalDebt":"Total Debt",
+      "pName":"Name",
+      "pTitle":"title",
+      "phone":"Phone"
+
     },
     "clientProfile": {
       "profile": "Profile",
@@ -1581,7 +1617,10 @@
       "title": "Pending Orders"
     },
     "CrmClient": {
-      "title": "Clients"
+      "title": "Customers Services"
+    },
+    "CrmCompanyClient": {
+      "title": "Customers Company"
     },
     "leads": {
       "title": "Leads",
@@ -1676,8 +1715,8 @@
       "titleOperation": "Review Action"
     },
     "clientGroups": {
-      "title": "Clients Groups",
-      "titleOperation": "Clients Groups"
+      "title": "Customers Groups",
+      "titleOperation": "Customers Groups"
     },
     "reviewstatistics": {
       "title": "Review statistics",
@@ -1828,8 +1867,8 @@
     "salesOrder": {
       "title": "Sales Orders",
       "allOrders": "All Orders",
-      "newOrders": "Approve Quantity",
-      "sureOrder": "Prepare Shipping",
+      "newOrders": "S/M Approve ",
+      "sureOrder": "Store Prepare",
       "completeOrder": "Complete Orders",
       "cancelOrder": "Cancel Orders",
       "itemName": "Item Name",
@@ -1854,7 +1893,7 @@
       "totalCost": "T.Cost",
       "totalDiscount": "T.Discount",
       "netPrice": "T.Net",
-      "clientName": "Client Name",
+      "clientName": "Customers Name",
       "vatNumber": "VAT-Number",
       "mobile": "Mobile",
       "creditLimit": "Credit Limit",
@@ -1869,7 +1908,7 @@
       "truckUpdate": "Truck Update",
       "order": "#SO#",
       "acutalVisitDate": "Delivery Date ",
-      "clientDeliveryDate": "Client Delivery Date",
+      "clientDeliveryDate": "Cust-Delivery Date",
       "acutalDeliveryDate": "Acutal Delivery Date",
       "plzSelectTrunck": "PLZ Select Trunck",
       "printBillOfLading": "Print Items",
@@ -1877,10 +1916,10 @@
       "newOrder": "Go New Order",
       "cancelReasonName": "Reason ",
       "all": "All",
-      "assignTrunk": "Assign Trunk",
+      "assignTrunk": "Shipping Order",
       "addRequestLimit": "Add Request Limit",
       "assignOrder": "Assign Order",
-      "draftOrder": "Draft Orders",
+      "draftOrder": "Sales Draft ",
       "printOrder": "Print Order",
       "clientLocationName": "Location",
       "terms": "Terms & Conditions",
@@ -1893,18 +1932,21 @@
       "deliveryQuantity": "Delivery Quantity",
       "WaitTrunk": "Wait Trunk",
       "ArriveStore": "Arrive Store",
-      "GoClient": "Go client",
-      "ArriveClient": "Arrive to client",
-      "DeliveryClient": "Delivery client",
+      "GoClient": "Go Customers",
+      "ArriveClient": "Arrive to Customers",
+      "DeliveryClient": "Delivery Customers",
       "DelayOrder": "Delay order",
       "CancelOrder": "Cancel order",
       "trunckStatus": " Status",
       "deliveryStatus": "Delivery Status",
       "noDelivery": "Not Delivery",
-      "partialDelivery":"Partial Delivery",
+      "partialDelivery": "Partial Delivery",
       "fullDelivery": "Full Delivery",
-      "Draft":"Draft",
-      "salsePerson":"Salse Person"
+      "Draft": "Draft",
+      "salsePerson": "Salse Person",
+      "ChangeQuantity": "Salse Change QTY",
+      "changeQuantityMessage": "S/M Message",
+      "changeQuantity": "Change QTY"
     },
     "requestPrice": {
       "title": "Requests Price",
@@ -1916,9 +1958,9 @@
       "orderNumber": "Order Number",
       "visitDate": "Visit Date",
       "status": "Status",
-      "clientGroup": "Client Group",
-      "clients": "Clients",
-      "clientLocation": "Client Location",
+      "clientGroup": "Customer Group",
+      "clients": "Customers",
+      "clientLocation": "Customer Location",
       "itemGroup": "Item Group",
       "items": "Items",
       "itemName": "Item Name",
@@ -1929,8 +1971,8 @@
       "net": "Net",
       "actions": "Actions",
       "discountType": "D.Type ",
-      "clientQuantity":"C-Quantity",
-      "addItem":"Add Item"
+      "clientQuantity": "C-Quantity",
+      "addItem": "Add Item"
     },
     "salesSetting": {
       "title": "Sales Setting",
@@ -1965,32 +2007,54 @@
     "requestPersonSales": {
       "title": "Request Client limit",
       "titleOperation": "Request Client limit",
-      "requestPersonStatus":"Status"
+      "requestPersonStatus": "Status"
     },
     "clientCollection": {
       "title": "Payments Received",
       "titleOperation": "Payments Received",
-      "clientName": "Client Name",
+      "clientName": "Customer Name",
       "cost": "Cost",
       "notes": "Notes",
       "isSyncOdoo": "Sync Odoo",
       "syncDate": "Sync Date",
-      "paymentTypeName":"Payment Name"
+      "paymentTypeName": "Payment Name",
+      "depositNumber":"Deposit Number"
     },
     "priceList": {
       "title": "Price List",
       "titleOperation": "Price List",
-      "clientGroupName": "Client Groups",
+      "clientGroupName": "Customer Groups",
       "name": "Name",
       "priceListItems": "Price List Items ",
       "itemName": "Item Name",
       "unitName": "Unit Name",
       "price": "Price",
-      "UpdateItems":"Update Items"
+      "UpdateItems": "Update Items"
     },
-     "assignTruckOrder": {
+    "assignTruckOrder": {
       "title": "Assign Truck Orders",
       "titleOperation": "Assign Truck Order"
+    },
+    "orderDraft": {
+      "title": "Sales Draft"
+    },
+    "changeQTY": {
+      "title": "Change QTY"
+    },
+    "smApprove": {
+      "title": "S/M Approve"
+    },
+    "storePrepare": {
+      "title": "Store Prepare"
+    },
+    "shippingOrder": {
+      "title": "Shipping Order"
+    },
+    "completeOrder": {
+      "title": "Complete Order"
+    },
+    "cancelOrder": {
+      "title": "Cancel Order"
     }
   }
 }

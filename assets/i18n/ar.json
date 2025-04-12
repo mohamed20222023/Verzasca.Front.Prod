@@ -362,7 +362,8 @@
       "back": "رجوع",
       "view": "رؤية",
       "proceed": "تقدم",
-      "saveAndSend": "حفظ وإرسال"
+      "saveAndSend": "حفظ وإرسال",
+      "print":"طباعة"
     },
     "permission": {
       "view": "روية",
@@ -403,7 +404,17 @@
       "finishedOrder": "إنهاء الطلب",
       "reOpenOrder": "إعادة فتح الطلب",
       "undoOrder": "التراجع عن الاجراء",
-      "viewList": "رؤية الكل"
+      "viewList": "رؤية الكل",
+      "newOrder": "تاكيد مدير المبيعات",
+      "salesChangeQTY":"تاكيد الكميات (مندوب)",
+      "sureOrder":"تجهيز الكميات (مخزن)",
+      "editTrunk":"تعديل الشاحنة",
+      "shippingOrder":"شحن الطلبات",
+      "completeOrder":"الطلبات المكتملة",
+      "printItem":"طباعة إذن التسليم",
+      "odooSync":"مزامنة أودو",
+      "printPill":"طباعة الفاتورة",
+      "finish":"إنهاء الطلب"
     }
   },
   "layout": {
@@ -697,7 +708,8 @@
       "addEmployee": "إضافة موظف",
       "position": "المنصب",
       "dayOff": "أيام العطلات",
-      "cityName":"المدن"
+      "cityName":"المدن",
+      "contacts":"مسئولى الاتصالات"
     },
     "positionName": {
       "title": "اسماء المناصب",
@@ -815,7 +827,10 @@
   },
   "clientManagement": {
     "client": {
-      "title": "العملاء"
+      "title": "عملاء الخدمات"
+    },
+    "clientCompany": {
+      "title": "عملاء الشركات"
     }
   },
   "orderManagement": {
@@ -1027,13 +1042,14 @@
       "itemPrice": "سعر الخدمة",
       "clientSearch": "بحث العميل  الاسم - الجوال - الكود ",
       "items": "الأصناف",
-      "orderSaved": "حفظ الطلب",
+      "orderSaved": "حفظ & إرسال",
       "totalTax": "قيمه الضريبة",
       "invoiceCode": "# الفاتورة",
       "orderId": "# الطلب",
       "orderSavedAsDraft": "حفظ كمسودة",
       "creditLimit": "  الحد الأتمانى",
       "shippingOrder": "رقم الشحن",
+      "savedAddress":"عنوان الشحن",
       "newOrders": {
         "title": "الطلبات الجديدة",
         "titleOperation": "الطلبات الجديدة"
@@ -1356,6 +1372,8 @@
       "add": "إضافة خدمة",
       "edit": "تعديل خدمة",
       "services": "الخدمات",
+      "items": "الأصناف",
+
       "service": "خدمة",
       "addServiceCategory": "إضافة فئة",
       "addService": "إضافة خدمة",
@@ -1437,7 +1455,15 @@
       "VATNumber": "الرقم الضريبى",
       "CreditLimit": "الحد الاتمانى",
       "Individual": "أفراد",
-      "Company": "شركة"
+      "Company": "شركة",
+      "alertMessage": "الرسالة التنبيهية",
+      "clientName": "إسم العميل",
+      "lastTransactionDate": "تاريخ أخر عملية",
+      "numberInvoiceQuantity": "عددالفوانير - قيمتها",
+      "totalDebt": "إجمالى المديونية",
+      "pName": "الاسم",
+      "pTitle": "الوظيفة",
+      "phone": "الجوال"
     }
   },
   "crm": {
@@ -1451,7 +1477,10 @@
       "title": "الطلبات المعلقة"
     },
     "CrmClient": {
-      "title": "العملاء"
+      "title": "عملاء الخدمات"
+    },
+    "CrmCompanyClient": {
+      "title": "عملاء محلات"
     },
     "leads": {
       "title": "العملاء المحتملين",
@@ -1841,8 +1870,8 @@
     "salesOrder": {
       "title": "طلبات المبيعات",
       "allOrders": "كل الطلبات",
-      "newOrders": "الطلبات الجديدة",
-      "sureOrder": "الطلبات المؤكدة",
+      "newOrders": "موافقة مدير المبيعات",
+      "sureOrder": "تجهيز الكميات (مخزن)",
       "completeOrder": "الطلبات المكتملة",
       "cancelOrder": " الطلبات الملغية",
       "itemName": "اسم الصنف",
@@ -1888,10 +1917,10 @@
       "newOrder": "رجوع  طلب جديد",
       "cancelReasonName": "السبب",
       "all": "كل ",
-      "assignTrunk": "إسناد للشاحنات",
+      "assignTrunk": "شحن الطلبات",
       "addRequestLimit": "طلب رفع الحد الاتمانى",
       "assignOrder": "اسناد الطلب",
-      "draftOrder": "الطلبات المسودة",
+      "draftOrder": "طلبات المعلقة (مندوب)",
       "printOrder": "طباعه الطلب",
       "clientLocationName": "الموقع",
       "terms": "الشروط والأحكام",
@@ -1915,7 +1944,10 @@
       "partialDelivery": "تسليم جزئى",
       "fullDelivery": "تسليم كامل",
       "Draft": "مسودة",
-      "salsePerson":"المندوب"
+      "salsePerson": "المندوب",
+      "ChangeQuantity": "تغيير الكميات (مندوب)",
+      "changeQuantityMessage": "ملاحظات مدير المبيعات",
+      "changeQuantity": " (مندوب)تغيير الكميات"
     },
     "requestPrice": {
       "title": "طلبات الاسعار",
@@ -1940,8 +1972,8 @@
       "net": "الصافي",
       "discountType": "نوع الخصم",
       "actions": "الإجراءات",
-      "clientQuantity":"الكميه الطلوبه",
-      "addItem":"إضافة عنصر"
+      "clientQuantity": "الكميه الطلوبه",
+      "addItem": "إضافة عنصر"
     },
     "salesSetting": {
       "title": "اعدادات طلبات الاسعار",
@@ -1985,7 +2017,8 @@
       "notes": "ملاحظات",
       "isSyncOdoo": "مزامنه اودو",
       "syncDate": "تاريخ المزامنة",
-      "paymentTypeName":"طريقة الدفع"
+      "paymentTypeName": "طريقة الدفع",
+      "depositNumber":"رقم الإيداع"
     },
     "priceList": {
       "title": "قائمة الاسعار",
@@ -2001,6 +2034,27 @@
     "assignTruckOrder": {
       "title": "طلبات الشاحنات المسنده",
       "titleOperation": "طلب شاحنه مسند"
+    },
+    "orderDraft": {
+      "title": "طلبات معلقة (مندوب)"
+    },
+    "changeQTY": {
+      "title": "تغيير الكمبات (مندوب)"
+    },
+    "smApprove": {
+      "title": "موافقة مدير المبيعات"
+    },
+    "storePrepare": {
+      "title": "تجهيز الكميات (مخزن)"
+    },
+    "shippingOrder": {
+      "title": "شحن الطلبات"
+    },
+    "completeOrder": {
+      "title": "الطلبات المكتملة"
+    },
+    "cancelOrder": {
+      "title": "الطلبات الملغية"
     }
   }
 }
