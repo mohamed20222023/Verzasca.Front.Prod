@@ -1469,6 +1469,10 @@
       "title": "Cancellation Reasons",
       "titleOperation": "Cancellation Reason"
     },
+    "unit": {
+      "title": "Items unit",
+      "titleOperation": "unit"
+    },
 
     "service": {
       "title": " Services",
@@ -1478,9 +1482,10 @@
       "largeUnit": "Large Unit",
       "conversionFactor": "Conversion Factor",
       "units": "Units",
-      "addUnit": "Add Unit"
+      "addUnit": "Add Unit",
+      "price":"Price"
     },
-    "item":{
+    "item": {
       "title": "Items ",
       "isStore": "is Item Store",
       "isNotStore": "Not Item Store",
@@ -1493,7 +1498,6 @@
     "serviceType": {
       "title": "Service Types",
       "titleOperation": "Service Type"
-     
     },
     "serviceCategory": {
       "title": "Categories",
@@ -1566,7 +1570,7 @@
   },
   "client": {
     "client": {
-      "title": "Customers",
+      "title": "Customer Services",
       "titleOperation": "Customer",
       "mobile": "Mobile",
       "clientGroup": "Customer Group",
@@ -1593,6 +1597,10 @@
       "pName":"Name",
       "pTitle":"title",
       "phone":"Phone"
+
+    },
+    "clientCompany": {
+      "title": "Customers Company"
 
     },
     "clientProfile": {

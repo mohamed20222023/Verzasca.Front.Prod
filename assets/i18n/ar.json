@@ -1351,6 +1351,10 @@
       "title": "أسباب الإلغاء",
       "titleOperation": "سبب إلغاء"
     },
+    "unit": {
+      "title": "وحدات الاصناف",
+      "titleOperation": "صنف"
+    },
     "serviceType": {
       "title": "أنواع الخدمات",
       "titleOperation": "نوع خدمة"
@@ -1364,7 +1368,8 @@
       "largeUnit": "الوحده الكبرى",
       "conversionFactor": "معامل التحويل",
       "units": "الوحدات",
-      "addUnit": "إضافه وحدة"
+      "addUnit": "إضافه وحدة",
+      "price": "سعر الوحدة"
     },
     "serviceCategory": {
       "title": "الفئات",
@@ -1437,7 +1442,7 @@
   },
   "client": {
     "client": {
-      "title": "العملاء",
+      "title": "عملاء الخدمات",
       "titleOperation": "عميل",
       "mobile": "الموبيل",
       "clientGroup": "مجموعة العملاء",
@@ -1464,6 +1469,9 @@
       "pName": "الاسم",
       "pTitle": "الوظيفة",
       "phone": "الجوال"
+    },
+    "clientCompany": {
+      "title": "عملاء الشركة"
     }
   },
   "crm": {
