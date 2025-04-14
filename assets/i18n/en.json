@@ -4,7 +4,7 @@
     "orderCode": "Order Code",
     "city": "City",
     "district": "District",
-    "agentName": "Client Name",
+    "agentName": "Customer Name",
     "mobile": "Mobile",
     "openInGoogleMaps": "Open InGoogle Maps",
     "moreDetails": "More Details",
@@ -344,7 +344,8 @@
       "all": "All",
       "nameAr": "Arabic Name",
       "nameEn": "English Name",
-      "creationTime": "Creation Time"
+      "creationTime": "Creation Time",
+      "id":"Code"
     },
     "action": {
       "register": "Register",
@@ -822,8 +823,9 @@
       "contacts":"Contacts"
     },
     "positionName": {
-      "title": "Position Name",
-      "addPosition": "Add Position Name",
+      "title": "Jobs",
+      "titleOperation":"Job",
+      "addPosition": "Add Job Name",
       "nameEn": "Name (En)",
       "nameAr": "Name (Ar)",
       "isHead": "Is Head",
@@ -833,7 +835,7 @@
       "employees": "Employees"
     },
     "departments": {
-      "title": "departments",
+      "title": "Departments",
       "departmentName": "Department Name",
       "parentDepartment": "Parent Department",
       "nameEn": "Name (En)",
@@ -939,10 +941,10 @@
   },
   "clientManagement": {
     "client": {
-      "title": "Clients Services"
+      "title": "Customer Services"
     },
     "clientCompany":{
-      "title": "Clients Company"
+      "title": "Customer Product"
     }
   },
   "orderManagement": {
@@ -1486,7 +1488,7 @@
       "price":"Price"
     },
     "item": {
-      "title": "Items ",
+      "title": "Products ",
       "isStore": "is Item Store",
       "isNotStore": "Not Item Store",
       "smallUnit": "Small Unit",
@@ -1596,7 +1598,9 @@
       "totalDebt":"Total Debt",
       "pName":"Name",
       "pTitle":"title",
-      "phone":"Phone"
+      "phone":"Phone",
+      "clientGroupName":"Customer Category",
+      "salesPersonName":"Sales Person"
 
     },
     "clientCompany": {
@@ -1681,9 +1685,9 @@
       "radio": "Radio"
     },
     "clientReview": {
-      "title": "Clients Review",
+      "title": "Customers Review",
       "titleOperation": "Review Question",
-      "clientName": "Client Name",
+      "clientName": "Customer Name",
       "orderId": "Order",
       "clientReviewFinalResultNameAr": "Review Result",
       "note": "Notes",
@@ -1693,13 +1697,13 @@
       "endStatusName": "Final Status  ",
       "actionDoing": "Action",
       "doAction": "Do Action",
-      "clientPrice": "Client Price",
+      "clientPrice": "Customer Price",
       "orderPrice": "Order Price",
       "review": "Action"
     },
     "clientReviewPrice": {
-      "title": "Client Review Price",
-      "titleOperation": "Client Review Price",
+      "title": "Customer Review Price",
+      "titleOperation": "Customer Review Price",
       "match": "Match",
       "notMatch": "Not Match",
       "matchPrice": "Match Price",
@@ -1723,8 +1727,9 @@
       "titleOperation": "Review Action"
     },
     "clientGroups": {
-      "title": "Customers Groups",
-      "titleOperation": "Customers Groups"
+      "title": "Customers Category",
+      "titleOperation": "Customers Category",
+      "clientLimitDefault":"Credit limit"
     },
     "reviewstatistics": {
       "title": "Review statistics",
@@ -1824,7 +1829,7 @@
       "head": "Head",
       "employees": "Employees"
     },
-    "approval-settings": {
+    "approvalSettings": {
       "title": "Approval setting",
       "formTitle": "Title",
       "description": "Description",
@@ -1863,6 +1868,33 @@
       "approve": "Approve",
       "notes": "Notes",
       "isActive": "Is Active"
+    },
+    "customerRequest":{
+      "title": "Request new customer",
+      "customerInfo":"Customer  info",
+      "customerName":"Customer name",
+      "commercialRegistrationNumber":"Commercial registration number",
+      "taxNumber":"Tax number",
+      "primaryPhoneNumber":"Primary mobile",
+      "clientGroup":"Customer category",
+      "customerSize":"Customer size",
+      "Large":"Large",
+      "Medium":"Medium",
+      "Small":"Small",
+      "buildingNumber":"building Number",
+      "subNumber":"sub Number",
+      "postalCode":"postal Code",
+      "district":"district",
+      "city":"city",
+      "nationalAddressData":"National address data",
+      "goNationalAddressData":"Go National address data ",
+      "commercialRegister":"Commercial register",
+      "municipalLicense":"License",
+      "nationalAddress":"National address",
+      "customerID":"Customer ID",
+      "vatCertificate":"VAT certificate",
+      "dealAgreement":"Deal agreement",
+      "officialDocuments":"Official documents"
     }
   },
 
@@ -1880,7 +1912,7 @@
       "completeOrder": "Complete Orders",
       "cancelOrder": "Cancel Orders",
       "itemName": "Item Name",
-      "clientQuantity": "Client Quantity",
+      "clientQuantity": "Customer Quantity",
       "approvedQuantity": "Approved Quantity",
       "price": "Price",
       "discount": "Discount",

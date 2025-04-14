@@ -1149,3 +1149,8 @@
         margin-right: 250px !important;
     }
 }
+
+ :is([data-layout=vertical], [data-layout=semibox])[data-sidebar-size=sm-hover] .app-rtl .main-content {
+     margin-right: var(--vz-vertical-menu-width-sm) !important;
+        margin-left: 0 !important;
+ }

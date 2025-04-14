@@ -339,7 +339,8 @@
       "all": "كل ",
       "nameAr": "الاسم بالعربية",
       "nameEn": "الاسم بالانجليزية",
-      "creationTime": "وقت الإنشاء"
+      "creationTime": "وقت الإنشاء",
+      "id": "الكود"
     },
     "action": {
       "register": "تسجيل",
@@ -1468,7 +1469,9 @@
       "totalDebt": "إجمالى المديونية",
       "pName": "الاسم",
       "pTitle": "الوظيفة",
-      "phone": "الجوال"
+      "phone": "الجوال",
+      "clientGroupName":"تصنيف العميل",
+      "salesPersonName":"المندوب المسئول"
     },
     "clientCompany": {
       "title": "عملاء الشركة"
@@ -1578,7 +1581,8 @@
     },
     "clientGroups": {
       "title": "مجموعات العملاء",
-      "titleOperation": "مجموعات العملاء"
+      "titleOperation": "مجموعات العملاء",
+      "clientLimitDefault": "الحد الاتمانى الافتراضى"
     },
     "reviewstatistics": {
       "title": "إحصائيات تقييم",
@@ -1758,47 +1762,6 @@
       "assignTo": "تعيين إلى"
     }
   },
-  "approvals": {
-    "approval-types": {
-      "title": "أنواع الموافقة",
-      "nameEn": "الاسم (En)",
-      "nameAr": "الاسم (Ar)",
-      "isActive": "حالة النشاط"
-    },
-    "departments": {
-      "title": "الاقسام",
-      "departmentName": "اسم القسم",
-      "parentDepartment": "القسم الاعلى",
-      "nameEn": "الاسم (En)",
-      "nameAr": "الاسم (Ar)",
-      "hasParent": "يندرج تحت قسم",
-      "notHasParent": "لا يندرج تحت قسم",
-      "isActive": "حالة النشاط"
-    },
-    "positions": {
-      "title": "المناصب",
-      "addPosition": "اضافة منصب",
-      "nameEn": "الاسم (En)",
-      "nameAr": "الاسم (Ar)",
-      "isHead": "Is Head",
-      "notHead": "ليس رئيس",
-      "head": "رئيس",
-      "employeeName": "اسم الموظف",
-      "employees": "الموظفين"
-    },
-    "approval-requests": {
-      "title": "اعدادات طلبات",
-      "formTitle": "العنوان",
-      "description": "الوصف",
-      "approvalType": "نوع الموافقة",
-      "notes": "ملحوظات",
-      "Accept": "مقبول",
-      "Reject": "مرفوض",
-      "NoneReview": "لا يوجد مراجعة",
-      "status": "حالة",
-      "isManual": "Is Manual",
-      "responsibleOrder": "ترتيب المسؤولين"
-    },
     "approvals": {
       "approval-types": {
         "title": "أنواع الموافقة",
@@ -1827,8 +1790,8 @@
         "employeeName": "اسم الموظف",
         "employees": "الموظفين"
       },
-      "approval-settings": {
-        "title": "اعدادات طلبات",
+      "approvalSettings": {
+        "title": "اعدادات   طلبات الموافقة",
         "formTitle": "العنوان",
         "description": "الوصف",
         "approvalType": "نوع الموافقة",
@@ -1844,7 +1807,7 @@
         "pendingSteps": "الطلبات المعلقة للمستخدم",
         "responsibleOrder": "ترتيب المسؤولين"
       },
-      "approval-requests": {
+      "approvalRequests": {
         "title": "طلبات الموافقة",
         "formTitle": "العنوان",
         "description": "الوصف",
@@ -1866,9 +1829,37 @@
         "approve": "موافقة",
         "notes": "ملاحظات",
         "isActive": "حالة النشاط"
+      },
+      
+      "customerRequest": {
+        "title": "طلب إضافة عميل جديد",
+        "customerInfo": "البيانات الاساسية للعميل",
+        "customerName": "إسم العميل",
+        "commercialRegistrationNumber": "رقم السجل التجاري",
+        "taxNumber": "الرقم الضريبى*",
+        "primaryPhoneNumber": "رقم الجوال الاساسى",
+        "clientGroup": "تصنيف العميل ",
+        "customerSize": "حجم العميل ",
+        "Large": "كبير",
+        "Medium": "متوسط",
+        "Small": "صغير",
+        "buildingNumber": "رقم المبينى ",
+        "subNumber": "الرقم الفرعى",
+        "postalCode": "الرمز البريدى",
+        "district": "الحى",
+        "city": "المدينة",
+        "nationalAddressData": "العنوان الوطنى",
+        "goNationalAddressData": "Go National address data ",
+        "commercialRegister": "السجل التجاري",
+        "municipalLicense": "رخصة البلدية",
+        "nationalAddress": "العنوان الوطنى",
+        "customerID": "هوية المالك",
+        "vatCertificate": "شهادة ضريبة القيمة المضافة",
+        "dealAgreement": " اتفاقية التعامل",
+        "officialDocuments": "المستندات الرسمية"
       }
-    }
-  },
+    },
+  
   "approval": {
     "approval": {
       "title": "الموافقات"
