@@ -407,15 +407,16 @@
       "undoOrder": "التراجع عن الاجراء",
       "viewList": "رؤية الكل",
       "newOrder": "تاكيد مدير المبيعات",
-      "salesChangeQTY":"تاكيد الكميات (مندوب)",
-      "sureOrder":"تجهيز الكميات (مخزن)",
-      "editTrunk":"تعديل الشاحنة",
-      "shippingOrder":"شحن الطلبات",
-      "completeOrder":"الطلبات المكتملة",
-      "printItem":"طباعة إذن التسليم",
-      "odooSync":"مزامنة أودو",
-      "printPill":"طباعة الفاتورة",
-      "finish":"إنهاء الطلب"
+      "salesChangeQTY": "تاكيد الكميات (مندوب)",
+      "sureOrder": "تجهيز الكميات (مخزن)",
+      "editTrunk": "تعديل الشاحنة",
+      "shippingOrder": "شحن الطلبات",
+      "completeOrder": "الطلبات المكتملة",
+      "printItem": "طباعة إذن التسليم",
+      "odooSync": "مزامنة أودو",
+      "printPill": "طباعة الفاتورة",
+      "finish": "إنهاء الطلب",
+      "editTotalDiscont": "تعديل الخصم الكلى"
     }
   },
   "layout": {
@@ -946,6 +947,7 @@
       "finishEvaluation": "التقييم",
       "assignEvaluation": "تقييم مسند",
       "selectedServices": "الخدمات التي تم اختيارها",
+      "selectedProducts": "المنتجات المختاره",
       "clientServices": "خدمات العميل",
       "noCategoryMessage": "لم يتم اختيار اي تصنيف بعد !",
       "orderSummary": "ملخص الطلب",
@@ -979,6 +981,9 @@
       "phoneMustStart05": "رقم الجوال يجيب ان يبدأ ب 05",
       "phoneMustContainOnlyDigit": "رقم الجوال يجيب ان يحتوى على ارقام فقط",
       "currancy": "ريال",
+      "searchProduct": "إسم المنتج",
+      "searchService": "إسم الخدمة",
+
       "canceledEvaluation": "التقييمات الملغية",
       "assignedTo": "مسند الى",
       "sendToClient": "إضافة جديد",
@@ -1050,7 +1055,7 @@
       "orderSavedAsDraft": "حفظ كمسودة",
       "creditLimit": "  الحد الأتمانى",
       "shippingOrder": "رقم الشحن",
-      "savedAddress":"عنوان الشحن",
+      "savedAddress": "عنوان الشحن",
       "newOrders": {
         "title": "الطلبات الجديدة",
         "titleOperation": "الطلبات الجديدة"
@@ -1371,6 +1376,18 @@
       "units": "الوحدات",
       "addUnit": "إضافه وحدة",
       "price": "سعر الوحدة"
+    },
+    "item": {
+      "title": "المنتجات ",
+      "edit": "تعديل منتج",
+      "add": "إنشاء منتج",
+      "isStore": "هل مخزنى",
+      "isNotStore": "غير مخزنى",
+      "smallUnit": "الوحده الصغرى",
+      "largeUnit": "الوحده الكبرى",
+      "conversionFactor": "معامل التحويل",
+      "units": "الوحدات",
+      "addUnit": "إضافه وحدة"
     },
     "serviceCategory": {
       "title": "الفئات",
@@ -1856,7 +1873,13 @@
         "customerID": "هوية المالك",
         "vatCertificate": "شهادة ضريبة القيمة المضافة",
         "dealAgreement": " اتفاقية التعامل",
-        "officialDocuments": "المستندات الرسمية"
+        "officialDocuments": "المستندات الرسمية",
+        "customerNameRequired": "أسم العميل مطلوب",
+        "commercialRegistrationNumberRequired": "رقم السجل التجارى مطلوب",
+        "primaryPhoneNumberRequired": "رقم الجوال مطلوب",
+        "taxNumberRequired": "الرقم الضريبى",
+        "clientGroupIdRequired": "مطلوب صنيف العميل",
+        "customerSizeRequired": "مطلوب حجم العميل"
       }
     },
   
@@ -1946,7 +1969,10 @@
       "salsePerson": "المندوب",
       "ChangeQuantity": "تغيير الكميات (مندوب)",
       "changeQuantityMessage": "ملاحظات مدير المبيعات",
-      "changeQuantity": " (مندوب)تغيير الكميات"
+      "changeQuantity": " (مندوب)تغيير الكميات",
+      "stock": "المخزوون",
+      "status": "الحالة",
+      "category": "الفئة"
     },
     "requestPrice": {
       "title": "طلبات الاسعار",
@@ -2027,8 +2053,11 @@
       "priceListItems": "أصناف قائمة الاسعار",
       "itemName": "اسم الصنف",
       "unitName": "الوحدة",
-      "price": "السعر",
-      "UpdateItems": "تحديث الاصناف"
+      "price": "سعر البيع",
+      "UpdateItems": "تحديث الاصناف",
+      "discount": "الخصم",
+      "discountType": "نوع الخصم",
+      "itemPrice": "سعر الصنف"
     },
     "assignTruckOrder": {
       "title": "طلبات الشاحنات المسنده",
