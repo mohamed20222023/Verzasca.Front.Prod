@@ -340,7 +340,9 @@
       "nameAr": "الاسم بالعربية",
       "nameEn": "الاسم بالانجليزية",
       "creationTime": "وقت الإنشاء",
-      "id": "الكود"
+      "id": "الكود",
+      "active": "نشط",
+      "noActive": "غير نشط"
     },
     "action": {
       "register": "تسجيل",
@@ -711,7 +713,7 @@
       "position": "المنصب",
       "dayOff": "أيام العطلات",
       "cityName":"المدن",
-      "contacts":"مسئولى الاتصالات"
+      "contacts":"مسئولى التواصل "
     },
     "positionName": {
       "title": "اسماء المناصب",
@@ -1279,8 +1281,9 @@
       "rePasswordAndPasswordNotEqual": "كلمة المرور غير متطابقتين",
       "active": "نشط",
       "noActive": "غير نشط",
-      "SalesPerson":"مندوب مبيعات"
-
+      "SalesPerson": "مندوب مبيعات",
+      "Driver": "سائق مركبة",
+      "StoreKepper": "أمين مخزن"
     },
     "role": {
       "title": "صلاحية",
@@ -1348,7 +1351,8 @@
       "districts": "المناطق",
       "district": "منطقة",
       "addCity": "إضافة مدينة",
-      "addDistrict": "إضافة منطقة"
+      "addDistrict": "إضافة منطقة",
+      "regionName":"المنطقة"
     },
     "returnReason": {
       "title": "أسباب الإرجاع"
@@ -1418,7 +1422,8 @@
       "english": "الانجليزية",
       "arabic": "العربية",
       "mainImage": "الصورة الرئيسية",
-      "descriptionAr": "الوصف بالعربية"
+      "descriptionAr": "الوصف بالعربية",
+      "ProductCategories": "تصنيف المنتج"
     },
     "channel": {
       "title": "القنوات",
@@ -1456,13 +1461,18 @@
       "eventSchedule": "الحدث",
       "visitJob": "تاريخ الزيارة",
       "parameter": "القيمه(الشيفت-الخ)"
+      
+    },
+     "region":{
+      "title": "المناطق",
+      "titleOperation": "منطقة"
     }
   },
   "client": {
     "client": {
       "title": "عملاء الخدمات",
       "titleOperation": "عميل",
-      "mobile": "الموبيل",
+      "mobile": "الهاتف",
       "clientGroup": "مجموعة العملاء",
       "cityName": "المدينة",
       "channelName": "المصدر ",
@@ -1487,8 +1497,19 @@
       "pName": "الاسم",
       "pTitle": "الوظيفة",
       "phone": "الجوال",
-      "clientGroupName":"تصنيف العميل",
-      "salesPersonName":"المندوب المسئول"
+      "clientGroupName": "تصنيف العميل",
+      "salesPersonName": "المندوب المسئول",
+      "commercialRegistrationNumber": "  السجل التجاري",
+      "nationalAddressData": "بيانات العنوان الوطنى",
+      "buildingNumber": "رقم المبينى ",
+      "subNumber": "الرقم الفرعى",
+      "postalCode": "الرمز البريدى",
+      "district": "الحى",
+      "formalPaper":"المستندات الرسمية",
+      "externalPhotoPath":"ًوره حية للمبنى",
+      "vatNumber":"الرقم الضريبى",
+      "regionName":"المنطقة",
+      "customerPaymentTerms":"شروط العميل"
     },
     "clientCompany": {
       "title": "عملاء الشركة"

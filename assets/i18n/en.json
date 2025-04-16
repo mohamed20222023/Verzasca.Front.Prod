@@ -399,7 +399,7 @@
       "resetPassword": "Reset Password",
       "export": "Export",
       "viewByCreate": "View By Create",
-      "viewByAssign": "View By Assign",
+      "viewByAssign": "View By On",
       "evaluation": "Add Evaluation",
       "orderNew": "Add Order New",
       "addToLead": "Add To Lead",
@@ -796,7 +796,7 @@
       "employeeName": "Name",
       "mobile": "Mobile",
       "employeeTypeName": "Employee Type",
-      "employeeGroupName": "Employee Group",
+      "employeeGroupName": "Employee Category",
       "employeeTeam": "Employee Team",
       "managment": "Managment",
       "customerService": "Customer Service",
@@ -1398,7 +1398,9 @@
       "rePasswordAndPasswordNotEqual": "re Password And Password Not Equal",
       "active": "Active",
       "noActive": "No Active",
-      "SalesPerson": "Sales Person"
+      "SalesPerson": "Sales Person",
+      "Driver":"Driver",
+      "StoreKepper":"Store Kepper"
     },
     "role": {
       "title": "Roles",
@@ -1465,7 +1467,8 @@
       "districts": "Districts",
       "district": "District",
       "addCity": "Add City",
-      "addDistrict": "Add District"
+      "addDistrict": "Add District",
+      "regionName":"Region Name"
     },
     "returnReason": {
       "title": "Return Reasons"
@@ -1526,7 +1529,9 @@
       "isMostWanted": "Is Most Wanted",
       "Publish": "Service Publish",
       "ServicePublish": "Service Publish",
+      "ProductPublish": "Product Publish",
       "ServiceCategories": "Services Categories",
+      "ProductCategories": "Product Categories",
       "Categories": "Categories",
       "ServiceImage": "Service Images",
       "ServiceGallery": "Service Gallery",
@@ -1573,6 +1578,10 @@
       "eventSchedule": "Event",
       "visitJob": "Visit Job",
       "parameter": "Parameter(Shift-etc)"
+    },
+    "region":{
+      "title": "Regions ",
+      "titleOperation": "region"
     }
   },
   "client": {
@@ -1580,7 +1589,7 @@
       "title": "Customer Services",
       "titleOperation": "Customer",
       "mobile": "Mobile",
-      "clientGroup": "Customer Group",
+      "clientGroup": "Customer category",
       "cityName": "City",
       "channelName": "Channel ",
       "name": "Name",
@@ -1597,15 +1606,26 @@
       "Individual":"Individual",
       "Company":"Company",
       "alertMessage":"Alert Message",
-      "clientName":"Client Name",
+      "clientName":"Customer Name",
       "lastTransactionDate":"Last Transaction Date",
       "numberInvoiceQuantity":"#Invoice Quantity - Cost",
       "totalDebt":"Total Debt",
       "pName":"Name",
       "pTitle":"title",
       "phone":"Phone",
-      "clientGroupName":"Customer Category",
-      "salesPersonName":"Sales Person"
+      "clientGroupName":"Category",
+      "salesPersonName":"Sales Person",
+      "commercialRegistrationNumber":"CRN",
+      "nationalAddressData":"National address data",
+      "buildingNumber":"Building number",
+      "subNumber":"Sub Number",
+      "postalCode":"Postal Code",
+      "district":"District",
+      "formalPaper":"Official Documents",
+      "externalPhotoPath":"Live image",
+      "vatNumber":"VAT-Number",
+      "regionName":"Region Name",
+      "customerPaymentTerms":"Customer Terms"
 
     },
     "clientCompany": {
@@ -1904,7 +1924,7 @@
       "commercialRegistrationNumberRequired": "commercial Registration Number Required !",
       "primaryPhoneNumberRequired": "Primary PhoneNumber Required !",
       "taxNumberRequired": "Tax Number Required",
-      "clientGroupIdRequired": "Client Group Required",
+      "clientGroupIdRequired": "Customer Category Required",
       "customerSizeRequired": "Customer Size Required",
       "nationalAddressDataRequired":"nationalAddressDataRequired"
     }
@@ -1950,7 +1970,7 @@
       "mobile": "Mobile",
       "creditLimit": "Credit Limit",
       "nationalAddress": "National Address",
-      "clientGroupName": "Group Name",
+      "clientGroupName": "Category Name",
       "shipping": "Edit Truck",
       "isSync": "Odoo Sync",
       "syncSend": "Sended",
@@ -2061,8 +2081,8 @@
       "cityName": "Cities"
     },
     "requestPersonSales": {
-      "title": "Request Client limit",
-      "titleOperation": "Request Client limit",
+      "title": "Request Customer limit",
+      "titleOperation": "Request Customer limit",
       "requestPersonStatus": "Status"
     },
     "clientCollection": {
@@ -2079,7 +2099,7 @@
     "priceList": {
       "title": "Price List",
       "titleOperation": "Price List",
-      "clientGroupName": "Customer Groups",
+      "clientGroupName": "Customer Categorys",
       "name": "Name",
       "priceListItems": "Price List Items ",
       "itemName": "Item Name",
