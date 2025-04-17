@@ -425,6 +425,13 @@
       "finish":"Order Finish",
       "editTotalDiscont":"Edit Total Discont"
 
+    },
+    "common":{
+      "Web": "Web",
+      "Mobile": "Mobile",
+      "Dashbord": "Dashbord",
+      "Other":"Other",
+      "platforms":"Platforms"
     }
   },
   "layout": {
@@ -821,7 +828,8 @@
       "position": "Position",
       "dayOff": "Day Off",
       "cityName":"Cities",
-      "contacts":"Contacts"
+      "contacts":"Contacts",
+      "store":"Store"
     },
     "positionName": {
       "title": "Jobs",
@@ -1519,6 +1527,7 @@
       "service": "Service",
       "addServiceCategory": "Add Category",
       "addService": "Add Service",
+      "addItem":"Add Item",
       "price": "Price",
       "serviceTypeCode": "Service Type",
       "timeCount": "Time Count",
@@ -1831,7 +1840,12 @@
       "title": "Approval Transactions",
       "nameEn": "Name (En)",
       "nameAr": "Name (Ar)",
-      "isActive": "Is Active"
+      "isActive": "Is Active",
+      "type":"Type",
+      "OpenCustomerAccount":"Request Open Customer",
+      "CustomerLimitRequest":"Request Increase   Customer Limit",
+      "ProductSalesRequest":"Request   Sales Order"
+
     },
     "departments": {
       "title": "departments",
@@ -1883,7 +1897,9 @@
       "status": "Status",
       "isManual": "Is Manual",
       "pendingSteps": "Pending Requests For User",
-      "responsibleOrder": "Responsibles Order"
+      "responsibleOrder": "Responsibles Order",
+      "name":"Name",
+      "statusName":"Status Name"
     },
     "pendingSteps": {
       "title": "Pending Requests For User",
@@ -2002,9 +2018,9 @@
       "tax": "Tax",
       "net": "Net",
       "deliveryQuantity": "Delivery Quantity",
-      "WaitTrunk": "Wait Trunk",
+      "WaitTrunk": "Ready in stock",
       "ArriveStore": "Arrive Store",
-      "GoClient": "Go Customers",
+      "GoClient": "Delivering",
       "ArriveClient": "Arrive to Customers",
       "DeliveryClient": "Delivery Customers",
       "DelayOrder": "Delay order",
@@ -2021,7 +2037,10 @@
       "changeQuantity": "Change QTY",
       "stock":"Stock",
       "status":"Status",
-      "category":"Category"
+      "category":"Category",
+      "approved":"Approved",
+      "backToSales":"Back To Sales",
+      "map":"Map"
       
     },
     "requestPrice": {

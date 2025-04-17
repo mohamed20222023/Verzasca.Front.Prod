@@ -366,7 +366,7 @@
       "view": "رؤية",
       "proceed": "تقدم",
       "saveAndSend": "حفظ وإرسال",
-      "print":"طباعة"
+      "print": "طباعة"
     },
     "permission": {
       "view": "روية",
@@ -419,6 +419,13 @@
       "printPill": "طباعة الفاتورة",
       "finish": "إنهاء الطلب",
       "editTotalDiscont": "تعديل الخصم الكلى"
+    },
+    "common": {
+      "Web": "الموقع الخارجى",
+      "Mobile": "تطبيق الموبيل",
+      "Dashbord": "السيستم الداخلى",
+      "Other": "أخرى",
+      "platforms":"المنصات"
     }
   },
   "layout": {
@@ -713,7 +720,8 @@
       "position": "المنصب",
       "dayOff": "أيام العطلات",
       "cityName":"المدن",
-      "contacts":"مسئولى التواصل "
+      "contacts":"مسئولى التواصل ",
+      "store":"المسودع"
     },
     "positionName": {
       "title": "اسماء المناصب",
@@ -1404,6 +1412,7 @@
       "service": "خدمة",
       "addServiceCategory": "إضافة فئة",
       "addService": "إضافة خدمة",
+      "addItem": "إضافة منتج",
       "price": "السعر",
       "serviceTypeCode": "نوع الخدمة",
       "timeCount": "عدد لمواعيد",
@@ -1805,7 +1814,11 @@
         "title": "أنواع الموافقة",
         "nameEn": "الاسم (En)",
         "nameAr": "الاسم (Ar)",
-        "isActive": "حالة النشاط"
+        "isActive": "حالة النشاط",
+        "type": "نوع الطلب",
+        "OpenCustomerAccount": "طلب فتح عميل",
+        "CustomerLimitRequest": "طلب رفع الحد العميل",
+        "ProductSalesRequest": "طلب بيع"
       },
       "departments": {
         "title": "الاقسام",
@@ -1857,7 +1870,9 @@
         "status": "حالة",
         "isManual": "Is Manual",
         "pendingSteps": "الطلبات المعلقة للمستخدم",
-        "responsibleOrder": "ترتيب المسؤولين"
+        "responsibleOrder": "ترتيب المسؤولين",
+        "name": "إسم الطلب",
+        "statusName": "الحالة"
       },
       "pendingSteps": {
         "title": "الطلبات المعلقة للمستخدم",
@@ -1974,13 +1989,13 @@
       "tax": "الضريبه (15%)",
       "net": "الصافى",
       "deliveryQuantity": "الكمية المسلمة",
-      "WaitTrunk": "إنتظار الشاحنة",
-      "ArriveStore": "فى المخزن",
+      "WaitTrunk": "جاهز فى المخزن",
+      "ArriveStore": "تم الوصول للمستودع",
       "GoClient": "فى الطريق للعميل",
-      "ArriveClient": "تم الوصول للعميل",
-      "DeliveryClient": "تم استلام العميل",
+      "ArriveClient": "جار التوصيل",
+      "DeliveryClient": "تم الوصول العميل",
       "DelayOrder": "تاجيل الاستلام",
-      "CancelOrder": "إلغاء الاستلام",
+      "CancelOrder": "العميل رفض استلام الطلب",
       "trunckStatus": "حالة الشاحنة",
       "deliveryStatus": "حاله التسليم",
       "noDelivery": "لا يوجد تسليم",
@@ -1993,7 +2008,10 @@
       "changeQuantity": " (مندوب)تغيير الكميات",
       "stock": "المخزوون",
       "status": "الحالة",
-      "category": "الفئة"
+      "category": "الفئة",
+      "approved": "موافقة",
+      "backToSales": "الرجوع للعديل",
+      "map":"الموقع"
     },
     "requestPrice": {
       "title": "طلبات الاسعار",
