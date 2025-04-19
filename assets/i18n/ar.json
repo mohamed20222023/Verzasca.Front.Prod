@@ -320,7 +320,8 @@
       "filedIdRequired": "هذا الحقل مطلوب",
       "areyouSureDelete": "هل أنت متأكد أنك تريد الحذف؟",
       "employeeHasTargetInSamePeriod": "هذأ الموظف لدية تارجت فى نفس الفترة",
-      "AllQuntityShippingOrDelivery": "جميع الكميات تم شحنها أو تسليمها"
+      "AllQuntityShippingOrDelivery": "جميع الكميات تم شحنها أو تسليمها",
+      "servicesFound":"يوجد منتجات لهذة الفئة  .. من فضلك احذف المنتجات الاول"
     },
     "table": {
       "name": "الاسم",
@@ -453,8 +454,8 @@
     },
     "topbar": {
       "quickLinks": "روابط سريعة",
-      "newOrder": "طلب جديد",
-      "newSales": "عرض سعر جديد",
+      "newOrder": "طلب خدمات جديد",
+      "newSales": "طلبات منتجات جديد",
       "logOut": "تسجيل الخروج",
       "messages": "الرسائل الداخلية",
       "profile": "ملفي الشخصي",
@@ -1057,7 +1058,8 @@
       "invoice": "الفاتورة",
       "itemPrice": "سعر الخدمة",
       "clientSearch": "بحث العميل  الاسم - الجوال - الكود ",
-      "items": "الأصناف",
+      "items": "المنتجات",
+      "shipping":"الشحن",
       "orderSaved": "حفظ & إرسال",
       "totalTax": "قيمه الضريبة",
       "invoiceCode": "# الفاتورة",
@@ -1066,6 +1068,8 @@
       "creditLimit": "  الحد الأتمانى",
       "shippingOrder": "رقم الشحن",
       "savedAddress": "عنوان الشحن",
+      "noProducts":"لا يوجد منتجات ",
+      "serviceProduct":"فئة المنتج",
       "newOrders": {
         "title": "الطلبات الجديدة",
         "titleOperation": "الطلبات الجديدة"
@@ -1387,7 +1391,11 @@
       "conversionFactor": "معامل التحويل",
       "units": "الوحدات",
       "addUnit": "إضافه وحدة",
-      "price": "سعر الوحدة"
+      "price": "سعر الوحدة",
+      "NotPublish": "غير منشور",
+      "Published": "نشر المنتج",
+      "Draft": "مسودة",
+      "sku":"SKU"
     },
     "item": {
       "title": "المنتجات ",
@@ -1399,7 +1407,8 @@
       "largeUnit": "الوحده الكبرى",
       "conversionFactor": "معامل التحويل",
       "units": "الوحدات",
-      "addUnit": "إضافه وحدة"
+      "addUnit": "إضافه وحدة",
+      "plzAddUnit":"من فضلك اختر وحدة على الأقل"
     },
     "serviceCategory": {
       "title": "الفئات",
@@ -1430,9 +1439,10 @@
       "AddImage": "إضافة صورة",
       "english": "الانجليزية",
       "arabic": "العربية",
-      "mainImage": "الصورة الرئيسية",
+      "mainImage": "صورة",
       "descriptionAr": "الوصف بالعربية",
-      "ProductCategories": "تصنيف المنتج"
+      "ProductCategories": "تصنيف المنتج",
+      "ProductPublish":"حالة نشر المنتج"
     },
     "channel": {
       "title": "القنوات",
@@ -1538,7 +1548,7 @@
       "title": "عملاء الخدمات"
     },
     "CrmCompanyClient": {
-      "title": "عملاء محلات"
+      "title": "عملاء  منتجات"
     },
     "leads": {
       "title": "العملاء المحتملين",
@@ -1851,8 +1861,8 @@
         "Reject": "مرفوض",
         "NoneReview": "لا يوجد مراجعة",
         "status": "حالة",
-        "hierarchy": "التسلسل الوظيفي",
-        "isHierarchy": "طبقا للتسلسل الوظيفي",
+        "hierarchy": "الهيكل  التنظيمى",
+        "isHierarchy": "طبقا للهيكل  التنظيمى",
         "position": "المنصب",
         "action": "اجراء",
         "pendingSteps": "الطلبات المعلقة للمستخدم",
@@ -1915,7 +1925,16 @@
         "primaryPhoneNumberRequired": "رقم الجوال مطلوب",
         "taxNumberRequired": "الرقم الضريبى",
         "clientGroupIdRequired": "مطلوب صنيف العميل",
-        "customerSizeRequired": "مطلوب حجم العميل"
+        "customerSizeRequired": "مطلوب حجم العميل",
+        "uploadedDocument": "المستندات المطلوبة",
+        "chooseDocumentType": "إختر نوع المستند ثم ارفقه",
+        "requestSended": "تم ارسال الطلب بنجاح",
+        "newRequest": "طلب جديد",
+        "uploadRequiredDoc": "من فضلك ارفع المستندات المطلوبة",
+        "verified": "التحقق",
+        "dropMsg": "قم بإسقاط ملف المستند الخاص بك هنا أو انقر للاستعراض",
+        "currentLocation": "موقع العميل",
+        "externalPhotoPath": "صورة خارجية للمبنى"
       }
     },
   
@@ -1929,7 +1948,7 @@
       "title": "طلبات المبيعات",
       "allOrders": "كل الطلبات",
       "newOrders": "موافقة مدير المبيعات",
-      "sureOrder": "تجهيز الكميات (مخزن)",
+      "sureOrder": "تجهيز الطلبات",
       "completeOrder": "الطلبات المكتملة",
       "cancelOrder": " الطلبات الملغية",
       "itemName": "اسم الصنف",
@@ -1978,7 +1997,7 @@
       "assignTrunk": "شحن الطلبات",
       "addRequestLimit": "طلب رفع الحد الاتمانى",
       "assignOrder": "اسناد الطلب",
-      "draftOrder": "طلبات المعلقة (مندوب)",
+      "draftOrder": "  مسودة (مندوب)",
       "printOrder": "طباعه الطلب",
       "clientLocationName": "الموقع",
       "terms": "الشروط والأحكام",
@@ -2003,7 +2022,7 @@
       "fullDelivery": "تسليم كامل",
       "Draft": "مسودة",
       "salsePerson": "المندوب",
-      "ChangeQuantity": "تغيير الكميات (مندوب)",
+      "ChangeQuantity": "  إعادة الطلب (مندوب)",
       "changeQuantityMessage": "ملاحظات مدير المبيعات",
       "changeQuantity": " (مندوب)تغيير الكميات",
       "stock": "المخزوون",
@@ -2011,7 +2030,8 @@
       "category": "الفئة",
       "approved": "موافقة",
       "backToSales": "الرجوع للعديل",
-      "map":"الموقع"
+      "map":"الموقع",
+      "invoiceStatus":"حالة الدفع"
     },
     "requestPrice": {
       "title": "طلبات الاسعار",
@@ -2053,7 +2073,10 @@
       "payment": "الدفع",
       "tax": "الضريبة",
       "notes": "الملاحظات",
-      "total": "الكلي"
+      "total": "الكلي",
+      "Unpaid": "لم يتم التحصيل",
+      "PartiallyPaid": "تحصيل جزئى",
+      "Paid": "تم التحصيل"
     },
     "truckDriver": {
       "title": "سائقي الشاحنات",
@@ -2096,23 +2119,24 @@
       "UpdateItems": "تحديث الاصناف",
       "discount": "الخصم",
       "discountType": "نوع الخصم",
-      "itemPrice": "سعر الصنف"
+      "itemPrice": "سعر الصنف",
+      "listPrice":"سعر القائمة"
     },
     "assignTruckOrder": {
-      "title": "طلبات الشاحنات المسنده",
+      "title": "    المسنده",
       "titleOperation": "طلب شاحنه مسند"
     },
     "orderDraft": {
-      "title": "طلبات معلقة (مندوب)"
+      "title": "  مسودة (مندوب)"
     },
     "changeQTY": {
-      "title": "تغيير الكمبات (مندوب)"
+      "title": " إعادة الطلب (مندوب)"
     },
     "smApprove": {
       "title": "موافقة مدير المبيعات"
     },
     "storePrepare": {
-      "title": "تجهيز الكميات (مخزن)"
+      "title": "تجهيز الطلبات (مخزن)"
     },
     "shippingOrder": {
       "title": "شحن الطلبات"

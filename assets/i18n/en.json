@@ -323,7 +323,8 @@
       "filedIdRequired": "This field is required",
       "areyouSureDelete": "Are you sure you want to delete?",
       "employeeHasTargetInSamePeriod": "Employee Has Target Type In Same Period",
-      "AllQuntityShippingOrDelivery":"All quantity are  in shipping or delivery !"
+      "AllQuntityShippingOrDelivery":"All quantity are  in shipping or delivery !",
+      "servicesFound":"Service Found .. Plz Remove Products First"
     },
     "table": {
       "name": "Name",
@@ -399,7 +400,7 @@
       "resetPassword": "Reset Password",
       "export": "Export",
       "viewByCreate": "View By Create",
-      "viewByAssign": "View By On",
+      "viewByAssign": "View By Own",
       "evaluation": "Add Evaluation",
       "orderNew": "Add Order New",
       "addToLead": "Add To Lead",
@@ -459,8 +460,8 @@
     },
     "topbar": {
       "quickLinks": "Quick Links",
-      "newOrder": "  Order Service",
-      "newSales": " Order Sales",
+      "newOrder": " New order service",
+      "newSales": "New order sales",
       "logOut": "Logout",
       "messages": "Internal Messages",
       "profile": "My Profile",
@@ -1174,7 +1175,8 @@
       "invoice": "Invoice",
       "itemPrice": "Item Price",
       "clientSearch": " Customer ( Name  - Code - VAT Number )",
-      "items": "Items",
+      "items": "Products",
+      "shipping":"Shipping",
       "orderSaved": " Saved & Send",
       "totalTax": "Tax",
       "invoiceCode": "# Invoice ",
@@ -1182,6 +1184,8 @@
       "orderSavedAsDraft": "Saved As Draft",
       "creditLimit": "Credit Limit",
       "shippingOrder": "SHO",
+      "noProducts":"No Product Selected",
+      "serviceProduct":"Service Product",
 
       "newOrders": {
         "title": "New Orders",
@@ -1499,7 +1503,11 @@
       "conversionFactor": "Conversion Factor",
       "units": "Units",
       "addUnit": "Add Unit",
-      "price":"Price"
+      "price": "Price",
+      "NotPublish": "Not Publish",
+      "Published": "Published",
+      "Draft": "Draft",
+      "sku":"SKU"
     },
     "item": {
       "title": "Products ",
@@ -1511,7 +1519,8 @@
       "largeUnit": "Large Unit",
       "conversionFactor": "Conversion Factor",
       "units": "Units",
-      "addUnit": "Add Unit"
+      "addUnit": "Add Unit",
+      "plzAddUnit":"Please Select At Least One Unit"
     },
     "serviceType": {
       "title": "Service Types",
@@ -1922,11 +1931,11 @@
       "Large": "Large",
       "Medium": "Medium",
       "Small": "Small",
-      "buildingNumber": "building Number",
-      "subNumber": "sub Number",
-      "postalCode": "postal Code",
-      "district": "district",
-      "city": "city",
+      "buildingNumber": "Building number",
+      "subNumber": "Sub number",
+      "postalCode": "Postal code",
+      "district": "District",
+      "city": "City",
       "nationalAddressData": "National address data",
       "goNationalAddressData": "Go National address data ",
       "commercialRegister": "Commercial register",
@@ -1942,7 +1951,16 @@
       "taxNumberRequired": "Tax Number Required",
       "clientGroupIdRequired": "Customer Category Required",
       "customerSizeRequired": "Customer Size Required",
-      "nationalAddressDataRequired":"nationalAddressDataRequired"
+      "nationalAddressDataRequired":"national Address Data Required",
+      "uploadedDocument":"Uploaded Docs",
+      "chooseDocumentType":"Choose Document Type",
+      "requestSended":"The request was sent successfully",
+      "newRequest":"New Request",
+      "uploadRequiredDoc":"PLZ upload required doc",
+      "verified":"Verified",
+      "dropMsg":"Drop your document file here or click to browse",
+      "currentLocation":"Current Location",
+      "externalPhotoPath":"External Logo"
     }
   },
 
@@ -2035,13 +2053,16 @@
       "ChangeQuantity": "Salse Change QTY",
       "changeQuantityMessage": "S/M Message",
       "changeQuantity": "Change QTY",
-      "stock":"Stock",
-      "status":"Status",
-      "category":"Category",
-      "approved":"Approved",
-      "backToSales":"Back To Sales",
-      "map":"Map"
-      
+      "stock": "Stock",
+      "status": "Status",
+      "category": "Category",
+      "approved": "Approved",
+      "backToSales": "Back To Sales",
+      "map": "Map",
+      "invoiceStatus": " Status",
+      "Unpaid": "Unpaid",
+      "PartiallyPaid": "Partially Paid",
+      "Paid": "Paid"
     },
     "requestPrice": {
       "title": "Requests Price",
@@ -2127,7 +2148,8 @@
       "UpdateItems": "Update Items",
       "discount": "Discount",
       "discountType": "Discount Type",
-      "itemPrice":"Item Price"
+      "itemPrice":"Item Price",
+      "listPrice":"List Price"
     },
     "assignTruckOrder": {
       "title": "Assign Truck Orders",
