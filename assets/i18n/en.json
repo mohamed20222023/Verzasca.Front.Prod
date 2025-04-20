@@ -1107,7 +1107,7 @@
       "phoneMustContainOnlyDigit": "Mobile Must Only Digit",
       "currancy": "SAR",
       "searchService": "Service Name",
-      "searchProduct": "Product Name",
+      "searchProduct": "Search By SKU | Name",
       "savedAddress": "Saved Loctions",
       "addAddress": "Add Loction",
       "canceledEvaluation": "Canceled Evaluation",
@@ -1184,8 +1184,8 @@
       "orderSavedAsDraft": "Saved As Draft",
       "creditLimit": "Credit Limit",
       "shippingOrder": "SHO",
-      "noProducts":"No Product Selected",
-      "serviceProduct":"Service Product",
+      "noProducts":"Your Cart is Empty!",
+      "serviceProduct":"Categories",
 
       "newOrders": {
         "title": "New Orders",
@@ -1511,6 +1511,8 @@
     },
     "item": {
       "title": "Products ",
+      "allItems":"ِAll Items",
+      "titleOperation": "Product",
       "edit": "Product Edit",
       "add": "Product Create",
       "isStore": "is Item Store",
@@ -1908,7 +1910,12 @@
       "pendingSteps": "Pending Requests For User",
       "responsibleOrder": "Responsibles Order",
       "name":"Name",
-      "statusName":"Status Name"
+      "statusName":"Status Name",
+      "requestDetail":"Request Detail",
+      "documentName":"Document",
+      "log":"Log",
+      "accept":"Accept",
+      "reject":"Reject"
     },
     "pendingSteps": {
       "title": "Pending Requests For User",
@@ -2062,7 +2069,10 @@
       "invoiceStatus": " Status",
       "Unpaid": "Unpaid",
       "PartiallyPaid": "Partially Paid",
-      "Paid": "Paid"
+      "Paid": "Paid",
+      "product":"Product",
+      "productInfo":"Product Info",
+      "sendApproval":"Send To Approve"
     },
     "requestPrice": {
       "title": "Requests Price",

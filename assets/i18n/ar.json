@@ -115,9 +115,6 @@
         "HOVERED": "حلق"
       }
     },
-    "PAGES": {
-      "TEXT": "الصفحات"
-    },
     "AUTHENTICATION": {
       "TEXT": "المصادقة",
       "LIST": {
@@ -992,7 +989,7 @@
       "phoneMustStart05": "رقم الجوال يجيب ان يبدأ ب 05",
       "phoneMustContainOnlyDigit": "رقم الجوال يجيب ان يحتوى على ارقام فقط",
       "currancy": "ريال",
-      "searchProduct": "إسم المنتج",
+      "searchProduct": "بحث بكود واسم الصنف ...",
       "searchService": "إسم الخدمة",
 
       "canceledEvaluation": "التقييمات الملغية",
@@ -1068,8 +1065,8 @@
       "creditLimit": "  الحد الأتمانى",
       "shippingOrder": "رقم الشحن",
       "savedAddress": "عنوان الشحن",
-      "noProducts":"لا يوجد منتجات ",
-      "serviceProduct":"فئة المنتج",
+      "noProducts":"السلة فارغة!",
+      "serviceProduct":"الفئات",
       "newOrders": {
         "title": "الطلبات الجديدة",
         "titleOperation": "الطلبات الجديدة"
@@ -1399,6 +1396,8 @@
     },
     "item": {
       "title": "المنتجات ",
+      "allItems":"الكل",
+      
       "edit": "تعديل منتج",
       "add": "إنشاء منتج",
       "isStore": "هل مخزنى",
@@ -1882,7 +1881,12 @@
         "pendingSteps": "الطلبات المعلقة للمستخدم",
         "responsibleOrder": "ترتيب المسؤولين",
         "name": "إسم الطلب",
-        "statusName": "الحالة"
+        "statusName": "الحالة",
+        "requestDetail": "تفاصيل الطلب",
+        "documentName": "إسم المستند",
+        "log": "سجل التوقيعات",
+        "accept": "موافقة",
+        "reject": "رفض"
       },
       "pendingSteps": {
         "title": "الطلبات المعلقة للمستخدم",
@@ -1972,7 +1976,7 @@
       "totalDiscount": "إجمالى الخصم",
       "netPrice": " إجمالى الصافى",
       "clientName": "إسم العميل",
-      "vatNumber": "العنوان الضريبى",
+      "vatNumber": "الرقم الضريبى",
       "mobile": "الجوال",
       "creditLimit": "الحد الاتمانى",
       "nationalAddress": "العنوان الوطنى",
@@ -2030,8 +2034,11 @@
       "category": "الفئة",
       "approved": "موافقة",
       "backToSales": "الرجوع للعديل",
-      "map":"الموقع",
-      "invoiceStatus":"حالة الدفع"
+      "map": "الموقع",
+      "invoiceStatus": "حالة الدفع",
+      "product": "منتج",
+      "productInfo": "تفاصيل المنتج",
+      "sendApproval": "إرسال للموافقة"
     },
     "requestPrice": {
       "title": "طلبات الاسعار",
@@ -2073,7 +2080,7 @@
       "payment": "الدفع",
       "tax": "الضريبة",
       "notes": "الملاحظات",
-      "total": "الكلي",
+      "total": "الإجمالى",
       "Unpaid": "لم يتم التحصيل",
       "PartiallyPaid": "تحصيل جزئى",
       "Paid": "تم التحصيل"
