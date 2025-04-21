@@ -877,7 +877,7 @@
       "cancel": "إلغاء",
       "reopen": "إعادة فتح",
       "free": "مجانى",
-      "finished": "منتهى",
+      "finished": "مكتمل",
       "serviceAfterSale": "خدمة ما بعد البيع",
       "creationDate": "تاريخ الانشاء",
       "finishedDate": "تاريخ الانتهاء",
@@ -1005,6 +1005,7 @@
       "orderComplete": "حفظ الطلب",
       "orderSaveSuccess": "شكرًا لك! تم إكمال طلبك!",
       "mustSelectClientInfo": "يجب إكمال بيانات العميل المطلوبة",
+      "mustSelectClient":"يجب إختيار عميل",
       "mustSelectServices": "يجب إختيار الخدمات",
       "mustSelectTimes": "يجب إختيار الموعد متاح",
       "newOrderAgain": "طلب جديد",
@@ -1066,6 +1067,7 @@
       "shippingOrder": "رقم الشحن",
       "savedAddress": "عنوان الشحن",
       "noProducts":"السلة فارغة!",
+      "noProduct":"لا يوجد منتجات",
       "serviceProduct":"الفئات",
       "newOrders": {
         "title": "الطلبات الجديدة",
@@ -1166,9 +1168,9 @@
       "normal": "تقييم سعر"
     },
     "finishedEvaluation": {
-      "title": "التقييمات المنتهية",
+      "title": "التقييمات المكتملةة",
       "finish": "انهاء",
-      "titleOperation": "التقييمات المنتهية",
+      "titleOperation": "التقييمات المكتملةة",
       "assign": "إسناد",
       "cancel": "إلغاء",
       "status": "الحالة",
@@ -1220,7 +1222,7 @@
       "title": "الطلبات المسندة"
     },
     "completed": {
-      "title": "الطلبات المنتهية"
+      "title": "الطلبات المكتملةة"
     },
     "reopen": {
       "title": "الطلبات إعادة الفتح"
@@ -1951,10 +1953,17 @@
     "salesOrder": {
       "title": "طلبات المبيعات",
       "allOrders": "كل الطلبات",
+      "draft": "مسوده",
+      "reopen": "إعادة",
+      "approveMangerSM": "موافقة ",
+      "orderShipping": "فى الشحن ",
+      "storeRepeare": "فى التجهيز",
+      "RepareOrder": "فى التجهيز",
+
       "newOrders": "موافقة مدير المبيعات",
       "sureOrder": "تجهيز الطلبات",
-      "completeOrder": "الطلبات المكتملة",
-      "cancelOrder": " الطلبات الملغية",
+      "completeOrder": "  المكتملة",
+      "cancelOrder": "   الملغية",
       "itemName": "اسم الصنف",
       "clientQuantity": "الكميه الطلوبه",
       "approvedQuantity": "الكميه المنصرفة",
@@ -1964,13 +1973,13 @@
       "unit": "الوحدة",
       "clientVisitDate": "تاريخ التسليم",
       "Pending": "إنتظار",
-      "UnderReview": "تحت الموافقة",
+      "UnderReview": "إنتظار الموافقة",
       "Approved": "تمت الموافقه",
       "Cancel": "ملغي",
-      "Assign": "إسناد لشاحنة",
+      "Assign": "فى الشحن",
       "Accept": "تم الموافقة",
       "Reject": "تم الرفض",
-      "Finished": "منتهي",
+      "Finished": "مكتملة",
       "totalQuantity": "إجمالى الكمية",
       "totalCost": " إجمالى التكلفة",
       "totalDiscount": "إجمالى الخصم",
@@ -2001,7 +2010,7 @@
       "assignTrunk": "شحن الطلبات",
       "addRequestLimit": "طلب رفع الحد الاتمانى",
       "assignOrder": "اسناد الطلب",
-      "draftOrder": "  مسودة (مندوب)",
+      "draftOrder": "  مسودة  ",
       "printOrder": "طباعه الطلب",
       "clientLocationName": "الموقع",
       "terms": "الشروط والأحكام",
@@ -2026,19 +2035,20 @@
       "fullDelivery": "تسليم كامل",
       "Draft": "مسودة",
       "salsePerson": "المندوب",
-      "ChangeQuantity": "  إعادة الطلب (مندوب)",
+      "ChangeQuantity": "  إعادة الطلب  ",
+      "changeQuantity": "  إعادة الطلب  ",
       "changeQuantityMessage": "ملاحظات مدير المبيعات",
-      "changeQuantity": " (مندوب)تغيير الكميات",
       "stock": "المخزوون",
       "status": "الحالة",
       "category": "الفئة",
       "approved": "موافقة",
-      "backToSales": "الرجوع للعديل",
+      "backToSales": "إعادة الطلب",
       "map": "الموقع",
       "invoiceStatus": "حالة الدفع",
       "product": "منتج",
       "productInfo": "تفاصيل المنتج",
-      "sendApproval": "إرسال للموافقة"
+      "sendApproval": "إرسال للموافقة",
+      "prepareOrder":"تجهيز الطلبات"
     },
     "requestPrice": {
       "title": "طلبات الاسعار",
@@ -2099,7 +2109,7 @@
       "cityName": "المدن"
     },
     "requestPersonSales": {
-      "title": "طلبات المندوب",
+      "title": "طلبات رفع الحد الأتمانى ",
       "titleOperation": "طلب المندوب",
       "requestPersonStatus": "حالة الطلب"
     },
@@ -2130,7 +2140,7 @@
       "listPrice":"سعر القائمة"
     },
     "assignTruckOrder": {
-      "title": "    المسنده",
+      "title": "طلبات الشاحنات المسندة",
       "titleOperation": "طلب شاحنه مسند"
     },
     "orderDraft": {
