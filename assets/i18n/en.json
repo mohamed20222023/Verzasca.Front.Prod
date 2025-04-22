@@ -347,7 +347,8 @@
       "nameAr": "Arabic Name",
       "nameEn": "English Name",
       "creationTime": "Creation Time",
-      "id":"Code"
+      "id": "Code",
+      "creator": "Creator"
     },
     "action": {
       "register": "Register",

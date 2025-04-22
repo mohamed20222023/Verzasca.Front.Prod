@@ -341,7 +341,8 @@
       "creationTime": "وقت الإنشاء",
       "id": "الكود",
       "active": "نشط",
-      "noActive": "غير نشط"
+      "noActive": "غير نشط",
+      "creator":"المنشى"
     },
     "action": {
       "register": "تسجيل",
