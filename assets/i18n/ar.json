@@ -318,7 +318,8 @@
       "areyouSureDelete": "هل أنت متأكد أنك تريد الحذف؟",
       "employeeHasTargetInSamePeriod": "هذأ الموظف لدية تارجت فى نفس الفترة",
       "AllQuntityShippingOrDelivery": "جميع الكميات تم شحنها أو تسليمها",
-      "servicesFound":"يوجد منتجات لهذة الفئة  .. من فضلك احذف المنتجات الاول"
+      "servicesFound":"يوجد منتجات لهذة الفئة  .. من فضلك احذف المنتجات الاول",
+      "ClientLimitLessNet":"غير مسموح . يجب رفع الاحد الاتمانى للعميل"
     },
     "table": {
       "name": "الاسم",
@@ -364,13 +365,14 @@
       "view": "رؤية",
       "proceed": "تقدم",
       "saveAndSend": "حفظ وإرسال",
-      "print": "طباعة"
+      "print": "طباعة",
+      "send":"إرسال"
     },
     "permission": {
-      "view": "روية",
+      "view": "رؤية الشاشه",
       "edit": "تعديل",
       "delete": "حذف",
-      "register": "تسجيل",
+      "register": "تسجيل جديد",
       "save": "حفظ",
       "pendingSteps": "الطلبات المعلقة للمستخدم",
       "changeStatus": "تغيير الحالة",
@@ -416,7 +418,16 @@
       "odooSync": "مزامنة أودو",
       "printPill": "طباعة الفاتورة",
       "finish": "إنهاء الطلب",
-      "editTotalDiscont": "تعديل الخصم الكلى"
+      "editTotalDiscont": "تعديل الخصم الكلى",
+      "changeQuantity": "تعديل الكميات",
+      "sendStore": "إرسال للمستودع",
+      "reopenOrder": "إعادة الطلب",
+      "sendApproval": "إرسال للموافقة",
+      "prepare": "إرسال للتجهيز",
+      "assignTrunk": "إسناد للشاحنة",
+      "viewOrderCount": "رؤية إجمالى الطلبات",
+      "viewBySalesPerson": "عرض ك مندوب",
+      "viewBySalesManager": "عرض ك مدير مبيعات"
     },
     "common": {
       "Web": "الموقع الخارجى",
@@ -1267,6 +1278,7 @@
       "SalesMarketingSupervisor": "مشرف المبيعات والتسويق",
       "HRManager": "مدير الموارد البشرية",
       "SalesMarketingSpecialist": "اختصاصي مبيعات وتسويق",
+      "SalseManager":"مدير مبيعات",
       "Marketing": "التسويق",
       "Accountant": "محاسب",
       "Other": "أخرى",
@@ -1954,12 +1966,13 @@
       "title": "طلبات المبيعات",
       "allOrders": "كل الطلبات",
       "draft": "مسوده",
-      "reopen": "إعادة",
-      "approveMangerSM": "موافقة ",
+      "reopen": "إعادة الطلب",
+      "approveMangerSM": "إنتظار  موافقة ",
       "orderShipping": "فى الشحن ",
-      "storeRepeare": "فى التجهيز",
-      "RepareOrder": "فى التجهيز",
-
+      "storeRepeare": "فى المستودع",
+      "RepareOrder": "تم التجهيز",
+"StoreDeliveryOrder":"تسليم المستودع",
+"Return":"Return",
       "newOrders": "موافقة مدير المبيعات",
       "sureOrder": "تجهيز الطلبات",
       "completeOrder": "  المكتملة",
@@ -2000,7 +2013,7 @@
       "order": " الطلبات",
       "acutalVisitDate": "تاريخ  تسليم الشاحنة",
       "clientDeliveryDate": "تاريخ التسليم للعميل",
-      "acutalDeliveryDate": "تاريخ التسليم الفعلى",
+      "acutalDeliveryDate": "تاريخ التسليم ",
       "plzSelectTrunck": "يجب أختيار شاحنه",
       "printBillOfLading": "طباعه الاصناف",
       "finihedOrder": "إنهاء الطلب",
@@ -2064,8 +2077,8 @@
       "clients": "العملاء",
       "clientLocation": "موقع العميل",
       "itemGroup": "مجموعة العناصر",
-      "items": "العناصر",
-      "itemName": "اسم العنصر",
+      "items": "المنتجات",
+      "itemName": "اسم المنتج",
       "unit": "الوحدة",
       "quantity": "الكمية",
       "priceUnit": "سعر الوحده",
@@ -2077,8 +2090,8 @@
       "addItem": "إضافة عنصر"
     },
     "salesSetting": {
-      "title": "اعدادات طلبات الاسعار",
-      "titleOperation": "اعدادات طلبات الاسعار"
+      "title": "اعدادات  المبيعات",
+      "titleOperation": "اعدادات طلبات المبيعات"
     },
     "salesInvoices": {
       "title": "فواتير المبيعات",
@@ -2117,7 +2130,7 @@
       "title": "تحصيلات العميل",
       "titleOperation": "تحصيل عمبل",
       "clientName": "إسم العميل",
-      "cost": "التكلفة",
+      "cost": "قيمه الحد الاتمانى",
       "notes": "ملاحظات",
       "isSyncOdoo": "مزامنه اودو",
       "syncDate": "تاريخ المزامنة",
@@ -2163,6 +2176,15 @@
     },
     "cancelOrder": {
       "title": "الطلبات الملغية"
+    },
+     "salesOrderStore":{
+      "title": "طلبات المستودع",
+      "deliveries":"التسليمات",
+      "ready":"تم التجهيز",
+      "shipping":"الشحن",
+      "return":"مرتجع",
+      "trunkAssign":"أسناد لشاحنة"
+
     }
   }
 }
