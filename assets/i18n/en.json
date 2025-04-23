@@ -373,7 +373,8 @@
       "proceed": "proceed",
       "saveAndSend": "Save & Send",
       "print":"Print",
-      "send":"Send"
+      "send":"Send",
+      "update":"Update"
     },
 
     "permission": {
@@ -1923,13 +1924,21 @@
       "isManual": "Is Manual",
       "pendingSteps": "Pending Requests For User",
       "responsibleOrder": "Responsibles Order",
-      "name":"Name",
-      "statusName":"Status Name",
-      "requestDetail":"Request Detail",
-      "documentName":"Document",
-      "log":"Log",
-      "accept":"Accept",
-      "reject":"Reject"
+      "name": "Name",
+      "statusName": "Status Name",
+      "requestDetail": "Request Detail",
+      "documentName": "Document",
+      "log": "Log",
+      "accept": "Accept",
+      "reject": "Reject",
+      "type": "Type",
+      "creationTime": "Creation Time",
+      "masterId": "Refrence ID",
+      "viewRequest": "View Request",
+      "stepOrder": "Sort",
+      "userApprove": "Employee Name",
+      "approvedAt": "Time",
+      "postionName": "Job"
     },
     "pendingSteps": {
       "title": "Pending Requests For User",
@@ -1972,16 +1981,24 @@
       "taxNumberRequired": "Tax Number Required",
       "clientGroupIdRequired": "Customer Category Required",
       "customerSizeRequired": "Customer Size Required",
-      "nationalAddressDataRequired":"national Address Data Required",
-      "uploadedDocument":"Uploaded Docs",
-      "chooseDocumentType":"Choose Document Type",
-      "requestSended":"The request was sent successfully",
-      "newRequest":"New Request",
-      "uploadRequiredDoc":"PLZ upload required doc",
-      "verified":"Verified",
-      "dropMsg":"Drop your document file here or click to browse",
-      "currentLocation":"Current Location",
-      "externalPhotoPath":"External Logo"
+      "nationalAddressDataRequired": "national Address Data Required",
+      "uploadedDocument": "Uploaded Docs",
+      "chooseDocumentType": "Choose Document Type",
+      "requestSended": "The request was sent successfully",
+      "newRequest": "New Request",
+      "uploadRequiredDoc": "PLZ upload required doc",
+      "verified": "Verified",
+      "dropMsg": "Drop your document file here or click to browse",
+      "currentLocation": "Current Location",
+      "externalPhotoPath": "External Logo",
+      "commercialRegisterPath": "Commercial Register",
+      "municipalLicensePath": "Municipal License",
+      "nationalAddressProofPath": "National Address Proof",
+      "vatCertificatePath": "VAT Certificate",
+      "location": "Location",
+      "requiedFields": "There is some information to complete... to continue the request",
+      "currentCreditLimit": "Current Limit",
+      "requestCreditLimit": "Request Limit"
     }
   },
 
@@ -2095,7 +2112,9 @@
       "product": "Product",
       "productInfo": "Product Info",
       "sendApproval": "Send To Approve",
-      "prepareOrder":"Prepare Order"
+      "prepareOrder":"Prepare Order",
+      "salesOrderNew":"New sale request",
+      "completeCustomerData":"Complete customer data"
     },
     "requestPrice": {
       "title": "Requests Price",

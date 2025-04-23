@@ -367,7 +367,8 @@
       "proceed": "تقدم",
       "saveAndSend": "حفظ وإرسال",
       "print": "طباعة",
-      "send":"إرسال"
+      "send":"إرسال",
+      "update":"تحديث"
     },
     "permission": {
       "view": "رؤية الشاشه",
@@ -1883,7 +1884,7 @@
         "responsibleOrder": "ترتيب المسؤولين"
       },
       "approvalRequests": {
-        "title": "طلبات الموافقة",
+        "title": "مراحل الاجراءات",
         "formTitle": "العنوان",
         "description": "الوصف",
         "approvalType": "نوع الموافقة",
@@ -1901,7 +1902,15 @@
         "documentName": "إسم المستند",
         "log": "سجل التوقيعات",
         "accept": "موافقة",
-        "reject": "رفض"
+        "reject": "رفض",
+        "type": "نوع الأجراء",
+        "creationTime": "توقيت الطلب",
+        "masterId": "الرقم المرجعى",
+        "viewRequest": "رؤية الطلب",
+        "stepOrder": "ترتيب",
+        "userApprove": "إسم الموظف",
+        "approvedAt": "التوقيت",
+        "postionName": "الوظيفة"
       },
       "pendingSteps": {
         "title": "الطلبات المعلقة للمستخدم",
@@ -1953,7 +1962,15 @@
         "verified": "التحقق",
         "dropMsg": "قم بإسقاط ملف المستند الخاص بك هنا أو انقر للاستعراض",
         "currentLocation": "موقع العميل",
-        "externalPhotoPath": "صورة خارجية للمبنى"
+        "externalPhotoPath": "صورة خارجية للمبنى",
+        "commercialRegisterPath": "السجل التجاري",
+        "municipalLicensePath": "رخصة البلدية",
+        "nationalAddressProofPath": "العنوان الوطنى",
+        "vatCertificatePath": "شهادة ضريبة القيمة المضافة",
+        "location": "الموقع",
+        "requiedFields": "يوجد بعض البيانات لاستكمالها .. لمواصلة الطلب ",
+        "currentCreditLimit": "الحد الاتمانى الحالى",
+        "requestCreditLimit": "طلب الحد الاتمانى"
       }
     },
   
@@ -2062,7 +2079,9 @@
       "product": "منتج",
       "productInfo": "تفاصيل المنتج",
       "sendApproval": "إرسال للموافقة",
-      "prepareOrder":"تجهيز الطلبات"
+      "prepareOrder":"تجهيز الطلبات",
+      "salesOrderNew":"طلب بيع جديد",
+      "completeCustomerData":"استكمال بيانات العميل"
     },
     "requestPrice": {
       "title": "طلبات الاسعار",
