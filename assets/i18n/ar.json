@@ -368,7 +368,9 @@
       "saveAndSend": "حفظ وإرسال",
       "print": "طباعة",
       "send":"إرسال",
-      "update":"تحديث"
+      "update":"تحديث",
+      "sure":"تأكيد",
+      "approve":"موافقة"
     },
     "permission": {
       "view": "رؤية الشاشه",
@@ -858,6 +860,8 @@
   },
   "orderManagement": {
     "order": {
+      "discountValue": "قيمة الخصم",
+      "discountPercentage": "نسبة الخصم",
       "attachment": "الملف",
       "title": "الطلبات",
       "titlePending": "الطلبات المعلقة",
@@ -1540,7 +1544,7 @@
       "postalCode": "الرمز البريدى",
       "district": "الحى",
       "formalPaper":"المستندات الرسمية",
-      "externalPhotoPath":"ًوره حية للمبنى",
+      "externalPhotoPath":"ًصورة خارية للعميل",
       "vatNumber":"الرقم الضريبى",
       "regionName":"المنطقة",
       "customerPaymentTerms":"شروط العميل"
@@ -1884,14 +1888,14 @@
         "responsibleOrder": "ترتيب المسؤولين"
       },
       "approvalRequests": {
-        "title": "مراحل الاجراءات",
+        "title": "طلبات الموافقة",
         "formTitle": "العنوان",
         "description": "الوصف",
         "approvalType": "نوع الموافقة",
         "notes": "ملحوظات",
-        "Accept": "مقبول",
+        "Accept": "تمت الموافقة",
         "Reject": "مرفوض",
-        "NoneReview": "لا يوجد مراجعة",
+        "NoneReview": "إنتظار الموافقة",
         "status": "حالة",
         "isManual": "Is Manual",
         "pendingSteps": "الطلبات المعلقة للمستخدم",
@@ -1910,7 +1914,8 @@
         "stepOrder": "ترتيب",
         "userApprove": "إسم الموظف",
         "approvedAt": "التوقيت",
-        "postionName": "الوظيفة"
+        "postionName": "الوظيفة",
+        "Pending":"إنتظار الموافقة"
       },
       "pendingSteps": {
         "title": "الطلبات المعلقة للمستخدم",
@@ -2056,7 +2061,7 @@
       "ArriveStore": "تم الوصول للمستودع",
       "GoClient": "فى الطريق للعميل",
       "ArriveClient": "جار التوصيل",
-      "DeliveryClient": "تم الوصول العميل",
+      "DeliveryClient": "تم تسليم العميل",
       "DelayOrder": "تاجيل الاستلام",
       "CancelOrder": "العميل رفض استلام الطلب",
       "trunckStatus": "حالة الشاحنة",
@@ -2147,7 +2152,7 @@
       "requestPersonStatus": "حالة الطلب"
     },
     "clientCollection": {
-      "title": "تحصيلات العميل",
+      "title": "التحصيلات",
       "titleOperation": "تحصيل عمبل",
       "clientName": "إسم العميل",
       "cost": "قيمه الحد الاتمانى",
@@ -2199,7 +2204,7 @@
     },
      "salesOrderStore":{
       "title": "طلبات المستودع",
-      "deliveries":"التسليمات",
+      "deliveries":"الطلبات المعتمدة",
       "ready":"تم التجهيز",
       "shipping":"الشحن",
       "return":"مرتجع",

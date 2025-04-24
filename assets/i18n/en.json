@@ -374,7 +374,9 @@
       "saveAndSend": "Save & Send",
       "print":"Print",
       "send":"Send",
-      "update":"Update"
+      "update":"Update",
+      "sure":"Sure",
+      "approve":"Approve"
     },
 
     "permission": {
@@ -971,6 +973,8 @@
   },
   "orderManagement": {
     "order": {
+      "discountValue": "Discount Value",
+      "discountPercentage": "Discount Percentage",
       "attachment": "Attachment",
       "title": "Orders",
       "titlePending": "Pending Orders",
@@ -1938,7 +1942,9 @@
       "stepOrder": "Sort",
       "userApprove": "Employee Name",
       "approvedAt": "Time",
-      "postionName": "Job"
+      "postionName": "Job",
+      "Pending":"Pending"
+      
     },
     "pendingSteps": {
       "title": "Pending Requests For User",
