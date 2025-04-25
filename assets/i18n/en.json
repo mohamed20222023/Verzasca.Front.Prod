@@ -348,7 +348,8 @@
       "nameEn": "English Name",
       "creationTime": "Creation Time",
       "id": "Code",
-      "creator": "Creator"
+      "creator": "Creator",
+      "isMain":"Is Main"
     },
     "action": {
       "register": "Register",
@@ -484,7 +485,10 @@
       "new": "New",
       "alerts": "Alerts",
       "markALLSee": "Mark ALL Read",
-      "timeAvailable": "Time Available"
+      "timeAvailable": "Time Available",
+      "noNotifications":"No notifications",
+      "notificationAlert":"Alerts",
+      "approvals":"Approvals"
     }
   },
   "auth": {
@@ -1664,7 +1668,8 @@
       "externalPhotoPath":"Live image",
       "vatNumber":"VAT-Number",
       "regionName":"Region Name",
-      "customerPaymentTerms":"Customer Terms"
+      "customerPaymentTerms":"Customer Terms",
+      "logo":"Logo"
 
     },
     "clientCompany": {

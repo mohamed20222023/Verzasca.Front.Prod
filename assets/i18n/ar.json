@@ -342,7 +342,8 @@
       "id": "الكود",
       "active": "نشط",
       "noActive": "غير نشط",
-      "creator":"المنشى"
+      "creator":"المنشى",
+      "isMain":"أساسى ؟ "
     },
     "action": {
       "register": "تسجيل",
@@ -475,7 +476,11 @@
       "notifications": "الإشعارات",
       "new": "جديد",
       "alerts": "التنبيهات",
-      "markALLSee": "رؤيه الكل"
+      "markALLSee": "رؤيه الكل",
+      "timeAvailable": "المواعيد المتاحة",
+      "noNotifications": "لا يوجد إشعارات",
+      "notificationAlert": "التنبيهات",
+      "approvals":"الإجراءات"
     }
   },
   "auth": {
@@ -1543,11 +1548,12 @@
       "subNumber": "الرقم الفرعى",
       "postalCode": "الرمز البريدى",
       "district": "الحى",
-      "formalPaper":"المستندات الرسمية",
-      "externalPhotoPath":"ًصورة خارية للعميل",
-      "vatNumber":"الرقم الضريبى",
-      "regionName":"المنطقة",
-      "customerPaymentTerms":"شروط العميل"
+      "formalPaper": "المستندات الرسمية",
+      "externalPhotoPath": "ًصورة خارية للعميل",
+      "vatNumber": "الرقم الضريبى",
+      "regionName": "المنطقة",
+      "customerPaymentTerms": "شروط العميل",
+      "logo": "اللوجو"
     },
     "clientCompany": {
       "title": "عملاء الشركة"
