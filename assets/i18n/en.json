@@ -114,9 +114,6 @@
         "HOVERED": "Hovered"
       }
     },
-    "PAGES": {
-      "TEXT": "Pages"
-    },
     "AUTHENTICATION": {
       "login": {
         "username": "إسم المستخدم",
@@ -2125,7 +2122,14 @@
       "sendApproval": "Send To Approve",
       "prepareOrder":"Prepare Order",
       "salesOrderNew":"New sale request",
-      "completeCustomerData":"Complete customer data"
+      "completeCustomerData":"Complete customer data",
+      "financialInfo":"Financial Information",
+      "Balance": "Balance",
+      "CurrentUsage":"Current usage",
+      "LocationInformation":"Location Information",
+      "Notprovided":"Not provided",
+      "Notspecified":"Not specified",
+       "AddNewAddress":"Add New Address"
     },
     "requestPrice": {
       "title": "Requests Price",
@@ -2202,7 +2206,7 @@
     "priceList": {
       "title": "Price List",
       "titleOperation": "Price List",
-      "clientGroupName": "Customer Categorys",
+      "clientGroupName": "Customer Categories",
       "name": "Name",
       "priceListItems": "Price List Items ",
       "itemName": "Item Name",
