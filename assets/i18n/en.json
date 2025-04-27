@@ -475,8 +475,8 @@
     },
     "topbar": {
       "quickLinks": "Quick Links",
-      "newOrder": " New order service",
-      "newSales": "New order sales",
+      "newOrder": " New service order",
+      "newSales": "New Sales Order",
       "logOut": "Logout",
       "messages": "Internal Messages",
       "profile": "My Profile",
