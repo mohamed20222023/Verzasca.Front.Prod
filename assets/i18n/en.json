@@ -2251,6 +2251,15 @@
       "return":"Return",
       "trunkAssign":"Trunk Assign"
 
+    },
+    "visitType":{
+      "title": "Visit Types",
+      "titleOperation": "Visit Type",
+      "color": "Color"
+    },
+    "visitObjective":{
+      "title": "Visit Objectives",
+      "titleOperation": "Visit Objectives"
     }
   }
 }

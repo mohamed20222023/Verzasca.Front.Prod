@@ -2000,8 +2000,8 @@
       "orderShipping": "فى الشحن ",
       "storeRepeare": "فى المستودع",
       "RepareOrder": "تم التجهيز",
-"StoreDeliveryOrder":"تسليم المستودع",
-"Return":"Return",
+      "StoreDeliveryOrder": "تسليم المستودع",
+      "Return": "Return",
       "newOrders": "موافقة مدير المبيعات",
       "sureOrder": "تجهيز الطلبات",
       "completeOrder": "  المكتملة",
@@ -2090,17 +2090,16 @@
       "product": "منتج",
       "productInfo": "تفاصيل المنتج",
       "sendApproval": "إرسال للموافقة",
-      "prepareOrder":"تجهيز الطلبات",
-      "salesOrderNew":"طلب بيع منتجات",
-      "completeCustomerData":"استكمال بيانات العميل",
-      "financialInfo":"البيانات المالية",
-       "Balance":"الرصيد",
-       "CurrentUsage":"الاستخدام الحالي",
-       "LocationInformation":"معلومات الموقع",
-       "Notprovided":"غير متوفر",
-       "Notspecified":"غير محدد",
-       "AddNewAddress":"إضافة عنوان جديد"
-       
+      "prepareOrder": "تجهيز الطلبات",
+      "salesOrderNew": "طلب بيع منتجات",
+      "completeCustomerData": "استكمال بيانات العميل",
+      "financialInfo": "البيانات المالية",
+      "Balance": "الرصيد",
+      "CurrentUsage": "الاستخدام الحالي",
+      "LocationInformation": "معلومات الموقع",
+      "Notprovided": "غير متوفر",
+      "Notspecified": "غير محدد",
+      "AddNewAddress": "إضافة عنوان جديد"
     },
     "requestPrice": {
       "title": "طلبات الاسعار",
@@ -2174,7 +2173,7 @@
       "isSyncOdoo": "مزامنه اودو",
       "syncDate": "تاريخ المزامنة",
       "paymentTypeName": "طريقة الدفع",
-      "depositNumber":"رقم الإيداع"
+      "depositNumber": "رقم الإيداع"
     },
     "priceList": {
       "title": "قائمة الاسعار",
@@ -2189,7 +2188,7 @@
       "discount": "الخصم",
       "discountType": "نوع الخصم",
       "itemPrice": "سعر الصنف",
-      "listPrice":"سعر القائمة"
+      "listPrice": "سعر القائمة"
     },
     "assignTruckOrder": {
       "title": "طلبات الشاحنات المسندة",
@@ -2216,14 +2215,21 @@
     "cancelOrder": {
       "title": "الطلبات الملغية"
     },
-     "salesOrderStore":{
+    "salesOrderStore": {
       "title": "طلبات المستودع",
-      "deliveries":"الطلبات المعتمدة",
-      "ready":"تم التجهيز",
-      "shipping":"الشحن",
-      "return":"مرتجع",
-      "trunkAssign":"أسناد لشاحنة"
-
+      "deliveries": "الطلبات المعتمدة",
+      "ready": "تم التجهيز",
+      "shipping": "الشحن",
+      "return": "مرتجع",
+      "trunkAssign": "أسناد لشاحنة"
+    },
+    "visitType": {
+      "title": "أنواع زيارات المندوب",
+      "color": "اللون"
+    },
+    "visitObjective": {
+      "title": "أهداف الزيارة",
+      "titleOperation": "هدف للزيارة"
     }
   }
 }
