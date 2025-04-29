@@ -318,8 +318,8 @@
       "areyouSureDelete": "هل أنت متأكد أنك تريد الحذف؟",
       "employeeHasTargetInSamePeriod": "هذأ الموظف لدية تارجت فى نفس الفترة",
       "AllQuntityShippingOrDelivery": "جميع الكميات تم شحنها أو تسليمها",
-      "servicesFound":"يوجد منتجات لهذة الفئة  .. من فضلك احذف المنتجات الاول",
-      "ClientLimitLessNet":"غير مسموح . يجب رفع الاحد الاتمانى للعميل"
+      "servicesFound": "يوجد منتجات لهذة الفئة  .. من فضلك احذف المنتجات الاول",
+      "ClientLimitLessNet": "غير مسموح . يجب رفع الاحد الاتمانى للعميل"
     },
     "table": {
       "name": "الاسم",
@@ -342,8 +342,8 @@
       "id": "الكود",
       "active": "نشط",
       "noActive": "غير نشط",
-      "creator":"المنشى",
-      "isMain":"أساسى ؟ "
+      "creator": "المنشى",
+      "isMain": "أساسى ؟ "
     },
     "action": {
       "register": "تسجيل",
@@ -368,10 +368,10 @@
       "proceed": "تقدم",
       "saveAndSend": "حفظ وإرسال",
       "print": "طباعة",
-      "send":"إرسال",
-      "update":"تحديث",
-      "sure":"تأكيد",
-      "approve":"موافقة"
+      "send": "إرسال",
+      "update": "تحديث",
+      "sure": "تأكيد",
+      "approve": "موافقة"
     },
     "permission": {
       "view": "رؤية الشاشه",
@@ -439,7 +439,7 @@
       "Mobile": "تطبيق الموبيل",
       "Dashbord": "السيستم الداخلى",
       "Other": "أخرى",
-      "platforms":"المنصات"
+      "platforms": "المنصات"
     }
   },
   "layout": {
@@ -480,7 +480,7 @@
       "timeAvailable": "المواعيد المتاحة",
       "noNotifications": "لا يوجد إشعارات",
       "notificationAlert": "التنبيهات",
-      "approvals":"الإجراءات"
+      "approvals": "الإجراءات"
     }
   },
   "auth": {
@@ -737,9 +737,9 @@
       "addEmployee": "إضافة موظف",
       "position": "المنصب",
       "dayOff": "أيام العطلات",
-      "cityName":"المدن",
-      "contacts":"مسئولى التواصل ",
-      "store":"المسودع"
+      "cityName": "المدن",
+      "contacts": "مسئولى التواصل ",
+      "store": "المسودع"
     },
     "positionName": {
       "title": "اسماء المناصب",
@@ -852,7 +852,17 @@
       "employees": "موظفين",
       "teams": "الفرق",
       "teamName": "اسم الفريق",
-      "titleOperation": "الأهداف"
+      "titleOperation": "الأهداف",
+      "quantity": "العدد",
+      "AssignTask": "تاسكات الطلبات",
+      "NewOrder": "طلبات الخدمات",
+      "SalseOrder": "طلبات المبيعات",
+      "CustomerVisit": "زيارات العميل",
+      "CustomerOpen": "فتح عميل جديد",
+      "repeatType": "نوع التكرار",
+      "Monthly": "شهريا",
+      "Weekly": "إسبوعيا",
+      "Yearly": "سنويا"
     }
   },
   "clientManagement": {
@@ -1027,7 +1037,7 @@
       "orderComplete": "حفظ الطلب",
       "orderSaveSuccess": "شكرًا لك! تم إكمال طلبك!",
       "mustSelectClientInfo": "يجب إكمال بيانات العميل المطلوبة",
-      "mustSelectClient":"يجب إختيار عميل",
+      "mustSelectClient": "يجب إختيار عميل",
       "mustSelectServices": "يجب إختيار الخدمات",
       "mustSelectTimes": "يجب إختيار الموعد متاح",
       "newOrderAgain": "طلب جديد",
@@ -1079,7 +1089,7 @@
       "itemPrice": "سعر الخدمة",
       "clientSearch": "بحث : بكود العميل او الاسم او رقم الهاتف ",
       "items": "المنتجات",
-      "shipping":"الشحن",
+      "shipping": "الشحن",
       "orderSaved": "حفظ & إرسال",
       "totalTax": "قيمه الضريبة",
       "invoiceCode": "# الفاتورة",
@@ -1088,9 +1098,9 @@
       "creditLimit": "  الحد الأتمانى",
       "shippingOrder": "رقم الشحن",
       "savedAddress": "عنوان الشحن",
-      "noProducts":"السلة فارغة!",
-      "noProduct":"لا يوجد منتجات",
-      "serviceProduct":"الفئات",
+      "noProducts": "السلة فارغة!",
+      "noProduct": "لا يوجد منتجات",
+      "serviceProduct": "الفئات",
       "newOrders": {
         "title": "الطلبات الجديدة",
         "titleOperation": "الطلبات الجديدة"
@@ -1289,7 +1299,7 @@
       "SalesMarketingSupervisor": "مشرف المبيعات والتسويق",
       "HRManager": "مدير الموارد البشرية",
       "SalesMarketingSpecialist": "اختصاصي مبيعات وتسويق",
-      "SalseManager":"مدير مبيعات",
+      "SalseManager": "مدير مبيعات",
       "Marketing": "التسويق",
       "Accountant": "محاسب",
       "Other": "أخرى",
@@ -1386,7 +1396,7 @@
       "district": "منطقة",
       "addCity": "إضافة مدينة",
       "addDistrict": "إضافة منطقة",
-      "regionName":"المنطقة"
+      "regionName": "المنطقة"
     },
     "returnReason": {
       "title": "أسباب الإرجاع"
@@ -1417,12 +1427,12 @@
       "NotPublish": "غير منشور",
       "Published": "نشر المنتج",
       "Draft": "مسودة",
-      "sku":"SKU"
+      "sku": "SKU"
     },
     "item": {
       "title": "المنتجات ",
-      "allItems":"الكل",
-      
+      "allItems": "الكل",
+
       "edit": "تعديل منتج",
       "add": "إنشاء منتج",
       "isStore": "هل مخزنى",
@@ -1432,7 +1442,7 @@
       "conversionFactor": "معامل التحويل",
       "units": "الوحدات",
       "addUnit": "إضافه وحدة",
-      "plzAddUnit":"من فضلك اختر وحدة على الأقل"
+      "plzAddUnit": "من فضلك اختر وحدة على الأقل"
     },
     "serviceCategory": {
       "title": "الفئات",
@@ -1466,7 +1476,7 @@
       "mainImage": "صورة",
       "descriptionAr": "الوصف بالعربية",
       "ProductCategories": "تصنيف المنتج",
-      "ProductPublish":"حالة نشر المنتج"
+      "ProductPublish": "حالة نشر المنتج"
     },
     "channel": {
       "title": "القنوات",
@@ -1504,9 +1514,8 @@
       "eventSchedule": "الحدث",
       "visitJob": "تاريخ الزيارة",
       "parameter": "القيمه(الشيفت-الخ)"
-      
     },
-     "region":{
+    "region": {
       "title": "المناطق",
       "titleOperation": "منطقة"
     }
@@ -1553,7 +1562,11 @@
       "vatNumber": "الرقم الضريبى",
       "regionName": "المنطقة",
       "customerPaymentTerms": "شروط العميل",
-      "logo": "اللوجو"
+      "logo": "اللوجو",
+      "priceList": "قائمة الاسعار",
+      "odooId": "Ref_ID",
+      "priceListName":"الخصم"
+
     },
     "clientCompany": {
       "title": "عملاء الشركة"
@@ -1844,147 +1857,147 @@
       "assignTo": "تعيين إلى"
     }
   },
-    "approvals": {
-      "approval-types": {
-        "title": "أنواع الموافقة",
-        "nameEn": "الاسم (En)",
-        "nameAr": "الاسم (Ar)",
-        "isActive": "حالة النشاط",
-        "type": "نوع الطلب",
-        "OpenCustomerAccount": "طلب فتح عميل",
-        "CustomerLimitRequest": "طلب رفع الحد العميل",
-        "ProductSalesRequest": "طلب بيع"
-      },
-      "departments": {
-        "title": "الاقسام",
-        "departmentName": "اسم القسم",
-        "parentDepartment": "القسم الاعلى",
-        "nameEn": "الاسم (En)",
-        "nameAr": "الاسم (Ar)",
-        "hasParent": "يندرج تحت قسم",
-        "notHasParent": "لا يندرج تحت قسم",
-        "isActive": "حالة النشاط"
-      },
-      "positions": {
-        "title": "المناصب",
-        "addPosition": "اضافة منصب",
-        "nameEn": "الاسم (En)",
-        "nameAr": "الاسم (Ar)",
-        "isHead": "Is Head",
-        "notHead": "ليس رئيس",
-        "head": "رئيس",
-        "employeeName": "اسم الموظف",
-        "employees": "الموظفين"
-      },
-      "approvalSettings": {
-        "title": "اعدادات   طلبات الموافقة",
-        "formTitle": "العنوان",
-        "description": "الوصف",
-        "approvalType": "نوع الموافقة",
-        "notes": "ملحوظات",
-        "Accept": "مقبول",
-        "Reject": "مرفوض",
-        "NoneReview": "لا يوجد مراجعة",
-        "status": "حالة",
-        "hierarchy": "الهيكل  التنظيمى",
-        "isHierarchy": "طبقا للهيكل  التنظيمى",
-        "position": "المنصب",
-        "action": "اجراء",
-        "pendingSteps": "الطلبات المعلقة للمستخدم",
-        "responsibleOrder": "ترتيب المسؤولين"
-      },
-      "approvalRequests": {
-        "title": "طلبات الموافقة",
-        "formTitle": "العنوان",
-        "description": "الوصف",
-        "approvalType": "نوع الموافقة",
-        "notes": "ملحوظات",
-        "Accept": "تمت الموافقة",
-        "Reject": "مرفوض",
-        "NoneReview": "إنتظار الموافقة",
-        "status": "حالة",
-        "isManual": "Is Manual",
-        "pendingSteps": "الطلبات المعلقة للمستخدم",
-        "responsibleOrder": "ترتيب المسؤولين",
-        "name": "إسم الطلب",
-        "statusName": "الحالة",
-        "requestDetail": "تفاصيل الطلب",
-        "documentName": "إسم المستند",
-        "log": "سجل التوقيعات",
-        "accept": "موافقة",
-        "reject": "رفض",
-        "type": "نوع الأجراء",
-        "creationTime": "توقيت الطلب",
-        "masterId": "الرقم المرجعى",
-        "viewRequest": "رؤية الطلب",
-        "stepOrder": "ترتيب",
-        "userApprove": "إسم الموظف",
-        "approvedAt": "التوقيت",
-        "postionName": "الوظيفة",
-        "Pending":"إنتظار الموافقة"
-      },
-      "pendingSteps": {
-        "title": "الطلبات المعلقة للمستخدم",
-        "nameEn": "الاسم (En)",
-        "nameAr": "الاسم (Ar)",
-        "reject": "رفض",
-        "approve": "موافقة",
-        "notes": "ملاحظات",
-        "isActive": "حالة النشاط"
-      },
-      
-      "customerRequest": {
-        "title": "طلب إضافة عميل ",
-        "customerInfo": "البيانات الاساسية للعميل",
-        "customerName": "إسم العميل",
-        "commercialRegistrationNumber": "رقم السجل التجاري",
-        "taxNumber": "الرقم الضريبى*",
-        "primaryPhoneNumber": "رقم الجوال الاساسى",
-        "clientGroup": "تصنيف العميل ",
-        "customerSize": "حجم العميل ",
-        "Large": "كبير",
-        "Medium": "متوسط",
-        "Small": "صغير",
-        "buildingNumber": "رقم المبينى ",
-        "subNumber": "الرقم الفرعى",
-        "postalCode": "الرمز البريدى",
-        "district": "الحى",
-        "city": "المدينة",
-        "nationalAddressData": "العنوان الوطنى",
-        "goNationalAddressData": "Go National address data ",
-        "commercialRegister": "السجل التجاري",
-        "municipalLicense": "رخصة البلدية",
-        "nationalAddress": "العنوان الوطنى",
-        "customerID": "هوية المالك",
-        "vatCertificate": "شهادة ضريبة القيمة المضافة",
-        "dealAgreement": " اتفاقية التعامل",
-        "officialDocuments": "المستندات الرسمية",
-        "customerNameRequired": "أسم العميل مطلوب",
-        "commercialRegistrationNumberRequired": "رقم السجل التجارى مطلوب",
-        "primaryPhoneNumberRequired": "رقم الجوال مطلوب",
-        "taxNumberRequired": "الرقم الضريبى",
-        "clientGroupIdRequired": "مطلوب صنيف العميل",
-        "customerSizeRequired": "مطلوب حجم العميل",
-        "uploadedDocument": "المستندات المطلوبة",
-        "chooseDocumentType": "إختر نوع المستند ثم ارفقه",
-        "requestSended": "تم ارسال الطلب بنجاح",
-        "newRequest": "طلب جديد",
-        "uploadRequiredDoc": "من فضلك ارفع المستندات المطلوبة",
-        "verified": "التحقق",
-        "dropMsg": "قم بإسقاط ملف المستند الخاص بك هنا أو انقر للاستعراض",
-        "currentLocation": "موقع العميل",
-        "externalPhotoPath": "صورة خارجية للمبنى",
-        "commercialRegisterPath": "السجل التجاري",
-        "municipalLicensePath": "رخصة البلدية",
-        "nationalAddressProofPath": "العنوان الوطنى",
-        "vatCertificatePath": "شهادة ضريبة القيمة المضافة",
-        "location": "الموقع",
-        "requiedFields": "يوجد بعض البيانات لاستكمالها .. لمواصلة الطلب ",
-        "currentCreditLimit": "الحد الاتمانى الحالى",
-        "requestCreditLimit": "طلب الحد الاتمانى"
-      }
+  "approvals": {
+    "approval-types": {
+      "title": "أنواع الموافقة",
+      "nameEn": "الاسم (En)",
+      "nameAr": "الاسم (Ar)",
+      "isActive": "حالة النشاط",
+      "type": "نوع الطلب",
+      "OpenCustomerAccount": "طلب فتح عميل",
+      "CustomerLimitRequest": "طلب رفع الحد العميل",
+      "ProductSalesRequest": "طلب بيع"
     },
-  
+    "departments": {
+      "title": "الاقسام",
+      "departmentName": "اسم القسم",
+      "parentDepartment": "القسم الاعلى",
+      "nameEn": "الاسم (En)",
+      "nameAr": "الاسم (Ar)",
+      "hasParent": "يندرج تحت قسم",
+      "notHasParent": "لا يندرج تحت قسم",
+      "isActive": "حالة النشاط"
+    },
+    "positions": {
+      "title": "المناصب",
+      "addPosition": "اضافة منصب",
+      "nameEn": "الاسم (En)",
+      "nameAr": "الاسم (Ar)",
+      "isHead": "Is Head",
+      "notHead": "ليس رئيس",
+      "head": "رئيس",
+      "employeeName": "اسم الموظف",
+      "employees": "الموظفين"
+    },
+    "approvalSettings": {
+      "title": "اعدادات   طلبات الموافقة",
+      "formTitle": "العنوان",
+      "description": "الوصف",
+      "approvalType": "نوع الموافقة",
+      "notes": "ملحوظات",
+      "Accept": "مقبول",
+      "Reject": "مرفوض",
+      "NoneReview": "لا يوجد مراجعة",
+      "status": "حالة",
+      "hierarchy": "الهيكل  التنظيمى",
+      "isHierarchy": "طبقا للهيكل  التنظيمى",
+      "position": "المنصب",
+      "action": "اجراء",
+      "pendingSteps": "الطلبات المعلقة للمستخدم",
+      "responsibleOrder": "ترتيب المسؤولين"
+    },
+    "approvalRequests": {
+      "title": "طلبات الموافقة",
+      "formTitle": "العنوان",
+      "description": "الوصف",
+      "approvalType": "نوع الموافقة",
+      "notes": "ملحوظات",
+      "Accept": "تمت الموافقة",
+      "Reject": "مرفوض",
+      "NoneReview": "إنتظار الموافقة",
+      "status": "حالة",
+      "isManual": "Is Manual",
+      "pendingSteps": "الطلبات المعلقة للمستخدم",
+      "responsibleOrder": "ترتيب المسؤولين",
+      "name": "إسم الطلب",
+      "statusName": "الحالة",
+      "requestDetail": "تفاصيل الطلب",
+      "documentName": "إسم المستند",
+      "log": "سجل التوقيعات",
+      "accept": "موافقة",
+      "reject": "رفض",
+      "type": "نوع الأجراء",
+      "creationTime": "توقيت الطلب",
+      "masterId": "الرقم المرجعى",
+      "viewRequest": "رؤية الطلب",
+      "stepOrder": "ترتيب",
+      "userApprove": "إسم الموظف",
+      "approvedAt": "التوقيت",
+      "postionName": "الوظيفة",
+      "Pending": "إنتظار الموافقة"
+    },
+    "pendingSteps": {
+      "title": "الطلبات المعلقة للمستخدم",
+      "nameEn": "الاسم (En)",
+      "nameAr": "الاسم (Ar)",
+      "reject": "رفض",
+      "approve": "موافقة",
+      "notes": "ملاحظات",
+      "isActive": "حالة النشاط"
+    },
+
+    "customerRequest": {
+      "title": "طلب إضافة عميل ",
+      "customerInfo": "البيانات الاساسية للعميل",
+      "customerName": "إسم العميل",
+      "commercialRegistrationNumber": "رقم السجل التجاري",
+      "taxNumber": "الرقم الضريبى*",
+      "primaryPhoneNumber": "رقم الجوال الاساسى",
+      "clientGroup": "تصنيف العميل ",
+      "customerSize": "حجم العميل ",
+      "Large": "كبير",
+      "Medium": "متوسط",
+      "Small": "صغير",
+      "buildingNumber": "رقم المبينى ",
+      "subNumber": "الرقم الفرعى",
+      "postalCode": "الرمز البريدى",
+      "district": "الحى",
+      "city": "المدينة",
+      "nationalAddressData": "العنوان الوطنى",
+      "goNationalAddressData": "Go National address data ",
+      "commercialRegister": "السجل التجاري",
+      "municipalLicense": "رخصة البلدية",
+      "nationalAddress": "العنوان الوطنى",
+      "customerID": "هوية المالك",
+      "vatCertificate": "شهادة ضريبة القيمة المضافة",
+      "dealAgreement": " اتفاقية التعامل",
+      "officialDocuments": "المستندات الرسمية",
+      "customerNameRequired": "أسم العميل مطلوب",
+      "commercialRegistrationNumberRequired": "رقم السجل التجارى مطلوب",
+      "primaryPhoneNumberRequired": "رقم الجوال مطلوب",
+      "taxNumberRequired": "الرقم الضريبى",
+      "clientGroupIdRequired": "مطلوب صنيف العميل",
+      "customerSizeRequired": "مطلوب حجم العميل",
+      "uploadedDocument": "المستندات المطلوبة",
+      "chooseDocumentType": "إختر نوع المستند ثم ارفقه",
+      "requestSended": "تم ارسال الطلب بنجاح",
+      "newRequest": "طلب جديد",
+      "uploadRequiredDoc": "من فضلك ارفع المستندات المطلوبة",
+      "verified": "التحقق",
+      "dropMsg": "قم بإسقاط ملف المستند الخاص بك هنا أو انقر للاستعراض",
+      "currentLocation": "موقع العميل",
+      "externalPhotoPath": "صورة خارجية للمبنى",
+      "commercialRegisterPath": "السجل التجاري",
+      "municipalLicensePath": "رخصة البلدية",
+      "nationalAddressProofPath": "العنوان الوطنى",
+      "vatCertificatePath": "شهادة ضريبة القيمة المضافة",
+      "location": "الموقع",
+      "requiedFields": "يوجد بعض البيانات لاستكمالها .. لمواصلة الطلب ",
+      "currentCreditLimit": "الحد الاتمانى الحالى",
+      "requestCreditLimit": "طلب الحد الاتمانى"
+    }
+  },
+
   "approval": {
     "approval": {
       "title": "الموافقات"
@@ -2229,7 +2242,17 @@
     },
     "visitObjective": {
       "title": "أهداف الزيارة",
-      "titleOperation": "هدف للزيارة"
+      "titleOperation": "هدف للزيارة",
+      "name": "إسم الخطة",
+      "salesPersonName": "مندوب المبيعات",
+      "dateFrom": "التاريخ من",
+      "dateTo": "التاريخ الى",
+      "visitCount": "عدد الزيارات"
+    }
+  },
+  "marketing": {
+    "productOffer": {
+      "title": "عروض المنتجات"
     }
   }
 }

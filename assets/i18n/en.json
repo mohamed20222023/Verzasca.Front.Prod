@@ -953,15 +953,25 @@
       "ordersTarget": "Orders Targets",
       "employeeName": "Employee Name",
       "targetType": "Target Type",
-      "dateFrom": "Date (From)",
-      "dateTo": "Date (To)",
+      "dateFrom": "Date Start",
+      "dateTo": "Expiry Date  ",
       "cost": "Cost",
       "note": "Note",
       "fromToDate": "Date (From-To)",
       "employees": "Employees",
       "teams": "Teams",
       "teamName": "Team Name",
-      "titleOperation": "Targets"
+      "titleOperation": "Targets",
+      "quantity": "Quantity",
+      "AssignTask": "Assign Task",
+      "NewOrder": "Services Order",
+      "SalseOrder": "Salse Order",
+      "CustomerVisit": "Customer Visits",
+      "CustomerOpen": "Customers Open",
+      "repeatType": "Repeated Type",
+      "Monthly": "Monthly",
+      "Weekly": "Weekly",
+      "Yearly": "Yearly"
     }
   },
   "clientManagement": {
@@ -1643,31 +1653,33 @@
       "NationalAddress": "National Address",
       "VATNumber": "VAT-Number",
       "CreditLimit": "Credit Limit",
-      "Individual":"Individual",
-      "Company":"Company",
-      "alertMessage":"Alert Message",
-      "clientName":"Customer Name",
-      "lastTransactionDate":"Last Transaction Date",
-      "numberInvoiceQuantity":"#Invoice Quantity - Cost",
-      "totalDebt":"Total Debt",
-      "pName":"Name",
-      "pTitle":"title",
-      "phone":"Phone",
-      "clientGroupName":"Category",
-      "salesPersonName":"Sales Person",
-      "commercialRegistrationNumber":"CRN",
-      "nationalAddressData":"National address data",
-      "buildingNumber":"Building number",
-      "subNumber":"Sub Number",
-      "postalCode":"Postal Code",
-      "district":"District",
-      "formalPaper":"Official Documents",
-      "externalPhotoPath":"Live image",
-      "vatNumber":"VAT-Number",
-      "regionName":"Region Name",
-      "customerPaymentTerms":"Customer Terms",
-      "logo":"Logo"
-
+      "Individual": "Individual",
+      "Company": "Company",
+      "alertMessage": "Alert Message",
+      "clientName": "Customer Name",
+      "lastTransactionDate": "Last Transaction Date",
+      "numberInvoiceQuantity": "#Invoice Quantity - Cost",
+      "totalDebt": "Total Debt",
+      "pName": "Name",
+      "pTitle": "title",
+      "phone": "Phone",
+      "clientGroupName": "Category",
+      "salesPersonName": "Sales Person",
+      "commercialRegistrationNumber": "CRN",
+      "nationalAddressData": "National address data",
+      "buildingNumber": "Building number",
+      "subNumber": "Sub Number",
+      "postalCode": "Postal Code",
+      "district": "District",
+      "formalPaper": "Official Documents",
+      "externalPhotoPath": "Live image",
+      "vatNumber": "VAT-Number",
+      "regionName": "Region Name",
+      "customerPaymentTerms": "Customer Terms",
+      "logo": "Logo",
+      "priceList": "Price List",
+      "odooId": "Ref_ID",
+      "priceListName":"Discount"
     },
     "clientCompany": {
       "title": "Customers Products"
@@ -2253,13 +2265,40 @@
 
     },
     "visitType":{
-      "title": "Visit Types",
-      "titleOperation": "Visit Type",
+      "title": "Visit types",
+      "titleOperation": "Visit type",
       "color": "Color"
     },
     "visitObjective":{
-      "title": "Visit Objectives",
-      "titleOperation": "Visit Objectives"
+      "title": "Visit objectives",
+      "titleOperation": "Visit objectives"
+    },
+    "visitPlan":{
+      "title": "Visits plans",
+      "titleOperation": "Visit objectives",
+      "name": "Paln Name",
+      "salesPersonName": "sales man",
+      "dateFrom": "Date From",
+      "dateTo": "Date to",
+      "visitCount": "visit count",
+      "editPlan": "Edit visit paln",
+      "addPlan": "Add visit plan",
+      "clientGroup": "Customer category",
+      "cityName": "Customer City",
+      "regionId": "Customer Region",
+      "regionName": "Region Name",
+      "addCustomer": "Add Select",
+      "customerName": "Customer name",
+      "addAll": "Add all",
+      "clientName": "Customer",
+      "date": "Date",
+      "visitType": "Visit type",
+      "visitObjectives": "Objectives"
+    }
+  },
+  "marketing":{
+    "productOffer":{
+      "title":"Product offers"
     }
   }
 }
