@@ -437,7 +437,8 @@
       "assignTrunk": "Assign Trunk",
       "viewOrderCount": "View  top count",
       "viewBySalesPerson": "View as sales person",
-      "viewBySalesManager": "View as sales manager"
+      "viewBySalesManager": "View as sales manager",
+      "requestNewOpen": "New Open customer Request"
     },
     "common":{
       "Web": "Web",
@@ -2141,7 +2142,10 @@
       "LocationInformation":"Location Information",
       "Notprovided":"Not provided",
       "Notspecified":"Not specified",
-       "AddNewAddress":"Add New Address"
+       "AddNewAddress":"Add New Address",
+       "trunck":"Truck Info",
+       "printItem":"Print",
+       "store":"Store"
     },
     "requestPrice": {
       "title": "Requests Price",
@@ -2257,12 +2261,12 @@
     },
     "salesOrderStore":{
       "title": " Orders store",
-      "deliveries":"Deliveries",
-      "ready":"Ready",
-      "shipping":"Shipping",
-      "return":"Return",
-      "trunkAssign":"Trunk Assign"
-
+      "deliveries": "Deliveries",
+      "ready": "Ready",
+      "shipping": "Shipping",
+      "return": "Return",
+      "trunkAssign": "Trunk Assign",
+      "history": "History"
     },
     "visitType":{
       "title": "Visit types",
@@ -2288,17 +2292,35 @@
       "regionId": "Customer Region",
       "regionName": "Region Name",
       "addCustomer": "Add Select",
-      "customerName": "Customer name",
+      "customerName": "Customer ",
       "addAll": "Add all",
-      "clientName": "Customer",
       "date": "Date",
       "visitType": "Visit type",
-      "visitObjectives": "Objectives"
+      "visitObjectives": "Objectives",
+      "note": "Note",
+      "mustSelectVisit": "Must select at least one customer visit",
+      "eatchServiceMustHaveTypeAndOneObjectiveAtLeast": "Each service must have a type and at least one objective",
+      "planData": "Plan data",
+      "customerData": "Select Customers ",
+      "visitData": "Visits data",
+      "statusPlan": "Status Plan",
+      "Schedule": "Schedule",
+      "Complete": "Complete",
+      "Delay": "Delay",
+      "status":"Status",
+      "Start":"Start visit",
+      "Cancel":"Cancel visit"
     }
   },
   "marketing":{
     "productOffer":{
       "title":"Product offers"
+    }
+  },
+  "dashboard":{
+    "main":{
+      "goodmoring":"Welcome , ",
+      "targetOrderService":"Target Order Services "
     }
   }
 }

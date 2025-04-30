@@ -415,7 +415,7 @@
       "viewList": "رؤية الكل",
       "newOrder": "تاكيد مدير المبيعات",
       "salesChangeQTY": "تاكيد الكميات (مندوب)",
-      "sureOrder": "تجهيز الكميات (مخزن)",
+      "sureOrder": "تجهيز الكميات (مستودع)",
       "editTrunk": "تعديل الشاحنة",
       "shippingOrder": "شحن الطلبات",
       "completeOrder": "الطلبات المكتملة",
@@ -432,7 +432,8 @@
       "assignTrunk": "إسناد للشاحنة",
       "viewOrderCount": "رؤية إجمالى الطلبات",
       "viewBySalesPerson": "عرض ك مندوب",
-      "viewBySalesManager": "عرض ك مدير مبيعات"
+      "viewBySalesManager": "عرض ك مدير مبيعات",
+      "requestNewOpen": "طلب فتح عميل"
     },
     "common": {
       "Web": "الموقع الخارجى",
@@ -521,7 +522,7 @@
     },
 
     "items": {
-      "title": "عناصر المخزن",
+      "title": "عناصر المستودع",
       "image": "الصورة",
       "nameEn": "الاسم (En)",
       "nameAr": "الاسم (Ar)",
@@ -547,7 +548,7 @@
       "open": "مفتوح",
       "Close": "مغلق",
       "registerDetails": "اضافة التفاصيل",
-      "addAllItems": "اضافة كل عناصر المخزن",
+      "addAllItems": "اضافة كل عناصر المستودع",
       "show": "عرض",
       "itemName": "اسم العنصر",
       "quantity": "الكمية",
@@ -1327,7 +1328,7 @@
       "noActive": "غير نشط",
       "SalesPerson": "مندوب مبيعات",
       "Driver": "سائق مركبة",
-      "StoreKepper": "أمين مخزن"
+      "StoreKepper": "أمين مستودع"
     },
     "role": {
       "title": "صلاحية",
@@ -1415,8 +1416,8 @@
     },
     "service": {
       "title": "الخدمات",
-      "isStore": "صنف مخزنى",
-      "isNotStore": "ليس صنف مخزنى",
+      "isStore": "صنف مستودعى",
+      "isNotStore": "ليس صنف مستودعى",
 
       "smallUnit": "الوحده الصغرى",
       "largeUnit": "الوحده الكبرى",
@@ -1435,8 +1436,8 @@
 
       "edit": "تعديل منتج",
       "add": "إنشاء منتج",
-      "isStore": "هل مخزنى",
-      "isNotStore": "غير مخزنى",
+      "isStore": "هل مستودعى",
+      "isNotStore": "غير مستودعى",
       "smallUnit": "الوحده الصغرى",
       "largeUnit": "الوحده الكبرى",
       "conversionFactor": "معامل التحويل",
@@ -1565,8 +1566,7 @@
       "logo": "اللوجو",
       "priceList": "قائمة الاسعار",
       "odooId": "Ref_ID",
-      "priceListName":"الخصم"
-
+      "priceListName": "الخصم"
     },
     "clientCompany": {
       "title": "عملاء الشركة"
@@ -1739,13 +1739,13 @@
 
   "store": {
     "item": {
-      "title": "أصناف المخزن"
+      "title": "أصناف المستودع"
     },
     "stocktaking": {
       "title": "سجل الجرد"
     },
     "storeTransaction": {
-      "title": "حركة المخزن"
+      "title": "حركة المستودع"
     },
     "storeSetting": {
       "title": "اعدادات المخازن"
@@ -2076,10 +2076,10 @@
       "tax": "الضريبه (15%)",
       "net": "الصافى",
       "deliveryQuantity": "الكمية المسلمة",
-      "WaitTrunk": "جاهز فى المخزن",
+      "WaitTrunk": "جاهز فى المستودع",
       "ArriveStore": "تم الوصول للمستودع",
       "GoClient": "فى الطريق للعميل",
-      "ArriveClient": "جار التوصيل",
+      "ArriveClient": "وصول موقع العميل",
       "DeliveryClient": "تم تسليم العميل",
       "DelayOrder": "تاجيل الاستلام",
       "CancelOrder": "العميل رفض استلام الطلب",
@@ -2112,7 +2112,10 @@
       "LocationInformation": "معلومات الموقع",
       "Notprovided": "غير متوفر",
       "Notspecified": "غير محدد",
-      "AddNewAddress": "إضافة عنوان جديد"
+      "AddNewAddress": "إضافة عنوان جديد",
+      "trunck": "بيانات الشاحنة",
+      "printItem": "طباعة    ",
+      "store": "المسودع"
     },
     "requestPrice": {
       "title": "طلبات الاسعار",
@@ -2217,7 +2220,7 @@
       "title": "موافقة مدير المبيعات"
     },
     "storePrepare": {
-      "title": "تجهيز الطلبات (مخزن)"
+      "title": "تجهيز الطلبات (مستودع)"
     },
     "shippingOrder": {
       "title": "شحن الطلبات"
@@ -2234,7 +2237,8 @@
       "ready": "تم التجهيز",
       "shipping": "الشحن",
       "return": "مرتجع",
-      "trunkAssign": "أسناد لشاحنة"
+      "trunkAssign": "أسناد لشاحنة",
+      "history": "الطلبات"
     },
     "visitType": {
       "title": "أنواع زيارات المندوب",
@@ -2248,11 +2252,51 @@
       "dateFrom": "التاريخ من",
       "dateTo": "التاريخ الى",
       "visitCount": "عدد الزيارات"
+    },
+    "visitPlan": {
+      "title": "خطط زيارات المندوب",
+      "titleOperation": "خطة زيارة",
+      "name": "إسم الخطة",
+      "salesPersonName": "مندوب المبيعات",
+      "dateFrom": "التاريخ البدابة",
+      "dateTo": "التاريخ الانتهاء",
+      "visitCount": "عدد الزيارات",
+      "editPlan": "تعديل الخطة",
+      "addPlan": "إضافة خطة",
+      "clientGroup": "فئة العملاء",
+      "cityName": "المدينة",
+      "regionId": "المنطقة",
+      "regionName": "المنطقة",
+      "addCustomer": "إضافة المختار",
+      "customerName": "إسم العميل",
+      "addAll": "إضافة الكل",
+      "date": "تاريخ الزيارة",
+      "visitType": "نوع الزيارة",
+      "visitObjectives": "أهداف الزيارة",
+      "note": "ملاحظة",
+      "mustSelectVisit": "يجب إختيار زيارة واحدة للخطة",
+      "eatchServiceMustHaveTypeAndOneObjectiveAtLeast": "كل زيارة يجب ان تحتوى على الاقل نوع زياره وهدف واحد",
+      "planData": "بيانات الخطة",
+      "customerData": "إختيار عميل",
+      "visitData": "بيانات الزيارة",
+      "statusPlan": "حالة الخطة",
+      "Schedule": "مجدولة",
+      "Complete": "مكتملة",
+      "Delay": "تاجيل الزيارة",
+      "status": "الحالة",
+      "Start": "بدأ الزيارة",
+      "Cancel": "إلغاء الزيارة"
     }
   },
   "marketing": {
     "productOffer": {
       "title": "عروض المنتجات"
+    }
+  },
+  "dashboard": {
+    "main": {
+      "goodmoring": "هلا والله نورت- , ",
+      "targetOrderService": "الهدف لطلبات المنتجات "
     }
   }
 }
