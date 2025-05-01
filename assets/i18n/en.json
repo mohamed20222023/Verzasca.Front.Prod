@@ -1216,6 +1216,10 @@
       "noProducts": "Your Cart is Empty!",
       "noProduct": "No Product Found",
       "serviceProduct": "Categories",
+      "itemFree": "Free",
+      "itemQuantity": "Item quantity",
+      "freeQuantity": "Free quantity",
+      "costAfterDiscount":"After discount",
 
       "newOrders": {
         "title": "New Orders",
@@ -2038,8 +2042,8 @@
       "orderShipping": "Order Shipping",
       "storeRepeare": "In store ",
       "RepareOrder": "Preparing orders",
-      "StoreDeliveryOrder":"Store delivery",
-      "Return":"مرتجع",
+      "StoreDeliveryOrder": "Store delivery",
+      "Return": "مرتجع",
       "newOrders": "S/M Approve ",
       "sureOrder": "Store prepare",
       "completeOrder": "Complete orders",
@@ -2133,19 +2137,22 @@
       "product": "Product",
       "productInfo": "Product Info",
       "sendApproval": "Send To Approve",
-      "prepareOrder":"Prepare Order",
-      "salesOrderNew":"New sale request",
-      "completeCustomerData":"Complete customer data",
-      "financialInfo":"Financial Information",
+      "prepareOrder": "Prepare Order",
+      "salesOrderNew": "New sale request",
+      "completeCustomerData": "Complete customer data",
+      "financialInfo": "Financial Information",
       "Balance": "Balance",
-      "CurrentUsage":"Current usage",
-      "LocationInformation":"Location Information",
-      "Notprovided":"Not provided",
-      "Notspecified":"Not specified",
-       "AddNewAddress":"Add New Address",
-       "trunck":"Truck Info",
-       "printItem":"Print",
-       "store":"Store"
+      "CurrentUsage": "Current usage",
+      "LocationInformation": "Location Information",
+      "Notprovided": "Not provided",
+      "Notspecified": "Not specified",
+      "AddNewAddress": "Add New Address",
+      "trunck": "Truck Info",
+      "printItem": "Print",
+      "store": "Store",
+      "isFree": "Is free",
+      "free":"Free",
+      "noFree":"no Free"
     },
     "requestPrice": {
       "title": "Requests Price",
@@ -2217,7 +2224,8 @@
       "isSyncOdoo": "Sync Odoo",
       "syncDate": "Sync Date",
       "paymentTypeName": "Payment Name",
-      "depositNumber":"Deposit Number"
+      "depositNumber":"Deposit Number",
+      "paymentAmount": "Payment Amount"
     },
     "priceList": {
       "title": "Price List",
@@ -2319,8 +2327,11 @@
   },
   "dashboard":{
     "main":{
-      "goodmoring":"Welcome , ",
-      "targetOrderService":"Target Order Services "
+      "goodmoring": "Welcome , ",
+      "targetOrderService": "Target Order Services ",
+      "thisMonth": "This month",
+      "lastOneMonth": "Last one month",
+      "lastTwoMonth": "Last two months"
     }
   }
 }

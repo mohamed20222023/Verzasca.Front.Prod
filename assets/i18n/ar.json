@@ -1102,6 +1102,10 @@
       "noProducts": "السلة فارغة!",
       "noProduct": "لا يوجد منتجات",
       "serviceProduct": "الفئات",
+      "itemFree": "مجانى",
+      "itemQuantity": "الكمية المطلوبة",
+      "freeQuantity": "الكمية المجانية",
+      "costAfterDiscount": "المبلغ بعد الخصم",
       "newOrders": {
         "title": "الطلبات الجديدة",
         "titleOperation": "الطلبات الجديدة"
@@ -2115,7 +2119,10 @@
       "AddNewAddress": "إضافة عنوان جديد",
       "trunck": "بيانات الشاحنة",
       "printItem": "طباعة    ",
-      "store": "المسودع"
+      "store": "المسودع",
+      "isFree": "هل مجانى",
+      "free": "صنف مجانى",
+      "noFree": "صنف غير مجانى"
     },
     "requestPrice": {
       "title": "طلبات الاسعار",
@@ -2296,7 +2303,10 @@
   "dashboard": {
     "main": {
       "goodmoring": "هلا والله نورت- , ",
-      "targetOrderService": "الهدف لطلبات المنتجات "
+      "targetOrderService": "الهدف لطلبات منتجات الخدمات ",
+      "thisMonth": "This month",
+      "lastOneMonth": "Last month",
+      "lastTwoMonth": "The month before last"
     }
   }
 }
