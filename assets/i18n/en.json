@@ -2219,7 +2219,7 @@
       "title": "Payments Received",
       "titleOperation": "Payments Received",
       "clientName": "Customer Name",
-      "cost": "Value Limit",
+      "cost": "Cost",
       "notes": "Notes",
       "isSyncOdoo": "Sync Odoo",
       "syncDate": "Sync Date",
@@ -2322,7 +2322,19 @@
   },
   "marketing":{
     "productOffer":{
-      "title":"Product offers"
+      "title": "Product offers",
+      "endDate": "End date",
+      "offerTitle": "Title",
+      "offerType": "Offer type",
+      "editOffer": "Edit offer",
+      "addOffer": "Add offer",
+      "isActive": "Is Active",
+      "displayData": "Display data",
+      "offerSetting": "Offer setting",
+      "BuyXGetYFree": "Buy X get Y free",
+      "FixedAmountDiscount": "Fixed amount discount",
+      "PercentageDiscount": "Percentage discount",
+      "putPercentageDiscount":"Set the discount percentage the customer will receive."
     }
   },
   "dashboard":{

@@ -2191,7 +2191,7 @@
       "title": "التحصيلات",
       "titleOperation": "تحصيل عمبل",
       "clientName": "إسم العميل",
-      "cost": "قيمه الحد الاتمانى",
+      "cost": "مبلغ التحصيل",
       "notes": "ملاحظات",
       "isSyncOdoo": "مزامنه اودو",
       "syncDate": "تاريخ المزامنة",
@@ -2297,7 +2297,20 @@
   },
   "marketing": {
     "productOffer": {
-      "title": "عروض المنتجات"
+      "title": "عروض المنتجات",
+      "endDate": "تاريخ النهاية",
+      "startDate": "تاريخ البداية",
+      "offerTitle": "إسم العرض",
+      "offerType": "نوع العرض",
+      "editOffer": "تعديل العرض",
+      "addOffer": "إضافة عرض",
+      "isActive": "هل نشط",
+      "displayData": "بيانات العرض",
+      "offerSetting": "إعدادات العرض",
+      "PercentageDiscount": "خصم نسبة من قيمة مشتريات العميل",
+      "FixedAmountDiscount":" خصم مبلغ ثابت من قيمة مشتريات العميل",
+      "BuyXGetYFree": "إذا اشترى العميل X يحصل على خصم على Y",
+    "putPercentageDiscount":  "قم بتعيين نسبة الخصم التي سيحصل عليها العميل"
     }
   },
   "dashboard": {
