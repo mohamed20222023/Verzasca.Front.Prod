@@ -2308,9 +2308,10 @@
       "displayData": "بيانات العرض",
       "offerSetting": "إعدادات العرض",
       "PercentageDiscount": "خصم نسبة من قيمة مشتريات العميل",
-      "FixedAmountDiscount":" خصم مبلغ ثابت من قيمة مشتريات العميل",
+      "FixedAmountDiscount": " خصم مبلغ ثابت من قيمة مشتريات العميل",
       "BuyXGetYFree": "إذا اشترى العميل X يحصل على خصم على Y",
-    "putPercentageDiscount":  "قم بتعيين نسبة الخصم التي سيحصل عليها العميل"
+      "putPercentageDiscount": "قم بتعيين نسبة الخصم التي سيحصل عليها العميل",
+      "discountValue": "التخفيض "
     }
   },
   "dashboard": {

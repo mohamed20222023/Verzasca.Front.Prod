@@ -2334,7 +2334,8 @@
       "BuyXGetYFree": "Buy X get Y free",
       "FixedAmountDiscount": "Fixed amount discount",
       "PercentageDiscount": "Percentage discount",
-      "putPercentageDiscount":"Set the discount percentage the customer will receive."
+      "putPercentageDiscount":"Set the discount percentage the customer will receive.",
+      "discountValue":"Discount "
     }
   },
   "dashboard":{
