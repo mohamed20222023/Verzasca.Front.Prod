@@ -433,7 +433,8 @@
       "viewOrderCount": "رؤية إجمالى الطلبات",
       "viewBySalesPerson": "عرض ك مندوب",
       "viewBySalesManager": "عرض ك مدير مبيعات",
-      "requestNewOpen": "طلب فتح عميل"
+      "requestNewOpen": "طلب فتح عميل",
+      "updatePrice":"تحديث الاسعار"
     },
     "common": {
       "Web": "الموقع الخارجى",
@@ -1021,7 +1022,7 @@
       "phoneMust10Digit": "رقم الجوال يجيب ان يحتوى على 10 ارقام فقط",
       "phoneMustStart05": "رقم الجوال يجيب ان يبدأ ب 05",
       "phoneMustContainOnlyDigit": "رقم الجوال يجيب ان يحتوى على ارقام فقط",
-      "currancy": "ريال",
+      "currancy": "ر.س",
       "searchProduct": "بحث بكود واسم الصنف ...",
       "searchService": "إسم الخدمة",
 
@@ -1570,7 +1571,8 @@
       "logo": "اللوجو",
       "priceList": "قائمة الاسعار",
       "odooId": "Ref_ID",
-      "priceListName": "الخصم"
+      "priceListName": "الخصم",
+      "invoiceDayDue":"عدد أيام أستحقاق القاتورة"
     },
     "clientCompany": {
       "title": "عملاء الشركة"
@@ -2167,7 +2169,9 @@
       "total": "الإجمالى",
       "Unpaid": "غير مدفوعة",
       "PartiallyPaid": "مسدد جزئيا",
-      "Paid": "مدفوعة"
+      "Paid": "مدفوعة",
+      "creationDue": " الانشاء / الاستحقاق",
+      "dueDates": "تاريخ الاستحقاق"
     },
     "truckDriver": {
       "title": "سائقي الشاحنات",
@@ -2193,10 +2197,12 @@
       "clientName": "إسم العميل",
       "cost": "مبلغ التحصيل",
       "notes": "ملاحظات",
-      "isSyncOdoo": "مزامنه اودو",
+      "isSyncOdoo": "مزامنه  ",
       "syncDate": "تاريخ المزامنة",
       "paymentTypeName": "طريقة الدفع",
-      "depositNumber": "رقم الإيداع"
+      "depositNumber": "رقم الإيداع",
+      "photo": "صورة الإيصال",
+      "mustEnterReceipt":"يجب إدخال الايصال"
     },
     "priceList": {
       "title": "قائمة الاسعار",

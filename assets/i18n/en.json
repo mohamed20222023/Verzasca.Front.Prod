@@ -438,7 +438,8 @@
       "viewOrderCount": "View  top count",
       "viewBySalesPerson": "View as sales person",
       "viewBySalesManager": "View as sales manager",
-      "requestNewOpen": "New Open customer Request"
+      "requestNewOpen": "New Open customer Request",
+      "updatePrice":"Update price"
     },
     "common":{
       "Web": "Web",
@@ -1684,7 +1685,8 @@
       "logo": "Logo",
       "priceList": "Price List",
       "odooId": "Ref_ID",
-      "priceListName":"Discount"
+      "priceListName":"Discount",
+      "invoiceDayDue":"# Invoice Day Due"
     },
     "clientCompany": {
       "title": "Customers Products"
@@ -2194,7 +2196,9 @@
       "payment": "Payment",
       "tax": "Tax",
       "notes": "Notes",
-      "total": "Total"
+      "total": "Total",
+      "creationDue":"Creation/Due",
+      "dueDates":"Due Date"
     },
     "truckDriver": {
       "title": "Truck Drivers",
@@ -2216,16 +2220,18 @@
       "requestPersonStatus": "Status"
     },
     "clientCollection": {
-      "title": "Payments Received",
-      "titleOperation": "Payments Received",
-      "clientName": "Customer Name",
+      "title": "Payments received",
+      "titleOperation": "Payments received",
+      "clientName": "Customer name",
       "cost": "Cost",
       "notes": "Notes",
-      "isSyncOdoo": "Sync Odoo",
-      "syncDate": "Sync Date",
-      "paymentTypeName": "Payment Name",
-      "depositNumber":"Deposit Number",
-      "paymentAmount": "Payment Amount"
+      "isSyncOdoo": "Sync odoo",
+      "syncDate": "Sync date",
+      "paymentTypeName": "Payment name",
+      "depositNumber": "Deposit number",
+      "paymentAmount": "Payment amount",
+      "photo": "Receipt image",
+      "mustEnterReceipt":"Must enter receipt"
     },
     "priceList": {
       "title": "Price List",
