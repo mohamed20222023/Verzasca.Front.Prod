@@ -421,7 +421,7 @@
       "completeOrder": "الطلبات المكتملة",
       "printItem": "طباعة إذن التسليم",
       "odooSync": "مزامنة أودو",
-      "printPill": "طباعة الفاتورة",
+      "printPill": "طباعه الطلب",
       "finish": "إنهاء الطلب",
       "editTotalDiscont": "تعديل الخصم الكلى",
       "changeQuantity": "تعديل الكميات",
@@ -1572,7 +1572,8 @@
       "priceList": "قائمة الاسعار",
       "odooId": "Ref_ID",
       "priceListName": "الخصم",
-      "invoiceDayDue":"عدد أيام أستحقاق القاتورة"
+      "invoiceDayDue":"عدد أيام أستحقاق القاتورة",
+      "dept":"المديونية"
     },
     "clientCompany": {
       "title": "عملاء الشركة"

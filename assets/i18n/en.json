@@ -1686,7 +1686,8 @@
       "priceList": "Price List",
       "odooId": "Ref_ID",
       "priceListName":"Discount",
-      "invoiceDayDue":"# Invoice Day Due"
+      "invoiceDayDue":"# Invoice Day Due",
+      "dept":"Dept"
     },
     "clientCompany": {
       "title": "Customers Products"
