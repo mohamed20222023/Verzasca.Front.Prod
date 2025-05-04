@@ -1333,7 +1333,8 @@
       "noActive": "غير نشط",
       "SalesPerson": "مندوب مبيعات",
       "Driver": "سائق مركبة",
-      "StoreKepper": "أمين مستودع"
+      "StoreKepper": "أمين مستودع",
+      "userNameContainSpace":"إسم المسخدم لا يجب ان يحتوى على اى مسافات"
     },
     "role": {
       "title": "صلاحية",

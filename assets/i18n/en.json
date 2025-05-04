@@ -1448,7 +1448,8 @@
       "noActive": "No Active",
       "SalesPerson": "Sales Person",
       "Driver":"Driver",
-      "StoreKepper":"Store Kepper"
+      "StoreKepper":"Store Kepper",
+      "userNameContainSpace":"UserName must not  contain  any space"
     },
     "role": {
       "title": "Roles",
