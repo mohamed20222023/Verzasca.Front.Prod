@@ -371,7 +371,8 @@
       "send": "إرسال",
       "update": "تحديث",
       "sure": "تأكيد",
-      "approve": "موافقة"
+      "approve": "موافقة",
+      "add":"إضافة"
     },
     "permission": {
       "view": "رؤية الشاشه",
@@ -755,7 +756,7 @@
       "employees": "الموظفين"
     },
     "departments": {
-      "title": "الاقسام",
+      "title": "الهيكل التنظيمى",
       "departmentName": "اسم القسم",
       "parentDepartment": "القسم الاعلى",
       "nameEn": "الاسم (En)",
@@ -765,8 +766,8 @@
       "isActive": "حالة النشاط"
     },
     "positions": {
-      "title": "المناصب",
-      "addPosition": "اضافة منصب",
+      "title": "الوظائف",
+      "addPosition": "اضافة وظيفة",
       "nameEn": "الاسم (En)",
       "nameAr": "الاسم (Ar)",
       "isHead": "Is Head",
@@ -2315,11 +2316,26 @@
       "isActive": "هل نشط",
       "displayData": "بيانات العرض",
       "offerSetting": "إعدادات العرض",
-      "PercentageDiscount": "خصم نسبة من قيمة مشتريات العميل",
-      "FixedAmountDiscount": " خصم مبلغ ثابت من قيمة مشتريات العميل",
+      "PercentageDiscount": "  نسبة من قيمة مشتريات العميل",
+      "FixedAmountDiscount": "   مبلغ ثابت من قيمة مشتريات العميل",
       "BuyXGetYFree": "إذا اشترى العميل X يحصل على خصم على Y",
       "putPercentageDiscount": "قم بتعيين نسبة الخصم التي سيحصل عليها العميل",
-      "discountValue": "التخفيض "
+      "discountValue": "التخفيض ",
+      "maxDiscountValue": "الحد الأقصى للخصم",
+      "category": "الفئة",
+      "services": "المنتجات",
+      "categoryName": "إسم الفئة",
+      "serviceName": "إسم المنتج",
+      "lessLimitOffer": "الحد الأدنى لطبيق العرض",
+      "type": "النوع",
+      "limitLessBuy": "الحد الادنى لمبلغ الشراء",
+      "limitLessQuantity": "الحد الادنى لكمية المنتجات",
+      "buyQuantity": " إذا العميل اشترى كمية من المنتجات",
+      "qauntity": "الكمية",
+      "formServices": "من المنتجات التالية",
+      "discountOnServices": "يحصل العميل على خصم على المنتجات",
+      "mustEnterServiceXAnDServiceY":"يجب إدخال المنتجات ",
+      "mustEnterServiceX":"يجب إدخال المنتجات "
     }
   },
   "dashboard": {

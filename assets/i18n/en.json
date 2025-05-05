@@ -374,7 +374,8 @@
       "send":"Send",
       "update":"Update",
       "sure":"Sure",
-      "approve":"Approve"
+      "approve":"Approve",
+      "add":"Add"
     },
 
     "permission": {
@@ -2342,8 +2343,23 @@
       "BuyXGetYFree": "Buy X get Y free",
       "FixedAmountDiscount": "Fixed amount discount",
       "PercentageDiscount": "Percentage discount",
-      "putPercentageDiscount":"Set the discount percentage the customer will receive.",
-      "discountValue":"Discount "
+      "putPercentageDiscount": "Set the discount percentage the customer will receive.",
+      "discountValue": "Discount ",
+      "maxDiscountValue": "max discount value",
+      "category": "Category",
+      "services": "Products",
+      "categoryName": "Category Name",
+      "serviceName": "Product Name",
+      "lessLimitOffer": "Less Limit Offer",
+      "type": "Type",
+      "limitLessBuy": "Minimum purchase amount",
+      "limitLessQuantity": "Minimum purchase quantity",
+      "buyQuantity": "If the customer buys a quantity of product",
+      "qauntity": "Quantity",
+      "formServices": "From the following products",
+      "discountOnServices": "The customer gets a discount on the products",
+      "mustEnterServiceXAnDServiceY": "Must Enter Products",
+      "mustEnterServiceX": "Must Enter Products"
     }
   },
   "dashboard":{
