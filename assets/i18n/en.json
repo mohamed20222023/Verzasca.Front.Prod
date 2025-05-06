@@ -1222,6 +1222,7 @@
       "itemQuantity": "Item quantity",
       "freeQuantity": "Free quantity",
       "costAfterDiscount":"After discount",
+      "offers":"Offers",
 
       "newOrders": {
         "title": "New Orders",

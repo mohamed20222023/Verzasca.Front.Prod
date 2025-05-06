@@ -1108,6 +1108,8 @@
       "itemQuantity": "الكمية المطلوبة",
       "freeQuantity": "الكمية المجانية",
       "costAfterDiscount": "المبلغ بعد الخصم",
+      "offers": "العروض",
+
       "newOrders": {
         "title": "الطلبات الجديدة",
         "titleOperation": "الطلبات الجديدة"
