@@ -2129,7 +2129,8 @@
       "store": "المسودع",
       "isFree": "هل مجانى",
       "free": "صنف مجانى",
-      "noFree": "صنف غير مجانى"
+      "noFree": "صنف غير مجانى",
+      "storeName":"المستودع"
     },
     "requestPrice": {
       "title": "طلبات الاسعار",
@@ -2321,6 +2322,7 @@
       "PercentageDiscount": "  نسبة من قيمة مشتريات العميل",
       "FixedAmountDiscount": "   مبلغ ثابت من قيمة مشتريات العميل",
       "BuyXGetYFree": "إذا اشترى العميل X يحصل على خصم على Y",
+      "StepwisePurchasePromotionsQuantity": "عرض ترويجى تدريجيا X -Y للكمية",
       "putPercentageDiscount": "قم بتعيين نسبة الخصم التي سيحصل عليها العميل",
       "discountValue": "التخفيض ",
       "maxDiscountValue": "الحد الأقصى للخصم",
@@ -2336,8 +2338,11 @@
       "qauntity": "الكمية",
       "formServices": "من المنتجات التالية",
       "discountOnServices": "يحصل العميل على خصم على المنتجات",
-      "mustEnterServiceXAnDServiceY":"يجب إدخال المنتجات ",
-      "mustEnterServiceX":"يجب إدخال المنتجات "
+      "mustEnterServiceXAnDServiceY": "يجب إدخال المنتجات ",
+      "mustEnterServiceX": "يجب إدخال المنتجات ",
+      "putStepwiseQuantity": "ضع تدرج الكميات",
+      "quantityX": "كمية الطلب ",
+      "quantityY": "كميه العرض"
     }
   },
   "dashboard": {
