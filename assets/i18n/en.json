@@ -1620,7 +1620,8 @@
       "confirmOrderMessage": "Confirm Order Message",
       "invoiceMessageWithDiscount": "Invoice Message With Discount",
       "invoiceMessageWithOutDiscount": "Invoice Message With Out Discount",
-      "tax": "Tax"
+      "tax": "Tax",
+      "salesOrderApproval":"Set sales order approval?"
     },
     "systemSchedule": {
       "title": "System Schedules",
@@ -1968,7 +1969,11 @@
       "userApprove": "Employee Name",
       "approvedAt": "Time",
       "postionName": "Job",
-      "Pending":"Pending"
+      "Pending":"Pending",
+      "rollBack":"RollBack",
+      "rollbackReason":"Reason",
+      "backOnly":"Back only",
+      "backCreate":"Back to creator"
       
     },
     "pendingSteps": {
@@ -2159,7 +2164,9 @@
       "isFree": "Is free",
       "free":"Free",
       "noFree":"no Free",
-      "storeName":"Store Name"
+      "storeName":"Store Name",
+      "UpdateRequest":"Edit Request",
+      "offerName":"Offer"
     },
     "requestPrice": {
       "title": "Requests Price",

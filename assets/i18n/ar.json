@@ -607,7 +607,7 @@
       "name": "العنوان"
     },
     "taskTeam": {
-      "title": "تقرير مهتم الفريق",
+      "title": "تقرير مهام الفريق",
       "creationTime": "التاريخ",
       "assignName": "الاسم",
       "allTask": "عدد المهام",
@@ -1507,7 +1507,8 @@
       "confirmOrderMessage": "رسالة تاكيد الطلبات",
       "invoiceMessageWithDiscount": "رسالة الفاتورة مع الخصم",
       "invoiceMessageWithOutDiscount": "رسالة الفاتورة بدون خصم",
-      "tax": "الضريبة"
+      "tax": "الضريبة",
+      "salesOrderApproval":"إنشاء طلبات المبيعات لدورة  الموافقات ؟ "
     },
     "systemSchedule": {
       "title": "جدوله النظام",
@@ -1945,7 +1946,11 @@
       "userApprove": "إسم الموظف",
       "approvedAt": "التوقيت",
       "postionName": "الوظيفة",
-      "Pending": "إنتظار الموافقة"
+      "Pending": "إنتظار الموافقة",
+      "rollBack":"رجوع للسابق",
+      "rollbackReason":"سبب الرجوع",
+      "backOnly":"رجوع للسابق  ",
+      "backCreate":"رجوع منشى الطلب"
     },
     "pendingSteps": {
       "title": "الطلبات المعلقة للمستخدم",
@@ -2130,7 +2135,9 @@
       "isFree": "هل مجانى",
       "free": "صنف مجانى",
       "noFree": "صنف غير مجانى",
-      "storeName":"المستودع"
+      "storeName":"المستودع",
+      "UpdateRequest":"تعديل الطلب",
+      "offerName":"إسم العرض"
     },
     "requestPrice": {
       "title": "طلبات الاسعار",
