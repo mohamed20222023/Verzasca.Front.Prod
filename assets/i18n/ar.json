@@ -1950,7 +1950,8 @@
       "rollBack":"رجوع للسابق",
       "rollbackReason":"سبب الرجوع",
       "backOnly":"رجوع للسابق  ",
-      "backCreate":"رجوع منشى الطلب"
+      "backCreate":"رجوع منشى الطلب",
+      "creationName":"صاحب الأجراء"
     },
     "pendingSteps": {
       "title": "الطلبات المعلقة للمستخدم",
@@ -2021,8 +2022,8 @@
   },
   "sales": {
     "salesOrder": {
-      "title": "طلبات المبيعات",
-      "allOrders": "كل الطلبات",
+      "title": "أوامر المبيعات",
+      "allOrders": "كل الاوامر",
       "draft": "مسوده",
       "reopen": "إعادة الطلب",
       "approveMangerSM": "إنتظار  موافقة ",
@@ -2135,16 +2136,16 @@
       "isFree": "هل مجانى",
       "free": "صنف مجانى",
       "noFree": "صنف غير مجانى",
-      "storeName":"المستودع",
-      "UpdateRequest":"تعديل الطلب",
-      "offerName":"إسم العرض"
+      "storeName": "المستودع",
+      "UpdateRequest": "تعديل الطلب",
+      "offerName": "إسم العرض"
     },
     "requestPrice": {
       "title": "طلبات الاسعار",
       "titleOperation": "طلبات الاسعار"
     },
     "salesRequests": {
-      "title": "طلبات المبيعات",
+      "title": "أوامر المبيعات",
       "titleOperation": "طلبات المبيعات",
       "orderNumber": "رقم الطلب",
       "visitDate": "تاريخ الزيارة",
@@ -2167,7 +2168,7 @@
     },
     "salesSetting": {
       "title": "اعدادات  المبيعات",
-      "titleOperation": "اعدادات طلبات المبيعات"
+      "titleOperation": "اعدادات أوامر المبيعات"
     },
     "salesInvoices": {
       "title": "فواتير المبيعات",
@@ -2215,7 +2216,7 @@
       "paymentTypeName": "طريقة الدفع",
       "depositNumber": "رقم الإيداع",
       "photo": "صورة الإيصال",
-      "mustEnterReceipt":"يجب إدخال الايصال"
+      "mustEnterReceipt": "يجب إدخال الايصال"
     },
     "priceList": {
       "title": "قائمة الاسعار",
@@ -2312,6 +2313,9 @@
       "status": "الحالة",
       "Start": "بدأ الزيارة",
       "Cancel": "إلغاء الزيارة"
+    },
+    "salesRequest": {
+      "title": "طلبات المبيعات"
     }
   },
   "marketing": {
