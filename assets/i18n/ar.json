@@ -371,8 +371,7 @@
       "send": "إرسال",
       "update": "تحديث",
       "sure": "تأكيد",
-      "approve": "موافقة",
-      "add":"إضافة"
+      "approve": "موافقة"
     },
     "permission": {
       "view": "رؤية الشاشه",
@@ -422,7 +421,7 @@
       "completeOrder": "الطلبات المكتملة",
       "printItem": "طباعة إذن التسليم",
       "odooSync": "مزامنة أودو",
-      "printPill": "طباعه الطلب",
+      "printPill": "طباعة الفاتورة",
       "finish": "إنهاء الطلب",
       "editTotalDiscont": "تعديل الخصم الكلى",
       "changeQuantity": "تعديل الكميات",
@@ -434,8 +433,7 @@
       "viewOrderCount": "رؤية إجمالى الطلبات",
       "viewBySalesPerson": "عرض ك مندوب",
       "viewBySalesManager": "عرض ك مدير مبيعات",
-      "requestNewOpen": "طلب فتح عميل",
-      "updatePrice":"تحديث الاسعار"
+      "requestNewOpen": "طلب فتح عميل"
     },
     "common": {
       "Web": "الموقع الخارجى",
@@ -607,7 +605,7 @@
       "name": "العنوان"
     },
     "taskTeam": {
-      "title": "تقرير مهام الفريق",
+      "title": "تقرير مهتم الفريق",
       "creationTime": "التاريخ",
       "assignName": "الاسم",
       "allTask": "عدد المهام",
@@ -756,7 +754,7 @@
       "employees": "الموظفين"
     },
     "departments": {
-      "title": "الهيكل التنظيمى",
+      "title": "الاقسام",
       "departmentName": "اسم القسم",
       "parentDepartment": "القسم الاعلى",
       "nameEn": "الاسم (En)",
@@ -766,8 +764,8 @@
       "isActive": "حالة النشاط"
     },
     "positions": {
-      "title": "الوظائف",
-      "addPosition": "اضافة وظيفة",
+      "title": "المناصب",
+      "addPosition": "اضافة منصب",
       "nameEn": "الاسم (En)",
       "nameAr": "الاسم (Ar)",
       "isHead": "Is Head",
@@ -1023,7 +1021,7 @@
       "phoneMust10Digit": "رقم الجوال يجيب ان يحتوى على 10 ارقام فقط",
       "phoneMustStart05": "رقم الجوال يجيب ان يبدأ ب 05",
       "phoneMustContainOnlyDigit": "رقم الجوال يجيب ان يحتوى على ارقام فقط",
-      "currancy": "ر.س",
+      "currancy": "ريال",
       "searchProduct": "بحث بكود واسم الصنف ...",
       "searchService": "إسم الخدمة",
 
@@ -1104,12 +1102,6 @@
       "noProducts": "السلة فارغة!",
       "noProduct": "لا يوجد منتجات",
       "serviceProduct": "الفئات",
-      "itemFree": "مجانى",
-      "itemQuantity": "الكمية المطلوبة",
-      "freeQuantity": "الكمية المجانية",
-      "costAfterDiscount": "المبلغ بعد الخصم",
-      "offers": "العروض",
-
       "newOrders": {
         "title": "الطلبات الجديدة",
         "titleOperation": "الطلبات الجديدة"
@@ -1336,8 +1328,7 @@
       "noActive": "غير نشط",
       "SalesPerson": "مندوب مبيعات",
       "Driver": "سائق مركبة",
-      "StoreKepper": "أمين مستودع",
-      "userNameContainSpace":"إسم المسخدم لا يجب ان يحتوى على اى مسافات"
+      "StoreKepper": "أمين مستودع"
     },
     "role": {
       "title": "صلاحية",
@@ -1507,8 +1498,7 @@
       "confirmOrderMessage": "رسالة تاكيد الطلبات",
       "invoiceMessageWithDiscount": "رسالة الفاتورة مع الخصم",
       "invoiceMessageWithOutDiscount": "رسالة الفاتورة بدون خصم",
-      "tax": "الضريبة",
-      "salesOrderApproval":"إنشاء طلبات المبيعات لدورة  الموافقات ؟ "
+      "tax": "الضريبة"
     },
     "systemSchedule": {
       "title": "جدوله النظام",
@@ -1576,9 +1566,7 @@
       "logo": "اللوجو",
       "priceList": "قائمة الاسعار",
       "odooId": "Ref_ID",
-      "priceListName": "الخصم",
-      "invoiceDayDue":"عدد أيام أستحقاق القاتورة",
-      "dept":"المديونية"
+      "priceListName": "الخصم"
     },
     "clientCompany": {
       "title": "عملاء الشركة"
@@ -1947,10 +1935,6 @@
       "approvedAt": "التوقيت",
       "postionName": "الوظيفة",
       "Pending": "إنتظار الموافقة",
-      "rollBack":"رجوع للسابق",
-      "rollbackReason":"سبب الرجوع",
-      "backOnly":"رجوع للسابق  ",
-      "backCreate":"رجوع منشى الطلب",
       "creationName":"صاحب الأجراء"
     },
     "pendingSteps": {
@@ -2022,7 +2006,7 @@
   },
   "sales": {
     "salesOrder": {
-      "title": "أوامر المبيعات",
+      "title": "  أوامر البيع",
       "allOrders": "كل الاوامر",
       "draft": "مسوده",
       "reopen": "إعادة الطلب",
@@ -2133,19 +2117,14 @@
       "trunck": "بيانات الشاحنة",
       "printItem": "طباعة    ",
       "store": "المسودع",
-      "isFree": "هل مجانى",
-      "free": "صنف مجانى",
-      "noFree": "صنف غير مجانى",
-      "storeName": "المستودع",
-      "UpdateRequest": "تعديل الطلب",
-      "offerName": "إسم العرض"
+      "trunckStatus":"حالة الشاحنة"
     },
     "requestPrice": {
       "title": "طلبات الاسعار",
       "titleOperation": "طلبات الاسعار"
     },
     "salesRequests": {
-      "title": "أوامر المبيعات",
+      "title": "طلبات المبيعات",
       "titleOperation": "طلبات المبيعات",
       "orderNumber": "رقم الطلب",
       "visitDate": "تاريخ الزيارة",
@@ -2168,7 +2147,7 @@
     },
     "salesSetting": {
       "title": "اعدادات  المبيعات",
-      "titleOperation": "اعدادات أوامر المبيعات"
+      "titleOperation": "اعدادات طلبات المبيعات"
     },
     "salesInvoices": {
       "title": "فواتير المبيعات",
@@ -2183,9 +2162,7 @@
       "total": "الإجمالى",
       "Unpaid": "غير مدفوعة",
       "PartiallyPaid": "مسدد جزئيا",
-      "Paid": "مدفوعة",
-      "creationDue": " الانشاء / الاستحقاق",
-      "dueDates": "تاريخ الاستحقاق"
+      "Paid": "مدفوعة"
     },
     "truckDriver": {
       "title": "سائقي الشاحنات",
@@ -2209,14 +2186,13 @@
       "title": "التحصيلات",
       "titleOperation": "تحصيل عمبل",
       "clientName": "إسم العميل",
-      "cost": "مبلغ التحصيل",
+      "cost": "قيمه الحد الاتمانى",
       "notes": "ملاحظات",
-      "isSyncOdoo": "مزامنه  ",
+      "isSyncOdoo": "مزامنه اودو",
       "syncDate": "تاريخ المزامنة",
       "paymentTypeName": "طريقة الدفع",
       "depositNumber": "رقم الإيداع",
-      "photo": "صورة الإيصال",
-      "mustEnterReceipt": "يجب إدخال الايصال"
+      "paymentAmount": "المبلغ المدفوع"
     },
     "priceList": {
       "title": "قائمة الاسعار",
@@ -2235,7 +2211,8 @@
     },
     "assignTruckOrder": {
       "title": "طلبات الشاحنات المسندة",
-      "titleOperation": "طلب شاحنه مسند"
+      "titleOperation": "طلب شاحنه مسند",
+      "mustInsertFile":"يجب رفع المرفق"
     },
     "orderDraft": {
       "title": "  مسودة (مندوب)"
@@ -2313,56 +2290,17 @@
       "status": "الحالة",
       "Start": "بدأ الزيارة",
       "Cancel": "إلغاء الزيارة"
-    },
-    "salesRequest": {
-      "title": "طلبات المبيعات"
     }
   },
   "marketing": {
     "productOffer": {
-      "title": "عروض المنتجات",
-      "endDate": "تاريخ النهاية",
-      "startDate": "تاريخ البداية",
-      "offerTitle": "إسم العرض",
-      "offerType": "نوع العرض",
-      "editOffer": "تعديل العرض",
-      "addOffer": "إضافة عرض",
-      "isActive": "هل نشط",
-      "displayData": "بيانات العرض",
-      "offerSetting": "إعدادات العرض",
-      "PercentageDiscount": "  نسبة من قيمة مشتريات العميل",
-      "FixedAmountDiscount": "   مبلغ ثابت من قيمة مشتريات العميل",
-      "BuyXGetYFree": "إذا اشترى العميل X يحصل على خصم على Y",
-      "StepwisePurchasePromotionsQuantity": "عرض ترويجى تدريجيا X -Y للكمية",
-      "putPercentageDiscount": "قم بتعيين نسبة الخصم التي سيحصل عليها العميل",
-      "discountValue": "التخفيض ",
-      "maxDiscountValue": "الحد الأقصى للخصم",
-      "category": "الفئة",
-      "services": "المنتجات",
-      "categoryName": "إسم الفئة",
-      "serviceName": "إسم المنتج",
-      "lessLimitOffer": "الحد الأدنى لطبيق العرض",
-      "type": "النوع",
-      "limitLessBuy": "الحد الادنى لمبلغ الشراء",
-      "limitLessQuantity": "الحد الادنى لكمية المنتجات",
-      "buyQuantity": " إذا العميل اشترى كمية من المنتجات",
-      "qauntity": "الكمية",
-      "formServices": "من المنتجات التالية",
-      "discountOnServices": "يحصل العميل على خصم على المنتجات",
-      "mustEnterServiceXAnDServiceY": "يجب إدخال المنتجات ",
-      "mustEnterServiceX": "يجب إدخال المنتجات ",
-      "putStepwiseQuantity": "ضع تدرج الكميات",
-      "quantityX": "كمية الطلب ",
-      "quantityY": "كميه العرض"
+      "title": "عروض المنتجات"
     }
   },
   "dashboard": {
     "main": {
       "goodmoring": "هلا والله نورت- , ",
-      "targetOrderService": "الهدف لطلبات منتجات الخدمات ",
-      "thisMonth": "This month",
-      "lastOneMonth": "Last month",
-      "lastTwoMonth": "The month before last"
+      "targetOrderService": "الهدف لطلبات المنتجات "
     }
   }
 }

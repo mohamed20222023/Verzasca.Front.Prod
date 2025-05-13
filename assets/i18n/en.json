@@ -2167,7 +2167,8 @@
       "noFree":"no Free",
       "storeName":"Store Name",
       "UpdateRequest":"Edit Request",
-      "offerName":"Offer"
+      "offerName":"Offer",
+      "trunckStatus":"Trunck Status"
     },
     "requestPrice": {
       "title": "Requests Price",
@@ -2263,7 +2264,8 @@
     },
     "assignTruckOrder": {
       "title": "Assign Truck Orders",
-      "titleOperation": "Assign Truck Order"
+      "titleOperation": "Assign Truck Order",
+      "mustInsertFile":"Must Insert Attachments"
     },
     "orderDraft": {
       "title": "Sales Draft"
