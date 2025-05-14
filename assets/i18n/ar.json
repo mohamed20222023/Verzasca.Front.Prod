@@ -371,7 +371,8 @@
       "send": "إرسال",
       "update": "تحديث",
       "sure": "تأكيد",
-      "approve": "موافقة"
+      "approve": "موافقة",
+      "add": "إضافة"
     },
     "permission": {
       "view": "رؤية الشاشه",
@@ -1102,6 +1103,11 @@
       "noProducts": "السلة فارغة!",
       "noProduct": "لا يوجد منتجات",
       "serviceProduct": "الفئات",
+      "itemFree": "مجانى",
+      "itemQuantity": "الكمية المطلوبة",
+      "freeQuantity": "الكمية المجانية",
+      "costAfterDiscount": "المبلغ بعد الخصم",
+      "offers": "العروض",
       "newOrders": {
         "title": "الطلبات الجديدة",
         "titleOperation": "الطلبات الجديدة"
@@ -1328,7 +1334,8 @@
       "noActive": "غير نشط",
       "SalesPerson": "مندوب مبيعات",
       "Driver": "سائق مركبة",
-      "StoreKepper": "أمين مستودع"
+      "StoreKepper": "أمين مستودع",
+      "userNameContainSpace": "إسم المسخدم لا يجب ان يحتوى على اى مسافات"
     },
     "role": {
       "title": "صلاحية",
@@ -1498,7 +1505,8 @@
       "confirmOrderMessage": "رسالة تاكيد الطلبات",
       "invoiceMessageWithDiscount": "رسالة الفاتورة مع الخصم",
       "invoiceMessageWithOutDiscount": "رسالة الفاتورة بدون خصم",
-      "tax": "الضريبة"
+      "tax": "الضريبة",
+      "salesOrderApproval": "إنشاء طلبات المبيعات لدورة  الموافقات ؟ "
     },
     "systemSchedule": {
       "title": "جدوله النظام",
@@ -1566,7 +1574,10 @@
       "logo": "اللوجو",
       "priceList": "قائمة الاسعار",
       "odooId": "Ref_ID",
-      "priceListName": "الخصم"
+      "priceListName": "الخصم",
+      "invoiceDayDue": "عدد أيام أستحقاق القاتورة",
+      "dept": "المديونية",
+      "isComplete":"أستكمال الملف"
     },
     "clientCompany": {
       "title": "عملاء الشركة"
@@ -1935,7 +1946,11 @@
       "approvedAt": "التوقيت",
       "postionName": "الوظيفة",
       "Pending": "إنتظار الموافقة",
-      "creationName":"صاحب الأجراء"
+      "rollBack": "رجوع للسابق",
+      "rollbackReason": "سبب الرجوع",
+      "backOnly": "رجوع للسابق  ",
+      "backCreate": "رجوع منشى الطلب",
+      "creationName": "صاحب الأجراء"
     },
     "pendingSteps": {
       "title": "الطلبات المعلقة للمستخدم",
@@ -2006,8 +2021,8 @@
   },
   "sales": {
     "salesOrder": {
-      "title": "  أوامر البيع",
-      "allOrders": "كل الاوامر",
+      "title": "طلبات المبيعات",
+      "allOrders": "كل الطلبات",
       "draft": "مسوده",
       "reopen": "إعادة الطلب",
       "approveMangerSM": "إنتظار  موافقة ",
@@ -2117,7 +2132,12 @@
       "trunck": "بيانات الشاحنة",
       "printItem": "طباعة    ",
       "store": "المسودع",
-      "trunckStatus":"حالة الشاحنة"
+      "isFree": "هل مجانى",
+      "free": "صنف مجانى",
+      "noFree": "صنف غير مجانى",
+      "storeName": "المستودع",
+      "UpdateRequest": "تعديل الطلب",
+      "offerName": "إسم العرض"
     },
     "requestPrice": {
       "title": "طلبات الاسعار",
@@ -2147,7 +2167,7 @@
     },
     "salesSetting": {
       "title": "اعدادات  المبيعات",
-      "titleOperation": "اعدادات طلبات المبيعات"
+      "titleOperation": "اعدادات أوامر المبيعات"
     },
     "salesInvoices": {
       "title": "فواتير المبيعات",
@@ -2162,7 +2182,9 @@
       "total": "الإجمالى",
       "Unpaid": "غير مدفوعة",
       "PartiallyPaid": "مسدد جزئيا",
-      "Paid": "مدفوعة"
+      "Paid": "مدفوعة",
+      "creationDue": " الانشاء / الاستحقاق",
+      "dueDates": "تاريخ الاستحقاق"
     },
     "truckDriver": {
       "title": "سائقي الشاحنات",
@@ -2211,8 +2233,7 @@
     },
     "assignTruckOrder": {
       "title": "طلبات الشاحنات المسندة",
-      "titleOperation": "طلب شاحنه مسند",
-      "mustInsertFile":"يجب رفع المرفق"
+      "titleOperation": "طلب شاحنه مسند"
     },
     "orderDraft": {
       "title": "  مسودة (مندوب)"
@@ -2292,15 +2313,54 @@
       "Cancel": "إلغاء الزيارة"
     }
   },
+  "salesRequest": {
+    "title": "طلبات المبيعات"
+  },
   "marketing": {
     "productOffer": {
-      "title": "عروض المنتجات"
+      "title": "عروض المنتجات",
+      "endDate": "تاريخ النهاية",
+      "startDate": "تاريخ البداية",
+      "offerTitle": "إسم العرض",
+      "offerType": "نوع العرض",
+      "editOffer": "تعديل العرض",
+      "addOffer": "إضافة عرض",
+      "isActive": "هل نشط",
+      "displayData": "بيانات العرض",
+      "offerSetting": "إعدادات العرض",
+      "PercentageDiscount": "  نسبة من قيمة مشتريات العميل",
+      "FixedAmountDiscount": "   مبلغ ثابت من قيمة مشتريات العميل",
+      "BuyXGetYFree": "إذا اشترى العميل X يحصل على خصم على Y",
+      "StepwisePurchasePromotionsQuantity": "عرض ترويجى تدريجيا X -Y للكمية",
+      "putPercentageDiscount": "قم بتعيين نسبة الخصم التي سيحصل عليها العميل",
+      "discountValue": "التخفيض ",
+      "maxDiscountValue": "الحد الأقصى للخصم",
+      "category": "الفئة",
+      "services": "المنتجات",
+      "categoryName": "إسم الفئة",
+      "serviceName": "إسم المنتج",
+      "lessLimitOffer": "الحد الأدنى لطبيق العرض",
+      "type": "النوع",
+      "limitLessBuy": "الحد الادنى لمبلغ الشراء",
+      "limitLessQuantity": "الحد الادنى لكمية المنتجات",
+      "buyQuantity": " إذا العميل اشترى كمية من المنتجات",
+      "qauntity": "الكمية",
+      "formServices": "من المنتجات التالية",
+      "discountOnServices": "يحصل العميل على خصم على المنتجات",
+      "mustEnterServiceXAnDServiceY": "يجب إدخال المنتجات ",
+      "mustEnterServiceX": "يجب إدخال المنتجات ",
+      "putStepwiseQuantity": "ضع تدرج الكميات",
+      "quantityX": "كمية الطلب ",
+      "quantityY": "كميه العرض"
     }
   },
   "dashboard": {
     "main": {
       "goodmoring": "هلا والله نورت- , ",
-      "targetOrderService": "الهدف لطلبات المنتجات "
+      "targetOrderService": "الهدف لطلبات منتجات الخدمات ",
+      "thisMonth": "This month",
+      "lastOneMonth": "Last month",
+      "lastTwoMonth": "The month before last"
     }
   }
 }

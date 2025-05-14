@@ -1689,9 +1689,10 @@
       "logo": "Logo",
       "priceList": "Price List",
       "odooId": "Ref_ID",
-      "priceListName":"Discount",
-      "invoiceDayDue":"# Invoice Day Due",
-      "dept":"Dept"
+      "priceListName": "Discount",
+      "invoiceDayDue": "# Invoice Day Due",
+      "dept": "Dept",
+      "isComplete": "Is Complete"
     },
     "clientCompany": {
       "title": "Customers Products"
@@ -2348,6 +2349,8 @@
     "productOffer":{
       "title": "Product offers",
       "endDate": "End date",
+      "startDate": "Start Date",
+
       "offerTitle": "Title",
       "offerType": "Offer type",
       "editOffer": "Edit offer",
@@ -2357,7 +2360,7 @@
       "offerSetting": "Offer setting",
       "BuyXGetYFree": "Buy X get Y free",
       "FixedAmountDiscount": "Fixed amount discount",
-      "StepwisePurchasePromotionsQuantity":"Stepwise Purchase Promotions (X-Y QTY)",
+      "StepwisePurchasePromotionsQuantity": "Stepwise Purchase Promotions (X-Y QTY)",
       "PercentageDiscount": "Percentage discount",
       "putPercentageDiscount": "Set the discount percentage the customer will receive.",
       "discountValue": "Discount ",
@@ -2376,9 +2379,9 @@
       "discountOnServices": "The customer gets a discount on the products",
       "mustEnterServiceXAnDServiceY": "Must Enter Products",
       "mustEnterServiceX": "Must Enter Products",
-      "putStepwiseQuantity":"Put the quantities in order",
-      "quantityX":"Quantity-X",
-      "quantityY":"Quantity-Y"
+      "putStepwiseQuantity": "Put the quantities in order",
+      "quantityX": "Quantity-X",
+      "quantityY": "Quantity-Y"
     }
   },
   "dashboard":{
