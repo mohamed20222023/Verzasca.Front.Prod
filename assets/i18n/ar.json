@@ -344,7 +344,8 @@
       "active": "نشط",
       "noActive": "غير نشط",
       "creator": "المنشى",
-      "isMain": "أساسى ؟ "
+      "isMain": "أساسى ؟ ",
+      "refId":"Ref_Id"
     },
     "action": {
       "register": "تسجيل",
@@ -1351,6 +1352,21 @@
     }
   },
   "basicData": {
+    "outSystem": {
+      "title": "ربط أودو",
+      "titleOperation": "ربط أودو",
+      "domain": "لينك الدومين الاساسى",
+      "authUrl": "رابط الدخول (Auth URL)",
+      "customerUrl": "رابط العملاء (Customer URL)",
+      "invoiceUrl": "رابط الفواتير (Invoice URL)",
+      "productUrl": "رابط المنتجات - الخدمات (Product URL)",
+      "companyId": "الشركه (ID)",
+      "companyName": "إسم الشركة",
+      "apiKey": "Api_Key",
+      "clientServiceId": "Client_Service_Id",
+      "currencyName": "إسم العملة"
+    },
+
     "whatsapp": {
       "title": "قوالب الواتس اب",
       "titleOperation": "قالب واتس اب",
@@ -1468,7 +1484,7 @@
       "addItem": "إضافة منتج",
       "price": "السعر",
       "serviceTypeCode": "نوع الخدمة",
-      "timeCount": "عدد لمواعيد",
+      "timeCount": "المواعيد",
       "description": "الوصف (En)",
       "DescriptionAr": "الوصف (Ar)",
       "ShortDescriptionEn": "وصف قصير (En)",

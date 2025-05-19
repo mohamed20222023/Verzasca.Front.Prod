@@ -347,7 +347,8 @@
       "creationTime": "Creation Time",
       "id": "Code",
       "creator": "Creator",
-      "isMain":"Is Main"
+      "isMain":"Is Main",
+      "refId":"Ref_Id"
     },
     "action": {
       "register": "Register",
@@ -1467,6 +1468,21 @@
     }
   },
   "basicData": {
+    "outSystem":{
+      "title": "Odoo System",
+      "titleOperation": "Odoo System",
+      "domain": "Domain URL",
+      "authUrl": "Auth URL",
+      "customerUrl": "Customer URL",
+      "invoiceUrl": "Invoice URL",
+      "productUrl": "Product URL",
+      "companyId": "Company Id",
+      "companyName": "Company Name",
+      "apiKey": "apiKey",
+      "clientServiceId": "Client_Service_Id",
+      "currencyName": "Currency Name"
+    },
+
     "whatsapp": {
       "title": "Whatsapp Template",
       "titleOperation": "Whatsapp Template",
